@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{25286DD1-4FE1-4EC4-868C-315246477E4B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Weather</RootNamespace>
+    <AssemblyName>Weather</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSet.Designer.cs">
+      <DependentUpon>FormSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyLinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSet.resx">
+      <DependentUpon>FormSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ico.ico" />
+    <None Include="Images\Img\n31.gif" />
+    <None Include="Images\Img\n30.gif" />
+    <None Include="Images\Img\n29.gif" />
+    <None Include="Images\Img\n28.gif" />
+    <None Include="Images\Img\n27.gif" />
+    <None Include="Images\Img\n26.gif" />
+    <None Include="Images\Img\n25.gif" />
+    <None Include="Images\Img\n24.gif" />
+    <None Include="Images\Img\n23.gif" />
+    <None Include="Images\Img\n22.gif" />
+    <None Include="Images\Img\n21.gif" />
+    <None Include="Images\Img\n20.gif" />
+    <None Include="Images\Img\n19.gif" />
+    <None Include="Images\Img\n18.gif" />
+    <None Include="Images\Img\n17.gif" />
+    <None Include="Images\Img\n16.gif" />
+    <None Include="Images\Img\n15.gif" />
+    <None Include="Images\Img\n14.gif" />
+    <None Include="Images\Img\n13.gif" />
+    <None Include="Images\Img\n12.gif" />
+    <None Include="Images\Img\n11.gif" />
+    <None Include="Images\Img\n10.gif" />
+    <None Include="Images\Img\n09.gif" />
+    <None Include="Images\Img\n08.gif" />
+    <None Include="Images\Img\n07.gif" />
+    <None Include="Images\Img\n06.gif" />
+    <None Include="Images\Img\n05.gif" />
+    <None Include="Images\Img\n04.gif" />
+    <None Include="Images\Img\n03.gif" />
+    <None Include="Images\Img\n02.gif" />
+    <None Include="Images\Img\n01.gif" />
+    <None Include="Images\Img\n00.gif" />
+    <None Include="Images\Img\d31.gif" />
+    <None Include="Images\Img\d30.gif" />
+    <None Include="Images\Img\d29.gif" />
+    <None Include="Images\Img\d28.gif" />
+    <None Include="Images\Img\d27.gif" />
+    <None Include="Images\Img\d26.gif" />
+    <None Include="Images\Img\d25.gif" />
+    <None Include="Images\Img\d24.gif" />
+    <None Include="Images\Img\d23.gif" />
+    <None Include="Images\Img\d22.gif" />
+    <None Include="Images\Img\d21.gif" />
+    <None Include="Images\Img\d20.gif" />
+    <None Include="Images\Img\d19.gif" />
+    <None Include="Images\Img\d18.gif" />
+    <None Include="Images\Img\d17.gif" />
+    <None Include="Images\Img\d16.gif" />
+    <None Include="Images\Img\d15.gif" />
+    <None Include="Images\Img\d14.gif" />
+    <None Include="Images\Img\d13.gif" />
+    <None Include="Images\Img\d12.gif" />
+    <None Include="Images\Img\d11.gif" />
+    <None Include="Images\Img\d10.gif" />
+    <None Include="Images\Img\d09.gif" />
+    <None Include="Images\Img\d08.gif" />
+    <None Include="Images\Img\d07.gif" />
+    <None Include="Images\Img\d06.gif" />
+    <None Include="Images\Img\d05.gif" />
+    <None Include="Images\Img\d04.gif" />
+    <None Include="Images\Img\d03.gif" />
+    <None Include="Images\Img\d02.gif" />
+    <None Include="Images\Img\d01.gif" />
+    <None Include="Images\Img\d00.gif" />
+    <None Include="Images\Night\N中雨-大雨.gif" />
+    <None Include="Images\Night\N中雨.gif" />
+    <None Include="Images\Night\N中雪-大雪.gif" />
+    <None Include="Images\Night\N中雪.gif" />
+    <None Include="Images\Night\N阵雨.gif" />
+    <None Include="Images\Night\N阵雪.gif" />
+    <None Include="Images\Night\N雨夹雪.gif" />
+    <None Include="Images\Night\N阴.gif" />
+    <None Include="Images\Night\N扬沙.gif" />
+    <None Include="Images\Night\N小雨-中雨.gif" />
+    <None Include="Images\Night\N小雨.gif" />
+    <None Include="Images\Night\N小雪-中雪.gif" />
+    <None Include="Images\Night\N小雪.gif" />
+    <None Include="Images\Night\N雾.gif" />
+    <None Include="Images\Night\N特大暴雨.gif" />
+    <None Include="Images\Night\N沙尘暴.gif" />
+    <None Include="Images\Night\N晴.gif" />
+    <None Include="Images\Night\N强沙尘暴.gif" />
+    <None Include="Images\Night\N雷阵雨伴有冰雹.gif" />
+    <None Include="Images\Night\N雷阵雨.gif" />
+    <None Include="Images\Night\N浮尘.gif" />
+    <None Include="Images\Night\N多云.gif" />
+    <None Include="Images\Night\N冻雨.gif" />
+    <None Include="Images\Night\N大雨-暴雨.gif" />
+    <None Include="Images\Night\N大雨.gif" />
+    <None Include="Images\Night\N大雪-暴雪.gif" />
+    <None Include="Images\Night\N大雪.gif" />
+    <None Include="Images\Night\N大暴雨-特大暴雨.gif" />
+    <None Include="Images\Night\N大暴雨.gif" />
+    <None Include="Images\Night\N暴雨-大暴雨.gif" />
+    <None Include="Images\Night\N暴雨.gif" />
+    <None Include="Images\Night\N暴雪.gif" />
+    <None Include="Images\Day\大雨D.gif" />
+    <None Include="Images\Day\D中雨-大雨.gif" />
+    <None Include="Images\Day\D中雨.gif" />
+    <None Include="Images\Day\D中雪-大雪.gif" />
+    <None Include="Images\Day\D中雪.gif" />
+    <None Include="Images\Day\D阵雨.gif" />
+    <None Include="Images\Day\D阵雪.gif" />
+    <None Include="Images\Day\D雨夹雪.gif" />
+    <None Include="Images\Day\D阴.gif" />
+    <None Include="Images\Day\D扬沙.gif" />
+    <None Include="Images\Day\D小雨-中雨.gif" />
+    <None Include="Images\Day\D小雨.gif" />
+    <None Include="Images\Day\D小雪-中雪.gif" />
+    <None Include="Images\Day\D小雪.gif" />
+    <None Include="Images\Day\D雾.gif" />
+    <None Include="Images\Day\D特大暴雨.gif" />
+    <None Include="Images\Day\D沙尘暴.gif" />
+    <None Include="Images\Day\D晴.gif" />
+    <None Include="Images\Day\D强沙尘暴.gif" />
+    <None Include="Images\Day\D雷阵雨伴有冰雹.gif" />
+    <None Include="Images\Day\D雷阵雨.gif" />
+    <None Include="Images\Day\D浮尘.gif" />
+    <None Include="Images\Day\D多云.gif" />
+    <None Include="Images\Day\D冻雨.gif" />
+    <None Include="Images\Day\D大雨-暴雨.gif" />
+    <None Include="Images\Day\D大雪-暴雪.gif" />
+    <None Include="Images\Day\D大雪.gif" />
+    <None Include="Images\Day\D大暴雨-特大暴雨.gif" />
+    <None Include="Images\Day\D大暴雨.gif" />
+    <None Include="Images\Day\D暴雨-大暴雨.gif" />
+    <None Include="Images\Day\D暴雨.gif" />
+    <None Include="Images\Day\D暴雪.gif" />
+    <None Include="Images\Icon\WindVane.ico" />
+    <None Include="Images\Icon\Tornado.ico" />
+    <None Include="Images\Icon\Thunder.ico" />
+    <None Include="Images\Icon\Snow.ico" />
+    <None Include="Images\Icon\Sleet.ico" />
+    <None Include="Images\Icon\Rain.ico" />
+    <None Include="Images\Icon\PartlyCloudyDay.ico" />
+    <None Include="Images\Icon\HailWithFog.ico" />
+    <None Include="Images\Icon\Dew.ico" />
+    <None Include="Images\Icon\CloudyNight.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

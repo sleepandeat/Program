@@ -1,0 +1,10 @@
+G:\Code library\C#\C# 桌面天气实况源码(可获取未来几天天气)\www.NewXing.com\Weather\bin\Release\Weather.exe
+G:\Code library\C#\C# 桌面天气实况源码(可获取未来几天天气)\www.NewXing.com\Weather\bin\Release\Weather.pdb
+G:\Code library\C#\C# 桌面天气实况源码(可获取未来几天天气)\www.NewXing.com\Weather\obj\x86\Release\Weather.csprojResolveAssemblyReference.cache
+G:\Code library\C#\C# 桌面天气实况源码(可获取未来几天天气)\www.NewXing.com\Weather\obj\x86\Release\Weather.FormAbout.resources
+G:\Code library\C#\C# 桌面天气实况源码(可获取未来几天天气)\www.NewXing.com\Weather\obj\x86\Release\Weather.FormMain.resources
+G:\Code library\C#\C# 桌面天气实况源码(可获取未来几天天气)\www.NewXing.com\Weather\obj\x86\Release\Weather.FormSet.resources
+G:\Code library\C#\C# 桌面天气实况源码(可获取未来几天天气)\www.NewXing.com\Weather\obj\x86\Release\Weather.Properties.Resources.resources
+G:\Code library\C#\C# 桌面天气实况源码(可获取未来几天天气)\www.NewXing.com\Weather\obj\x86\Release\Weather.csproj.GenerateResource.Cache
+G:\Code library\C#\C# 桌面天气实况源码(可获取未来几天天气)\www.NewXing.com\Weather\obj\x86\Release\Weather.exe
+G:\Code library\C#\C# 桌面天气实况源码(可获取未来几天天气)\www.NewXing.com\Weather\obj\x86\Release\Weather.pdb

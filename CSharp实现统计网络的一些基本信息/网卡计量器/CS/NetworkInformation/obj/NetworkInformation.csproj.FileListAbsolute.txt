@@ -1,0 +1,5 @@
+D:\实习\NetworkInformation\CS\NetworkInformation\bin\Debug\NetworkInformation.exe
+D:\实习\NetworkInformation\CS\NetworkInformation\bin\Debug\NetworkInformation.pdb
+D:\实习\NetworkInformation\CS\NetworkInformation\obj\Debug\ResolveAssemblyReference.cache
+D:\实习\NetworkInformation\CS\NetworkInformation\obj\Debug\NetworkInformation.exe
+D:\实习\NetworkInformation\CS\NetworkInformation\obj\Debug\NetworkInformation.pdb

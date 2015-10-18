@@ -1,0 +1,7 @@
+G:\Code library\C#\CSharp实现统计网络的一些基本信息\www.NewXing.com\CS\NetworkInformation\bin\Debug\NetworkInformation.exe
+G:\Code library\C#\CSharp实现统计网络的一些基本信息\www.NewXing.com\CS\NetworkInformation\bin\Debug\NetworkInformation.pdb
+G:\Code library\C#\CSharp实现统计网络的一些基本信息\www.NewXing.com\CS\NetworkInformation\obj\Debug\NetworkInformation.csprojResolveAssemblyReference.cache
+G:\Code library\C#\CSharp实现统计网络的一些基本信息\www.NewXing.com\CS\NetworkInformation\obj\Debug\NetworkInformation.exe
+G:\Code library\C#\CSharp实现统计网络的一些基本信息\www.NewXing.com\CS\NetworkInformation\obj\Debug\NetworkInformation.pdb
+G:\Code library\C#\CSharp实现统计网络的一些基本信息\www.NewXing.com\CS\NetworkInformation\obj\Debug\Microsoft.Samples.NetworkInformation.NetworkInformation.resources
+G:\Code library\C#\CSharp实现统计网络的一些基本信息\www.NewXing.com\CS\NetworkInformation\obj\Debug\NetworkInformation.csproj.GenerateResource.Cache
