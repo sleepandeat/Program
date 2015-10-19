@@ -1,0 +1,6 @@
+E:\Code library\C#\20151016\20151016\bin\Debug\20151016.exe.config
+E:\Code library\C#\20151016\20151016\bin\Debug\20151016.exe
+E:\Code library\C#\20151016\20151016\bin\Debug\20151016.pdb
+E:\Code library\C#\20151016\20151016\obj\Debug\20151016.csprojResolveAssemblyReference.cache
+E:\Code library\C#\20151016\20151016\obj\Debug\20151016.exe
+E:\Code library\C#\20151016\20151016\obj\Debug\20151016.pdb
