@@ -1,0 +1,9 @@
+G:\Code library\VS 2015\C#\base64\base64\bin\Debug\base64.exe.config
+G:\Code library\VS 2015\C#\base64\base64\bin\Debug\base64.exe
+G:\Code library\VS 2015\C#\base64\base64\bin\Debug\base64.pdb
+G:\Code library\VS 2015\C#\base64\base64\obj\Debug\base64.csprojResolveAssemblyReference.cache
+G:\Code library\VS 2015\C#\base64\base64\obj\Debug\base64.Form1.resources
+G:\Code library\VS 2015\C#\base64\base64\obj\Debug\base64.Properties.Resources.resources
+G:\Code library\VS 2015\C#\base64\base64\obj\Debug\base64.csproj.GenerateResource.Cache
+G:\Code library\VS 2015\C#\base64\base64\obj\Debug\base64.exe
+G:\Code library\VS 2015\C#\base64\base64\obj\Debug\base64.pdb

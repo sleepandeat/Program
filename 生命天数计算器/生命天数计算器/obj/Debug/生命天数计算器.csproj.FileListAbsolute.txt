@@ -1,0 +1,1 @@
+G:\Code library\VS 2015\C#\生命天数计算器\生命天数计算器\bin\Debug\生命天数计算器.exe.config

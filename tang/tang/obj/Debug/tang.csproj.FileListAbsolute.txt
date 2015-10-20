@@ -1,0 +1,6 @@
+G:\Code library\VS 2015\C#\tang\tang\bin\Debug\tang.exe.config
+G:\Code library\VS 2015\C#\tang\tang\bin\Debug\tang.exe
+G:\Code library\VS 2015\C#\tang\tang\bin\Debug\tang.pdb
+G:\Code library\VS 2015\C#\tang\tang\obj\Debug\tang.csprojResolveAssemblyReference.cache
+G:\Code library\VS 2015\C#\tang\tang\obj\Debug\tang.exe
+G:\Code library\VS 2015\C#\tang\tang\obj\Debug\tang.pdb

@@ -1,0 +1,6 @@
+G:\Code library\VS 2015\C#\byte转换\byte转换\bin\Debug\byte转换.exe.config
+G:\Code library\VS 2015\C#\byte转换\byte转换\obj\Debug\byte转换.csprojResolveAssemblyReference.cache
+G:\Code library\VS 2015\C#\byte转换\byte转换\bin\Debug\byte转换.exe
+G:\Code library\VS 2015\C#\byte转换\byte转换\bin\Debug\byte转换.pdb
+G:\Code library\VS 2015\C#\byte转换\byte转换\obj\Debug\byte转换.exe
+G:\Code library\VS 2015\C#\byte转换\byte转换\obj\Debug\byte转换.pdb

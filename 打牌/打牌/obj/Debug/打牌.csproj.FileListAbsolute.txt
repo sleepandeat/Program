@@ -1,0 +1,6 @@
+G:\Code library\VS 2015\C#\打牌\打牌\bin\Debug\打牌.exe.config
+G:\Code library\VS 2015\C#\打牌\打牌\bin\Debug\打牌.exe
+G:\Code library\VS 2015\C#\打牌\打牌\bin\Debug\打牌.pdb
+G:\Code library\VS 2015\C#\打牌\打牌\obj\Debug\打牌.csprojResolveAssemblyReference.cache
+G:\Code library\VS 2015\C#\打牌\打牌\obj\Debug\打牌.exe
+G:\Code library\VS 2015\C#\打牌\打牌\obj\Debug\打牌.pdb

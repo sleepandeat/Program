@@ -1,0 +1,1 @@
+G:\Code library\VS 2015\C#\Calculator\Calculator\bin\Debug\Calculator.exe.config

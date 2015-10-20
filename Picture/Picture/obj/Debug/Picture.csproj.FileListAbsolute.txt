@@ -1,0 +1,5 @@
+G:\Code library\VS 2015\C#\Picture\Picture\bin\Debug\Picture.exe.config
+G:\Code library\VS 2015\C#\Picture\Picture\bin\Debug\Picture.exe
+G:\Code library\VS 2015\C#\Picture\Picture\bin\Debug\Picture.pdb
+G:\Code library\VS 2015\C#\Picture\Picture\obj\Debug\Picture.exe
+G:\Code library\VS 2015\C#\Picture\Picture\obj\Debug\Picture.pdb

@@ -1,0 +1,1 @@
+G:\Code library\VS 2015\C#\进制转换\进制转换\bin\Debug\进制转换.exe.config
