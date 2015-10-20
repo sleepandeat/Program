@@ -1,0 +1,9 @@
+G:\Code library\VS 2015\C#\163\163\bin\Debug\163.exe.config
+G:\Code library\VS 2015\C#\163\163\obj\Debug\163.csprojResolveAssemblyReference.cache
+G:\Code library\VS 2015\C#\163\163\obj\Debug\_163.Form1.resources
+G:\Code library\VS 2015\C#\163\163\obj\Debug\_163.Properties.Resources.resources
+G:\Code library\VS 2015\C#\163\163\obj\Debug\163.csproj.GenerateResource.Cache
+G:\Code library\VS 2015\C#\163\163\bin\Debug\163.exe
+G:\Code library\VS 2015\C#\163\163\bin\Debug\163.pdb
+G:\Code library\VS 2015\C#\163\163\obj\Debug\163.exe
+G:\Code library\VS 2015\C#\163\163\obj\Debug\163.pdb

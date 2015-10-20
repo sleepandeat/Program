@@ -1,0 +1,30 @@
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\bin\Debug\LOL.exe
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\bin\Debug\LOL.pdb
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\LOL.Form2.resources
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\LOL.Form3.resources
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\LOL.FormGdZb.resources
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\LOL.Properties.Resources.resources
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\LOL.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\LOL.exe
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\LOL.pdb
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\LOL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LOL源码\LOL\LOL\obj\x86\Debug\LOL.exe
+C:\Users\Administrator\Desktop\LOL源码\LOL\LOL\obj\x86\Debug\LOL.pdb
+C:\Users\Administrator\Desktop\LOL源码\LOL\LOL\bin\Debug\LOL.exe
+C:\Users\Administrator\Desktop\LOL源码\LOL\LOL\bin\Debug\LOL.pdb
+C:\Users\Administrator\Desktop\LOL源码\LOL\LOL\obj\x86\Debug\LOL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\LOL源码\LOL\LOL\obj\x86\Debug\LOL.Form2.resources
+C:\Users\Administrator\Desktop\LOL源码\LOL\LOL\obj\x86\Debug\LOL.Form3.resources
+C:\Users\Administrator\Desktop\LOL源码\LOL\LOL\obj\x86\Debug\LOL.FormGdZb.resources
+C:\Users\Administrator\Desktop\LOL源码\LOL\LOL\obj\x86\Debug\LOL.Properties.Resources.resources
+C:\Users\Administrator\Desktop\LOL源码\LOL\LOL\obj\x86\Debug\LOL.csproj.GenerateResource.Cache
+G:\Code library\C#\LOL源码\LOL\LOL\obj\x86\Debug\LOL.exe
+G:\Code library\C#\LOL源码\LOL\LOL\obj\x86\Debug\LOL.pdb
+G:\Code library\C#\LOL源码\LOL\LOL\bin\Debug\LOL.exe
+G:\Code library\C#\LOL源码\LOL\LOL\bin\Debug\LOL.pdb
+G:\Code library\C#\LOL源码\LOL\LOL\obj\x86\Debug\LOL.csprojResolveAssemblyReference.cache
+G:\Code library\C#\LOL源码\LOL\LOL\obj\x86\Debug\LOL.Form2.resources
+G:\Code library\C#\LOL源码\LOL\LOL\obj\x86\Debug\LOL.Form3.resources
+G:\Code library\C#\LOL源码\LOL\LOL\obj\x86\Debug\LOL.FormGdZb.resources
+G:\Code library\C#\LOL源码\LOL\LOL\obj\x86\Debug\LOL.Properties.Resources.resources
+G:\Code library\C#\LOL源码\LOL\LOL\obj\x86\Debug\LOL.csproj.GenerateResource.Cache

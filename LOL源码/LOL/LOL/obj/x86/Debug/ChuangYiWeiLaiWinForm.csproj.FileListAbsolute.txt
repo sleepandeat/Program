@@ -1,0 +1,33 @@
+D:\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\bin\Debug\ChuangYiWeiLaiWinForm.exe
+D:\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\bin\Debug\ChuangYiWeiLaiWinForm.pdb
+D:\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.Form1.resources
+D:\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.Properties.Resources.resources
+D:\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.exe
+D:\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.pdb
+D:\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.exe
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.pdb
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\bin\Debug\ChuangYiWeiLaiWinForm.exe
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\bin\Debug\ChuangYiWeiLaiWinForm.pdb
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.Form1.resources
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.Properties.Resources.resources
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.exe
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.pdb
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\bin\Debug\ChuangYiWeiLaiWinForm.exe
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\bin\Debug\ChuangYiWeiLaiWinForm.pdb
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.Form1.resources
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.Properties.Resources.resources
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.Form_DDXX.resources
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.exe
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.pdb
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\bin\Debug\ChuangYiWeiLaiWinForm.exe
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\bin\Debug\ChuangYiWeiLaiWinForm.pdb
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.Properties.Resources.resources
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.Form2.resources
+C:\Users\Administrator\Desktop\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm - 副本\ChuangYiWeiLaiWinForm\obj\x86\Debug\ChuangYiWeiLaiWinForm.Form3.resources

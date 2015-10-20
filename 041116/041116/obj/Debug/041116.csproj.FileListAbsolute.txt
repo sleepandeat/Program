@@ -1,0 +1,6 @@
+G:\Code library\VS 2015\C#\041116\041116\bin\Debug\041116.exe.config
+G:\Code library\VS 2015\C#\041116\041116\obj\Debug\041116.csprojResolveAssemblyReference.cache
+G:\Code library\VS 2015\C#\041116\041116\bin\Debug\041116.exe
+G:\Code library\VS 2015\C#\041116\041116\bin\Debug\041116.pdb
+G:\Code library\VS 2015\C#\041116\041116\obj\Debug\041116.exe
+G:\Code library\VS 2015\C#\041116\041116\obj\Debug\041116.pdb
