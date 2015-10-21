@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPMaster.master.cs" Inherits="MPMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .logomain
+        {
+            background-image: url('../images/green_main.png');
+            float: left;
+            width: 800px;
+            height: 168px;
+        }
+        .logoright
+        {
+            background-image: url('../images/green_thin.png');
+            background-repeat: repeat-x;
+            height: 168px;
+            margin: 0px 0px 0px 800px;
+        }
+        .left
+        {
+            border: 1px solid #C2ECA7;
+            background-color: #F0FBEB;
+            padding: 20px 0px 0px 20px;
+            width: 174px;
+        }
+        .right
+        {
+            color:#00CC00;
+            border: 1px solid #C2ECA7;
+            background-color: #F0FBEB;
+        }
+        .linkbutton
+        {
+            border: 1px dotted #43A102;
+            background-color: #C2ECA7;
+        }
+    </style>
+</head>
+<body id="bodytag">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    
+    </asp:ScriptManager>
+    <div class="top">
+        <div class="logomain">
+        </div>
+        <div class="logoright">
+        </div>
+    </div>
+    <div>
+        <div class="left" style="height:228px">
+            <asp:LinkButton ID="lb_handon" runat="server" CssClass="linkbutton" 
+                PostBackUrl="~/Master/MClasses.aspx">管理班级</asp:LinkButton>
+            <br />
+            <br />
+            <asp:LinkButton ID="LinkButton1" runat="server" CssClass="linkbutton" 
+                PostBackUrl="~/Master/MCourses.aspx">管理课程</asp:LinkButton>
+            <br />
+            <br />
+            <asp:LinkButton ID="LinkButton2" runat="server" CssClass="linkbutton" 
+                PostBackUrl="~/Master/MStudents.aspx">管理学生</asp:LinkButton>
+            <br />
+            <br />
+            <asp:LinkButton ID="LinkButton3" runat="server" CssClass="linkbutton" 
+                PostBackUrl="~/Master/MTeachers.aspx">管理教师</asp:LinkButton>
+            <br />
+            <br />
+            <asp:LinkButton ID="LinkButton4" runat="server" CssClass="linkbutton" 
+                PostBackUrl="~/Master/SetCourses.aspx">分配课程</asp:LinkButton>
+        </div>
+        <div class="right">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    
+    <div id="AlertDiv" style="z-index: 20000;">
+        <div id="AlertMessage">
+        </div>
+        <br />
+        <div id="AlertButtons">
+            <input id="OKButton" type="button" value="OK" runat="server" onclick="ClearErrorState()" />
+        </div>
+    </div>
+    </form>
+</body>
+</html>

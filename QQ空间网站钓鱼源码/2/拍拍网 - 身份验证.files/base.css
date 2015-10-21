@@ -1,0 +1,498 @@
+BODY {
+	BACKGROUND: #fff;
+	MARGIN: 0px;
+	TEXT-ALIGN: center;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+}
+TABLE {
+	FONT-SIZE: 12px; COLOR: #424242; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+DIV {
+	FONT-SIZE: 12px; COLOR: #424242; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+INPUT {
+	FONT-SIZE: 14px;
+	COLOR: #424242;
+	FONT-FAMILY: "ËÎÌו";
+	height: 23px;
+	width: 193px;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #424242; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TEXTAREA {
+	FONT-SIZE: 12px; COLOR: #424242; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+H1 {
+	FONT-SIZE: 14px
+}
+H2 {
+	FONT-SIZE: 14px
+}
+H3 {
+	FONT-SIZE: 14px
+}
+H4 {
+	FONT-SIZE: 12px
+}
+H5 {
+	FONT-SIZE: 12px
+}
+H3 {
+	FONT-WEIGHT: normal
+}
+H5 {
+	FONT-WEIGHT: normal
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+A {
+	CURSOR: pointer; COLOR: #424242; TEXT-DECORATION: none
+}
+A:link {
+	CURSOR: pointer; COLOR: #424242; TEXT-DECORATION: none
+}
+A:hover {
+	CURSOR: pointer; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+.b {
+	FONT-WEIGHT: bold
+}
+.f-12 {
+	FONT-SIZE: 12px
+}
+.f-14 {
+	FONT-SIZE: 14px
+}
+.f-16 {
+	FONT-SIZE: 16px
+}
+.f-black {
+	COLOR: #424242
+}
+.f-black A {
+	COLOR: #424242
+}
+.f-black A:hover {
+	COLOR: #424242
+}
+.f-gray {
+	COLOR: #848484
+}
+.f-gray A {
+	COLOR: #848484
+}
+.f-gray A:hover {
+	COLOR: #848484
+}
+.f-orange {
+	COLOR: #fc8602
+}
+.f-orange A {
+	COLOR: #fc8602
+}
+.f-orange A:hover {
+	COLOR: #ff6600
+}
+.f-red {
+	COLOR: #ff0000
+}
+.f-red A {
+	COLOR: #ff0000
+}
+.f-red A:hover {
+	COLOR: #ff6600
+}
+.f-darkpink {
+	COLOR: #ea005b
+}
+.f-darkpink A {
+	COLOR: #ea005b
+}
+.f-darkpink A:hover {
+	COLOR: #ff6600
+}
+.f-darkblue {
+	COLOR: #004fe0
+}
+.f-darkblue A {
+	COLOR: #004fe0
+}
+.f-darkblue A:hover {
+	COLOR: #ff6600
+}
+.f-blue {
+	COLOR: #007eb3
+}
+.f-blue A {
+	COLOR: #007eb3
+}
+.f-blue A:hover {
+	COLOR: #ff6600
+}
+.f-lightblue {
+	COLOR: #a0cee5
+}
+.f-lightblue A {
+	COLOR: #a0cee5
+}
+.f-lightblue A:hover {
+	COLOR: #ff6600
+}
+.f-green {
+	COLOR: #008000
+}
+.f-green A {
+	COLOR: #008000
+}
+.f-green A:hover {
+	COLOR: #ff6600
+}
+.clear {
+	CLEAR: both; OVERFLOW: hidden
+}
+.l-m {
+	TEXT-DECORATION: line-through
+}
+.l-b {
+	TEXT-DECORATION: underline
+}
+.bg-ffffff {
+	BACKGROUND-COLOR: #ffffff
+}
+.bg-fafafa {
+	BACKGROUND-COLOR: #fafafa
+}
+.bg-f7f7f7 {
+	BACKGROUND-COLOR: #f7f7f7
+}
+.fl {
+	FLOAT: left
+}
+.fr {
+	FLOAT: right
+}
+.ta-c {
+	TEXT-ALIGN: center
+}
+.mt-2 {
+	MARGIN-TOP: 2px
+}
+.mt-4 {
+	MARGIN-TOP: 4px
+}
+.mt-8 {
+	MARGIN-TOP: 8px
+}
+.mt-12 {
+	MARGIN-TOP: 12px
+}
+.mt-24 {
+	MARGIN-TOP: 24px
+}
+.ml-8 {
+	MARGIN-LEFT: 8px
+}
+.ml-10 {
+	MARGIN-LEFT: 10px
+}
+.ml-14 {
+	MARGIN-LEFT: 14px
+}
+.ml-23 {
+	MARGIN-LEFT: 23px
+}
+.ml-26 {
+	MARGIN-LEFT: 24px
+}
+.mr-4 {
+	MARGIN-RIGHT: 4px
+}
+.mr-9 {
+	MARGIN-RIGHT: 9px
+}
+.pt-5 {
+	PADDING-TOP: 5px
+}
+.pl-3 {
+	PADDING-LEFT: 3px
+}
+.pl-5 {
+	PADDING-LEFT: 5px
+}
+.pl-7 {
+	PADDING-LEFT: 7px
+}
+.wrap980 {
+	MARGIN: auto; OVERFLOW: hidden; WIDTH: 980px; POSITION: relative; TEXT-ALIGN: left
+}
+.wrap950 {
+	MARGIN: auto; OVERFLOW: hidden; WIDTH: 950px; POSITION: relative; TEXT-ALIGN: left
+}
+.leftBox {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 747px
+}
+.rightBox {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 225px
+}
+.leftBox2 {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 210px
+}
+.rightBox2 {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 762px
+}
+.leftBox3 {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 172px
+}
+.rightBox3 {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 770px
+}
+.header {
+	MARGIN: auto; OVERFLOW: hidden; WIDTH: 980px; POSITION: relative; HEIGHT: 147px; TEXT-ALIGN: left
+}
+.header .logo {
+	LEFT: 24px; POSITION: absolute; TOP: 13px
+}
+.topnav {
+	RIGHT: 22px; POSITION: absolute; TOP: 15px
+}
+.topnav UL {
+	FLOAT: right
+}
+.topnav LI {
+	BACKGROUND: url(../images/header_topnav_bg.gif) no-repeat 0px 0px; FLOAT: left; MARGIN-LEFT: 5px; WIDTH: 67px; LINE-HEIGHT: 23px; HEIGHT: 23px; TEXT-ALIGN: center
+}
+.topnav A {
+	COLOR: #1e8ec6
+}
+.topnav A.on {
+	COLOR: #ff6600
+}
+.topnav A:hover {
+	COLOR: #ff6600
+}
+.quicklogin {
+	RIGHT: 175px; FONT-FAMILY: "??"; POSITION: absolute; TOP: 19px
+}
+.quicklogin .name {
+	COLOR: #ff6600; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.quicklogin .cue {
+	MARGIN-RIGHT: 20px
+}
+.quicklogin .cue A {
+	COLOR: #ff0000
+}
+.quicklogin .cue A:hover {
+	COLOR: #ff6600
+}
+.quicklogin A {
+	COLOR: #1e8ec6
+}
+.quickLogin A:hover {
+	COLOR: #ff6600
+}
+.mainnav {
+	RIGHT: 20px; FLOAT: right; POSITION: absolute; TOP: 50px
+}
+.mainnav .menu LI {
+	BACKGROUND: url(../images/main_nav_bg_05.gif) repeat-x 50% top; FLOAT: left; LINE-HEIGHT: 33px; POSITION: relative; HEIGHT: 33px
+}
+.mainnav .menu LI A {
+	MARGIN: 0px 5px
+}
+.mainnav .menu LI.on {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(../images/main_nav_bg_02.gif) repeat-x 50% top; COLOR: #ffffff; TEXT-ALIGN: center
+}
+.mainnav .menu LI.on A {
+	MARGIN: 0px 9px 0px 0px; COLOR: #ffffff
+}
+.mainnav .sub {
+	BACKGROUND: url(../images/main_nav_bg_07.gif) no-repeat right 0px; FLOAT: left; WIDTH: 265px
+}
+.mainnav .sub LI {
+	FLOAT: left; MARGIN-LEFT: 8px; LINE-HEIGHT: 33px; HEIGHT: 33px
+}
+.search {
+	BACKGROUND: url(../images/main_nav_c_bg.gif) repeat-x 50% top; LEFT: 0px; WIDTH: 100%; POSITION: relative; TOP: 81px; HEIGHT: 66px; TEXT-ALIGN: left
+}
+.search .form {
+	LEFT: 62px; WHITE-SPACE: nowrap; POSITION: absolute; TOP: 7px
+}
+.search .form SELECT {
+	MARGIN-TOP: 3px; FLOAT: left; MARGIN-RIGHT: 5px
+}
+.search .form .sousuo {
+	MARGIN-TOP: 3px; FLOAT: left; POSITION: relative
+}
+.search .form .sousuo INPUT {
+	BORDER-RIGHT: #9c9c9c 1px solid; BORDER-TOP: #9c9c9c 1px solid; MARGIN-TOP: -1px; BORDER-LEFT: #9c9c9c 1px solid; WIDTH: 340px; LINE-HEIGHT: 17px; MARGIN-RIGHT: 6px; BORDER-BOTTOM: #9c9c9c 1px solid; HEIGHT: 17px
+}
+.search .form .sousuo .help {
+	RIGHT: 9px; POSITION: absolute; TOP: 4px
+}
+.search .form .btn INPUT {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 1px; PADDING-LEFT: 16px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(../images/main_nav_search_btn.gif); FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 66px; CURSOR: pointer; LINE-HEIGHT: 23px; LETTER-SPACING: 2px; HEIGHT: 23px; BORDER-RIGHT-WIDTH: 0px
+}
+.search .hotgames {
+	LEFT: 62px; COLOR: #ffffff; BOTTOM: 5px; WHITE-SPACE: nowrap; POSITION: absolute
+}
+.search .hotgames H5 {
+	FLOAT: left
+}
+.search .hotgames LI {
+	FLOAT: left; VERTICAL-ALIGN: middle; COLOR: #ffffff; MARGIN-RIGHT: 8px
+}
+.search .hotgames A {
+	COLOR: #ffffff
+}
+.search .hotgames A:hover {
+	COLOR: #ff6600
+}
+.header2 {
+	BACKGROUND: url(../images/header2_line_bg.gif) repeat-x 0px 92px; MARGIN: auto; OVERFLOW: hidden; WIDTH: 950px; POSITION: relative; HEIGHT: 110px; TEXT-ALIGN: left
+}
+.header2 .logo {
+	LEFT: 20px; POSITION: absolute; TOP: 16px
+}
+.header2 .topnav {
+	RIGHT: 7px; POSITION: absolute; TOP: 14px
+}
+.header2 .quickRegsiter {
+	LEFT: 390px; FONT-FAMILY: "??"; POSITION: absolute; TOP: 57px; HEIGHT: 20px
+}
+.header2 .quickRegsiter .name {
+	MARGIN: 0px 1px 0px 2px; COLOR: #ff6600; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.header2 .quickRegsiter .help {
+	PADDING-LEFT: 4px; BACKGROUND: url(../images/tag_help_03.gif) no-repeat 0px 0px; MARGIN-LEFT: 10px; COLOR: #004fe0
+}
+.header2 .quickRegsiter .help A {
+	COLOR: #004fe0
+}
+.header2 .quickRegsiter A {
+	MARGIN-LEFT: 8px; COLOR: #ff6600
+}
+.header2 .quickRegsiter A:hover {
+	COLOR: #ffaa00
+}
+.quickNav {
+	PADDING-LEFT: 15px; WIDTH: 100%; COLOR: #75accd; BORDER-BOTTOM: #d0d0d0 1px solid; FONT-FAMILY: "??"; HEIGHT: 24px
+}
+.quickNav .on {
+	MARGIN-LEFT: 5px; COLOR: #424242
+}
+.quickNav A {
+	MARGIN: 0px 5px; COLOR: #75accd
+}
+.quickNav A:hover {
+	COLOR: #ff6600
+}
+.footerline {
+	DISPLAY: block; MARGIN-BOTTOM: 24px; OVERFLOW: hidden; WIDTH: 100%; HEIGHT: 15px; BACKGROUND-COLOR: #f0f0f0
+}
+.footerBox {
+	MARGIN-TOP: 22px; MARGIN-BOTTOM: 24px; OVERFLOW: hidden; WIDTH: 100%; COLOR: #545454; TEXT-ALIGN: center
+}
+.footer A {
+	MARGIN: 0px 4px; COLOR: #545454
+}
+.footer A:hover {
+	COLOR: #ff6600
+}
+.floatdivBox {
+	MARGIN: auto; WIDTH: 980px; POSITION: relative; HEIGHT: 0px; TEXT-ALIGN: left
+}
+.floatdivsearch {
+	BORDER-RIGHT: #4dadde 1px solid; BORDER-TOP: #4dadde 1px solid; BACKGROUND: url(../images/float_bg.gif) #ffffff repeat-x 50% top; LEFT: 62px; BORDER-LEFT: #4dadde 1px solid; WIDTH: 596px; BORDER-BOTTOM: #4dadde 1px solid; POSITION: absolute; TOP: -1898px
+}
+.floatdivsearch H4 {
+	MARGIN-TOP: 10px; PADDING-LEFT: 14px; BACKGROUND: url(../images/arrow_10.gif) no-repeat 0px 2px; MARGIN-LEFT: 8px; COLOR: #005ad5
+}
+.floatdivsearch .note {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN-LEFT: 10px; COLOR: #8e8e8e
+}
+.floatdivsearch .cloose {
+	RIGHT: 10px; POSITION: absolute; TOP: 10px
+}
+.floatdivsearch .gamelist {
+	BORDER-RIGHT: #4dadde 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #4dadde 1px solid; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 26px 8px 8px; BORDER-LEFT: #4dadde 1px solid; WIDTH: 565px; LINE-HEIGHT: 22px; PADDING-TOP: 5px; BORDER-BOTTOM: #4dadde 1px solid
+}
+.floatdivsearch .gamelist A {
+	PADDING-RIGHT: 10px; BACKGROUND: url(../images/tag_10.gif) no-repeat right 5px; FLOAT: left; MARGIN: 0px 5px; WHITE-SPACE: nowrap
+}
+.floatdivsearch .gamelistnav {
+	LEFT: 8px; POSITION: absolute; TOP: 30px
+}
+.floatdivsearch .gamelistnav LI {
+	FLOAT: left; COLOR: #026ecb; LINE-HEIGHT: 23px; HEIGHT: 23px; TEXT-ALIGN: center
+}
+.floatdivsearch .gamelistnav LI.t1 {
+	BACKGROUND: url(../images/float_off1.gif) no-repeat 0px 0px; WIDTH: 51px
+}
+.floatdivsearch .gamelistnav LI.t2 {
+	BACKGROUND: url(../images/float_off2.gif) no-repeat 0px 0px; WIDTH: 61px
+}
+.floatdivsearch .gamelistnav LI.on1 {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/float_on1.gif) no-repeat 0px 0px; WIDTH: 51px; COLOR: #ff7200
+}
+.floatdivsearch .gamelistnav LI.on2 {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/float_on2.gif) no-repeat 0px 0px; WIDTH: 61px; COLOR: #ff7200
+}
+.floatdivsearch .gamelistnav LI.line {
+	BACKGROUND: url(../images/float_line.gif) no-repeat 50% bottom; WIDTH: 1px
+}
+.floatdivsearch .gamelistnav .t1 A {
+	DISPLAY: block; WIDTH: 51px; COLOR: #026ecb; HEIGHT: 23px
+}
+.floatdivsearch .gamelistnav .on1 A {
+	DISPLAY: block; WIDTH: 51px; COLOR: #ff7200; HEIGHT: 23px
+}
+.floatdivsearch .gamelistnav .t2 A {
+	DISPLAY: block; WIDTH: 61px; COLOR: #026ecb; HEIGHT: 23px
+}
+.floatdivsearch .gamelistnav .on2 A {
+	DISPLAY: block; WIDTH: 61px; COLOR: #ff7200; HEIGHT: 23px
+}
+.floatdivsearch .gamelistnav A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}

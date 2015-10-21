@@ -1,0 +1,516 @@
+#main H3 {
+	BORDER-RIGHT: #aacbe4 1px solid; PADDING-LEFT: 10px; BACKGROUND: url(http://aq.qq.com/htdocs/images/repeat_x.png) repeat-x 0px -30px; BORDER-LEFT: #aacbe4 1px solid; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+.floatdiv H3 {
+	BORDER-RIGHT: #aacbe4 1px solid; PADDING-LEFT: 10px; BACKGROUND: url(http://aq.qq.com/htdocs/images/repeat_x.png) repeat-x 0px -30px; BORDER-LEFT: #aacbe4 1px solid; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+.contianer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://aq.qq.com/htdocs/images/contianer_bg.png) repeat-x 50% bottom; PADDING-BOTTOM: 20px; PADDING-TOP: 10px
+}
+.contianer_position {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://aq.qq.com/htdocs/images/contianer_bg.png) repeat-x 50% bottom; PADDING-BOTTOM: 20px; PADDING-TOP: 10px; POSITION: relative
+}
+.contianer H4 {
+	PADDING-BOTTOM: 3px; MARGIN: 0px auto; WIDTH: 800px; PADDING-TOP: 6px; BORDER-BOTTOM: #9cc0e4 2px solid
+}
+.iframe_div H4 {
+	PADDING-BOTTOM: 3px; MARGIN: 0px auto; WIDTH: 800px; PADDING-TOP: 6px; BORDER-BOTTOM: #9cc0e4 2px solid
+}
+.contianer H4 CITE {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #7f7f7f
+}
+.iframe_div H4 CITE {
+	PADDING-LEFT: 5px; FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #7f7f7f
+}
+.frameset {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 10px; MARGIN: 0px auto; WIDTH: 670px; PADDING-TOP: 15px
+}
+.frameset_tips {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 10px; MARGIN: 0px auto; WIDTH: 670px; PADDING-TOP: 15px
+}
+.title_tips {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 10px; MARGIN: 0px auto; WIDTH: 670px; PADDING-TOP: 15px
+}
+.mine_content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 10px; MARGIN: 0px auto; WIDTH: 670px; PADDING-TOP: 20px
+}
+.btn {
+	PADDING-RIGHT: 300px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; TEXT-ALIGN: right
+}
+.btn INPUT {
+	MARGIN-RIGHT: 10px
+}
+.step {
+	FONT-SIZE: 14px; MARGIN: 20px auto; WIDTH: 563px; LINE-HEIGHT: 25px; HEIGHT: 25px
+}
+.step1 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/step.png) no-repeat 0px 0px
+}
+.step2 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/step.png) no-repeat 0px -25px
+}
+.step3 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/step.png) no-repeat 0px -50px
+}
+.step LI {
+	FONT-WEIGHT: bold; FLOAT: left; WIDTH: 185px; COLOR: #999; TEXT-ALIGN: center
+}
+.step .step_on {
+	COLOR: #fff
+}
+.title_tips {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/title_tips_bg.png) no-repeat 0px bottom; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 25px; TEXT-ALIGN: center
+}
+.title_tips H5 {
+	FONT-WEIGHT: normal
+}
+.title_tips P {
+	FONT-SIZE: 12px
+}
+.frameset H5 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.frameset H4 {
+	FONT-WEIGHT: normal; WIDTH: 670px; LINE-HEIGHT: 20px; HEIGHT: 20px; BORDER-BOTTOM-STYLE: none
+}
+.frameset LI {
+	CLEAR: both; VERTICAL-ALIGN: middle; LINE-HEIGHT: 30px; POSITION: relative; HEIGHT: 30px; TEXT-ALIGN: left
+}
+.frameset_tips UL LI {
+	CLEAR: both; VERTICAL-ALIGN: middle; LINE-HEIGHT: 30px; POSITION: relative; HEIGHT: 30px; TEXT-ALIGN: left
+}
+.frameset EM {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; COLOR: #f00; PADDING-TOP: 0px
+}
+.frameset_tips EM {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; COLOR: #f00; PADDING-TOP: 0px
+}
+.frameset P {
+	CLEAR: both; PADDING-LEFT: 204px; FONT-SIZE: 12px; COLOR: #808080; LINE-HEIGHT: 20px
+}
+.frameset CITE {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 16px; BACKGROUND: #d7e9f5; FLOAT: left; MARGIN: 0px 1px 0px 3px; WIDTH: 76px; COLOR: #256394; LINE-HEIGHT: 25px; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.frameset BLOCKQUOTE {
+	FLOAT: left; WIDTH: 200px; MARGIN-RIGHT: 2px; TEXT-ALIGN: right
+}
+.frameset_tips BLOCKQUOTE {
+	FLOAT: left; WIDTH: 200px; MARGIN-RIGHT: 2px; TEXT-ALIGN: right
+}
+.frameset_tips {
+	CLEAR: both; PADDING-BOTTOM: 0px
+}
+.frameset_tips H6 {
+	CLEAR: both; FONT-WEIGHT: normal; VERTICAL-ALIGN: middle; TEXT-ALIGN: left
+}
+.frameset_tips BLOCKQUOTE {
+	PADDING-BOTTOM: 25px
+}
+.frameset_tips P {
+	PADDING-LEFT: 205px; FONT-SIZE: 12px; COLOR: #808080; TEXT-ALIGN: left
+}
+.frameset U {
+	FONT-SIZE: 12px; COLOR: #666; TEXT-DECORATION: none
+}
+.frameset .more {
+	PADDING-LEFT: 20px; BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat -6px -167px
+}
+.iframe {
+	MARGIN: 0px auto; WIDTH: 800px; TEXT-ALIGN: center
+}
+.iframe_small {
+	MARGIN: 0px auto; WIDTH: 368px; PADDING-TOP: 5px; TEXT-ALIGN: center
+}
+.iframe_div {
+	TEXT-ALIGN: left
+}
+.content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 20px; MARGIN: 0px auto; WIDTH: 600px; PADDING-TOP: 20px
+}
+.content_670 {
+	CLEAR: both; MARGIN: 0px auto; WIDTH: 670px
+}
+.pic_word {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.pic_word IMG {
+	PADDING-RIGHT: 15px; FLOAT: left; PADDING-BOTTOM: 10px
+}
+.pic_word H5 {
+	LINE-HEIGHT: 25px
+}
+.pic_word P {
+	COLOR: #666
+}
+.mode_person_bg {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/person.gif) no-repeat
+}
+.mode_question_bg {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/question.gif) no-repeat
+}
+.mode_email_bg {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/email.gif) no-repeat
+}
+.mode_phone_bg {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/phone.gif) no-repeat
+}
+.mode_token_bg {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/token.gif) no-repeat
+}
+.mode_card_bg {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/card.gif) no-repeat
+}
+.content_question {
+	PADDING-LEFT: 150px; WIDTH: 670px
+}
+.about_word {
+	PADDING-LEFT: 60px; TEXT-ALIGN: left
+}
+.about_tool {
+	PADDING-LEFT: 60px; TEXT-ALIGN: left
+}
+.about_btn {
+	PADDING-LEFT: 60px; TEXT-ALIGN: left
+}
+.about_btn {
+	PADDING-TOP: 30px
+}
+.about_word H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 12px; PADDING-TOP: 9px
+}
+.about_word H5 .span_a {
+	PADDING-LEFT: 20px; FONT-WEIGHT: normal; FONT-SIZE: 12px
+}
+.about_tool {
+	PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.about_tool P A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.about_550 {
+	WIDTH: 550px
+}
+.about_tool H6 {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 15px; PADDING-LEFT: 15px; FONT-WEIGHT: normal; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; MARGIN-LEFT: -15px; LINE-HEIGHT: 24px; PADDING-TOP: 0px
+}
+.about_tool A {
+	MARGIN-RIGHT: 5px
+}
+.about_btn A {
+	FONT-SIZE: 12px; MARGIN-LEFT: 20px
+}
+.about_remark {
+	LEFT: 615px; WIDTH: 247px; POSITION: absolute; TOP: 30px
+}
+.about_remark H5 {
+	FONT-WEIGHT: normal
+}
+.about_remark IMG {
+	MARGIN: 5px 0px; WIDTH: 210px; HEIGHT: 280px
+}
+.mouse_tips {
+	BORDER-RIGHT: #6cf 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #6cf 1px solid; DISPLAY: none; PADDING-LEFT: 10px; FONT-SIZE: 12px; BACKGROUND: #f4fdff; PADDING-BOTTOM: 10px; BORDER-LEFT: #6cf 1px solid; WIDTH: 200px; PADDING-TOP: 10px; BORDER-BOTTOM: #6cf 1px solid; POSITION: absolute
+}
+.about_word_success {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips_success.png) no-repeat 12px 5px
+}
+.about_word_help {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips_help.png) no-repeat 12px 5px
+}
+.about_word_warn {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips_warn.png) no-repeat 12px 5px
+}
+.about_word_fail {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips_fail.png) no-repeat 12px 5px
+}
+.about_word_pivotal {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips_pivotal.png) no-repeat 12px 5px
+}
+.about_word_star {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/star.png) no-repeat 0px 5px
+}
+.about_word_level {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/level.png) no-repeat 0px 5px
+}
+.money_pic {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/icon_money.gif) no-repeat 0px 0px
+}
+.laji_pic {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/icon_laji.gif) no-repeat 0px 0px
+}
+.mine_left {
+	FLOAT: left; WIDTH: 200px
+}
+.mine_left H6 {
+	FONT-WEIGHT: normal; PADDING-TOP: 3px; TEXT-ALIGN: right
+}
+.mine_right {
+	FLOAT: left; WIDTH: 450px
+}
+.mine_right LI {
+	CLEAR: both; PADDING-LEFT: 35px; WIDTH: 400px; LINE-HEIGHT: 30px; POSITION: relative; HEIGHT: 30px
+}
+.mine_right BLOCKQUOTE {
+	CLEAR: both; FONT-WEIGHT: normal; FLOAT: left
+}
+.mine_right SPAN {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; LEFT: 344px; WIDTH: 155px; LINE-HEIGHT: 24px; POSITION: absolute; TEXT-ALIGN: left
+}
+.mine_right SPAN A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 50px; PADDING-TOP: 0px
+}
+.mine_right P {
+	PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #808080; LINE-HEIGHT: 19px; HEIGHT: 19px
+}
+.mine_right UL UL {
+	CLEAR: both; PADDING-LEFT: 0px; WIDTH: 300px
+}
+.mine_right UL UL LI {
+	CLEAR: none; DISPLAY: inline; PADDING-LEFT: 10px; FLOAT: left; WIDTH: 120px; COLOR: #666; LINE-HEIGHT: 24px
+}
+.mine_right .link_other {
+	PADDING-LEFT: 20px; FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN-LEFT: 16px
+}
+.explain {
+	MARGIN: 0px auto; PADDING-TOP: 10px
+}
+.explain P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.explain LI {
+	LINE-HEIGHT: 22px
+}
+.info {
+	PADDING-LEFT: 20px; FONT-SIZE: 12px; RIGHT: 8px; WIDTH: 206px; LINE-HEIGHT: 23px; FONT-FAMILY: "????",SimSun",??????"; POSITION: absolute; HEIGHT: 23px; TEXT-ALIGN: left
+}
+.hint {
+	PADDING-LEFT: 20px; FONT-SIZE: 12px; RIGHT: 8px; WIDTH: 206px; LINE-HEIGHT: 23px; FONT-FAMILY: "????",SimSun",??????"; POSITION: absolute; HEIGHT: 23px; TEXT-ALIGN: left
+}
+.nonebiaozhi {
+	PADDING-LEFT: 20px; FONT-SIZE: 12px; RIGHT: 8px; WIDTH: 206px; LINE-HEIGHT: 23px; FONT-FAMILY: "????",SimSun",??????"; POSITION: absolute; HEIGHT: 23px; TEXT-ALIGN: left
+}
+.import {
+	PADDING-LEFT: 20px; FONT-SIZE: 12px; RIGHT: 8px; WIDTH: 206px; LINE-HEIGHT: 23px; FONT-FAMILY: "????",SimSun",??????"; POSITION: absolute; HEIGHT: 23px; TEXT-ALIGN: left
+}
+.sigh {
+	PADDING-LEFT: 20px; FONT-SIZE: 12px; RIGHT: 8px; WIDTH: 206px; LINE-HEIGHT: 23px; FONT-FAMILY: "????",SimSun",??????"; POSITION: absolute; HEIGHT: 23px; TEXT-ALIGN: left
+}
+.info {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat -8px -254px; COLOR: #d40000
+}
+.hint {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat -8px -125px
+}
+.import {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat -8px 3px; COLOR: #666
+}
+.sigh {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat -8px -937px; COLOR: #d40000
+}
+.quick_see {
+	PADDING-LEFT: 27px; BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat -8px -1190px; LINE-HEIGHT: 30px
+}
+#tt {
+	DISPLAY: block; POSITION: absolute
+}
+#tttop {
+	DISPLAY: block; MARGIN-LEFT: 10px; OVERFLOW: hidden; HEIGHT: 5px
+}
+#ttcont {
+	BORDER-RIGHT: #bce7fd 1px solid; PADDING-RIGHT: 12px; BORDER-TOP: #bce7fd 1px solid; DISPLAY: block; PADDING-LEFT: 10px; BACKGROUND: #f6fdfe; PADDING-BOTTOM: 10px; MARGIN-LEFT: 5px; BORDER-LEFT: #bce7fd 1px solid; COLOR: #333; PADDING-TOP: 10px; BORDER-BOTTOM: #bce7fd 1px solid; TEXT-ALIGN: left
+}
+#ttbot {
+	DISPLAY: block; MARGIN-LEFT: 5px; OVERFLOW: hidden; HEIGHT: 5px
+}
+.zixiang {
+	CLEAR: both; PADDING-LEFT: 230px
+}
+.zixiang .list_heng LI {
+	CLEAR: none; FLOAT: left; VERTICAL-ALIGN: middle; WIDTH: 130px; LINE-HEIGHT: 22px; HEIGHT: 22px
+}
+.zixiang_right {
+	CLEAR: both; PADDING-LEFT: 200px; WIDTH: 400px; PADDING-TOP: 15px; POSITION: absolute
+}
+.list_heng_right LI {
+	CLEAR: none; FLOAT: left; VERTICAL-ALIGN: middle; WIDTH: 130px; LINE-HEIGHT: 22px; HEIGHT: 22px
+}
+.floatdiv {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; LEFT: 715px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: move; PADDING-TOP: 0px; POSITION: absolute; TOP: 45px; TEXT-ALIGN: left
+}
+.floatdiv .side {
+	BORDER-RIGHT: #abcbe4 1px solid; BORDER-LEFT: #abcbe4 1px solid; WIDTH: 368px
+}
+.floatdiv H3 {
+	PADDING-LEFT: 10px
+}
+.floatdiv H3 SPAN {
+	FLOAT: right; WIDTH: 20px; HEIGHT: 24px
+}
+.systemword {
+	PADDING-LEFT: 55px; MARGIN: 0px auto; WIDTH: 260px
+}
+.systemword H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; PADDING-TOP: 5px
+}
+.systembtn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px auto; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+.word_warn {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips_warn.png) no-repeat 10px 1px
+}
+.word_fail {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips_fail.png) no-repeat 10px 1px
+}
+.other_operate {
+	MARGIN-TOP: 10px; FLOAT: left; MARGIN-LEFT: 30px; WIDTH: 370px
+}
+.other_operate IMG {
+	PADDING-RIGHT: 10px; FLOAT: left
+}
+.other_operate H5 {
+	FONT-WEIGHT: normal
+}
+.other_operate P {
+	COLOR: #82868f
+}
+.wenxintishi {
+	BORDER-RIGHT: #aacbe4 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #aacbe4 1px solid; PADDING-LEFT: 10px; BACKGROUND: #f1fafd; PADDING-BOTTOM: 10px; MARGIN: 10px auto 0px; BORDER-LEFT: #aacbe4 1px solid; WIDTH: 580px; PADDING-TOP: 10px; BORDER-BOTTOM: #aacbe4 1px solid
+}
+.wenxintishi H5 {
+	FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; POSITION: relative
+}
+.wenxintishi H5 SPAN {
+	RIGHT: 9px; FLOAT: right; POSITION: absolute; TOP: 2px
+}
+.wenxintishi UL {
+	PADDING-TOP: 10px
+}
+.wenxintishi UL LI {
+	PADDING-LEFT: 10px
+}
+.tableList {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px
+}
+.tableList TD {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 25px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #e8e8e8 1px solid
+}
+.tableList TH {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 25px; FONT-WEIGHT: bold; BACKGROUND: #edf7ff; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.tableList TFOOT TD {
+	COLOR: #666; TEXT-ALIGN: right
+}
+.radiodiv {
+	MARGIN: 0px auto; WIDTH: 500px; PADDING-TOP: 10px
+}
+.radiodiv .remark {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.radiodiv .remark LI {
+	PADDING-LEFT: 40px; LINE-HEIGHT: 25px; HEIGHT: 25px
+}
+.radiodiv .remark LI CITE {
+	PADDING-LEFT: 5px; FONT-SIZE: 14px
+}
+.radiodiv .remark P {
+	PADDING-LEFT: 25px; COLOR: #666
+}
+.safe_indexdiv {
+	CLEAR: both; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_index.gif) no-repeat; LINE-HEIGHT: 22px; HEIGHT: 272px
+}
+.con_index {
+	CLEAR: both; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_index.gif) no-repeat; LINE-HEIGHT: 22px; HEIGHT: 272px
+}
+.con_index {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/common_index.png) no-repeat
+}
+.safe_indexdiv H2 {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 50px; PADDING-BOTTOM: 20px; LINE-HEIGHT: 35px; PADDING-TOP: 25px
+}
+.con_index H2 {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 70px; PADDING-BOTTOM: 20px; LINE-HEIGHT: 35px; PADDING-TOP: 25px
+}
+.safe_indexdiv P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 5px; WIDTH: 195px; PADDING-TOP: 5px
+}
+.con_index P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 5px; WIDTH: 195px; PADDING-TOP: 5px
+}
+.safe_indexdiv .protect {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 60px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 242px; PADDING-TOP: 30px
+}
+.con_index .protect {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 60px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 242px; PADDING-TOP: 30px
+}
+.safe_indexdiv UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; BACKGROUND: url(http://aq.qq.com/htdocs/images/li_square.png) no-repeat 3px 50%; PADDING-BOTTOM: 0px; COLOR: #266392; PADDING-TOP: 0px
+}
+.con_index UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; BACKGROUND: url(http://aq.qq.com/htdocs/images/li_square.png) no-repeat 3px 50%; PADDING-BOTTOM: 0px; COLOR: #266392; PADDING-TOP: 0px
+}
+#tab {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; WIDTH: 355px; PADDING-TOP: 5px; POSITION: relative; BORDER-RIGHT-WIDTH: 0px
+}
+#tab DIV {
+	BORDER-RIGHT: #aacbe4 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #aacbe4 1px solid; DISPLAY: block; PADDING-LEFT: 5px; LEFT: 7px; PADDING-BOTTOM: 0px; BORDER-LEFT: #aacbe4 1px solid; WIDTH: 340px; PADDING-TOP: 0px; BORDER-BOTTOM: #aacbe4 1px solid; POSITION: absolute; TOP: 31px; HEIGHT: 185px
+}
+#tab DIV {
+	DISPLAY: none; Z-INDEX: -1
+}
+#tab .block {
+	DISPLAY: block
+}
+#tab H3 {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: normal; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://aq.qq.com/htdocs/images/tap_btn.gif) no-repeat; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; MARGIN-LEFT: 1px; WIDTH: 110px; CURSOR: pointer; COLOR: #666; PADDING-TOP: 2px; HEIGHT: 26px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+#tab .up {
+	MARGIN-TOP: 1px; FONT-WEIGHT: bold; BACKGROUND: url(http://aq.qq.com/htdocs/images/tap_btn.gif) no-repeat 0px -27px; WIDTH: 110px; HEIGHT: 26px
+}
+#tap DIV P {
+	MARGIN-LEFT: 10px
+}
+#tab LI P {
+	COLOR: #999; LINE-HEIGHT: 18px; TEXT-ALIGN: left
+}
+.process {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 10px; PADDING-TOP: 10px
+}
+.process LI {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 28px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 2px; LINE-HEIGHT: 20px; PADDING-TOP: 2px; BORDER-RIGHT-WIDTH: 0px
+}
+.pro1 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/number.gif) no-repeat 0px 4px
+}
+.pro2 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/number.gif) no-repeat 0px -96px
+}
+.pro3 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/number.gif) no-repeat 0px -196px
+}
+.pro4 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/number.gif) no-repeat 0px -296px
+}
+.picmiddle IMG {
+	VERTICAL-ALIGN: middle
+}
+.featureTips {
+	DISPLAY: none; FILTER: alpha(opacity=0); PADDING-TOP: 2px; POSITION: absolute; opacity: 0
+}
+.featureTips .bg {
+	BACKGROUND: #e7eff2; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.featureTips .case {
+	BORDER-RIGHT: #aacbe4 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #aacbe4 1px solid; PADDING-LEFT: 1px; BACKGROUND: white; PADDING-BOTTOM: 1px; BORDER-LEFT: #aacbe4 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #aacbe4 1px solid; POSITION: relative; TOP: -2px
+}
+.featureTips .case .caseBg {
+	BACKGROUND: #eef6fc
+}
+.full_div {
+	BACKGROUND: #000; FILTER: alpha(opacity=40); opacity: .60; moz-opacity: .60
+}
+.full_div {
+	Z-INDEX: 100; LEFT: 0px; WIDTH: 100%; POSITION: fixed; TOP: 0px; HEIGHT: 100%
+}
+ HTML .full_div {
+	POSITION: absolute; ; HEIGHT: expression(document.body.scrollHeight>document.body.offsetHeight ? document.body.scrollHeight:document.body.offsetHeight+'px')
+}

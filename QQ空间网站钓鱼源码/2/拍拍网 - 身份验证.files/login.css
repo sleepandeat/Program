@@ -1,0 +1,81 @@
+.loginheader {
+	MARGIN: auto; OVERFLOW: hidden; WIDTH: 660px; POSITION: relative; HEIGHT: 92px; TEXT-ALIGN: left
+}
+.loginheader .logo {
+	LEFT: 3px; POSITION: absolute; TOP: 26px
+}
+.loginheader .cue {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; RIGHT: 3px; COLOR: #1e8ec6; POSITION: absolute; TOP: 60px
+}
+.loginline {
+	CLEAR: both; OVERFLOW: hidden; HEIGHT: 3px; BACKGROUND-COLOR: #49a9dc
+}
+.loginBox {
+	MARGIN: 28px auto auto; OVERFLOW: hidden; WIDTH: 397px; TEXT-ALIGN: left
+}
+.login {
+	BACKGROUND: url(https://login.5173.com/images/images1/login/userlogin_bg.gif) repeat-y 50% top; WIDTH: 100%; POSITION: relative; HEIGHT: 240px
+}
+.login LI {
+	MARGIN-TOP: 10px; DISPLAY: block; MARGIN-LEFT: 22px
+}
+.login A {
+	COLOR: #005cd5
+}
+.login A:hover {
+	COLOR: #ff6600
+}
+.login .note {
+	MARGIN-LEFT: 20px
+}
+.login .note2 {
+	MARGIN-LEFT: 4px
+}
+.login LI.ts {
+	MARGIN-TOP: 3px; PADDING-LEFT: 54px; COLOR: #0098d3
+}
+.login LI.ts2 {
+	MARGIN-TOP: 3px
+}
+.login INPUT {
+	BORDER-RIGHT: #7fadcf 1px solid; BORDER-TOP: #7fadcf 1px solid; BORDER-LEFT: #7fadcf 1px solid; WIDTH: 132px; LINE-HEIGHT: 18px; BORDER-BOTTOM: #7fadcf 1px solid; HEIGHT: 18px
+}
+.login H2 {
+	CLEAR: both; PADDING-LEFT: 20px; BACKGROUND: url(https://login.5173.com/images/images1/login/userlogin_title_bg.gif) repeat-x 50% top; COLOR: #ffffff; PADDING-TOP: 8px; HEIGHT: 23px
+}
+.login .btn {
+	MARGIN-TOP: 15px; FLOAT: left; MARGIN-LEFT: 77px
+}
+.login .quickregister {
+	MARGIN-TOP: 25px; FLOAT: left; MARGIN-LEFT: 22px
+}
+.login .quickregister A {
+	FONT-WEIGHT: bold; COLOR: #005cd5; TEXT-DECORATION: underline
+}
+.login .quickregister A:hover {
+	COLOR: #ff6600
+}
+.login .pic {
+	LEFT: 0px; BOTTOM: 0px; POSITION: absolute
+}
+.loginhelp {
+	WIDTH: 100%; HEIGHT: 44px
+}
+.loginhelp LI {
+	MARGIN-TOP: 16px; PADDING-LEFT: 16px; BACKGROUND: url(https://login.5173.com/images/images1/arrow/arrow_03.gif) no-repeat 0px 0px; FLOAT: left; MARGIN-LEFT: 18px; WIDTH: 130px
+}
+.loginhelp .c1 A {
+	COLOR: #005bd8
+}
+.loginhelp .c2 A {
+	COLOR: #ff0000
+}
+.loginhelp .c1 A:hover {
+	COLOR: #ff6600
+}
+.loginhelp .c2 A:hover {
+	COLOR: #ff6600
+}
+.loginCue {
+	BORDER-RIGHT: #c5efd9 1px solid; BORDER-TOP: #c5efd9 1px solid; PADDING-LEFT: 30px; BACKGROUND: url(https://login.5173.com/images/images1/img/cue_02.gif) #f2fff6 no-repeat 10px 9px; BORDER-LEFT: #c5efd9 1px solid; WIDTH: 365px; PADDING-TOP: 6px; BORDER-BOTTOM: #c5efd9 1px solid; HEIGHT: 22px
+}

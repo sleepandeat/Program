@@ -1,0 +1,1654 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+IFRAME {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+FIELDSET {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+ADDRESS {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+CAPTION {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+CITE {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+DFN {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+EM {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+TH {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+VAR {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+CAPTION {
+	TEXT-ALIGN: left
+}
+TH {
+	TEXT-ALIGN: left
+}
+H1 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+H2 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+H3 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+H4 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+H5 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+H6 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+Q:unknown {
+	content: ''
+}
+Q:unknown {
+	content: ''
+}
+abbr {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+ACRONYM {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+BODY {
+	HEIGHT: 100%
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.clearfix {
+	DISPLAY: inline-block; ZOOM: 100%
+}
+.clear {
+	CLEAR: both
+}
+A:link {
+	COLOR: #266392; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #266392; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.red:link {
+	COLOR: #d40000; TEXT-DECORATION: underline
+}
+A.red:visited {
+	COLOR: #d40000; TEXT-DECORATION: underline
+}
+A.red:active {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.red:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.underline:link {
+	COLOR: #266392; TEXT-DECORATION: underline
+}
+A.underline:visited {
+	COLOR: #266392; TEXT-DECORATION: underline
+}
+A.underline:active {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.underline:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.green:link {
+	FONT-WEIGHT: bold; COLOR: #090
+}
+A.green:visited {
+	FONT-WEIGHT: bold; COLOR: #090
+}
+A.green:hover {
+	FONT-WEIGHT: bold; COLOR: #090
+}
+A.green:active {
+	FONT-WEIGHT: bold; COLOR: #090
+}
+A.black:link {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.black:visited {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.black:hover {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.black:active {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+.title {
+	POSITION: relative
+}
+.title:hover {
+	BACKGROUND: #fff; COLOR: #333; TEXT-DECORATION: none
+}
+.title SPAN {
+	DISPLAY: none
+}
+.title:hover SPAN {
+	BORDER-RIGHT: #aacbe4 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #aacbe4 1px solid; DISPLAY: block; PADDING-LEFT: 5px; BACKGROUND: #eef5fd; LEFT: 3px; PADDING-BOTTOM: 5px; BORDER-LEFT: #aacbe4 1px solid; WIDTH: 450px; COLOR: #000; PADDING-TOP: 5px; BORDER-BOTTOM: #aacbe4 1px solid; POSITION: absolute; TOP: 20px; TEXT-ALIGN: left
+}
+.key_blue {
+	COLOR: #00f
+}
+.key_blue1 {
+	COLOR: #369
+}
+.key_red {
+	COLOR: #d40000
+}
+.key_green {
+	COLOR: #090
+}
+.key_gray {
+	COLOR: #808080
+}
+A.key_gray {
+	COLOR: #808080
+}
+.key_gray1 {
+	COLOR: #999
+}
+A.key_gray1 {
+	COLOR: #999
+}
+.key_black {
+	COLOR: #666
+}
+.key_black1 {
+	COLOR: #000
+}
+.font_12 {
+	FONT-SIZE: 12px
+}
+A.font_12 {
+	FONT-SIZE: 12px
+}
+.font_14 {
+	FONT-SIZE: 14px
+}
+A.font_14 {
+	FONT-SIZE: 14px
+}
+.font_weight {
+	FONT-WEIGHT: bold
+}
+.radio_1 {
+	MARGIN-TOP: 0px; margin_top: 8px
+}
+INPUT {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; COLOR: #333; PADDING-TOP: 2px
+}
+.btn_green14 {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_bg.png) -560px -10px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 110px; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 37px; HEIGHT: 37px; BORDER-RIGHT-WIDTH: 0px
+}
+.btn_blue14_l {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -192px -32px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 115px; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 30px; HEIGHT: 30px; BORDER-RIGHT-WIDTH: 0px
+}
+.btn_blue14_gray {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -192px -32px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 115px; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 30px; HEIGHT: 30px; BORDER-RIGHT-WIDTH: 0px
+}
+.btn_blue14_gray {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -75px; COLOR: #999
+}
+.btn_4 {
+	WIDTH: 70px
+}
+.btn_l {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(http://aq.qq.com/htdocs/images/btn_l.png) no-repeat; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 154px; CURSOR: pointer; HEIGHT: 26px; BORDER-RIGHT-WIDTH: 0px
+}
+.longblue_btn {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BACKGROUND: url(http://aq.qq.com/htdocs/images/blue_btn.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 205px; CURSOR: pointer; COLOR: #266392; HEIGHT: 38px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+.ipt_text {
+	BORDER-RIGHT: #1387a8 1px solid; BORDER-TOP: #1387a8 1px solid; FONT-SIZE: 14px; BORDER-LEFT: #1387a8 1px solid; WIDTH: 224px; BORDER-BOTTOM: #1387a8 1px solid
+}
+.ipt_text2 {
+	BORDER-RIGHT: #1387a8 1px solid; BORDER-TOP: #1387a8 1px solid; FONT-SIZE: 14px; BORDER-LEFT: #1387a8 1px solid; WIDTH: 154px; BORDER-BOTTOM: #1387a8 1px solid
+}
+.ipt_select {
+	FONT-SIZE: 14px; WIDTH: 229px; LINE-HEIGHT: 28px
+}
+.ipt_text_card {
+	WIDTH: 68px
+}
+.ipt_text_token {
+	FONT-SIZE: 14px; WIDTH: 57px
+}
+.ipt_select {
+	BORDER-RIGHT: #1387a8 1px solid; BORDER-TOP: #1387a8 1px solid; BORDER-LEFT: #1387a8 1px solid; BORDER-BOTTOM: #1387a8 1px solid
+}
+.ipt_text_card {
+	BORDER-RIGHT: #1387a8 1px solid; BORDER-TOP: #1387a8 1px solid; BORDER-LEFT: #1387a8 1px solid; BORDER-BOTTOM: #1387a8 1px solid
+}
+.ipt_text_token {
+	BORDER-RIGHT: #1387a8 1px solid; BORDER-TOP: #1387a8 1px solid; BORDER-LEFT: #1387a8 1px solid; BORDER-BOTTOM: #1387a8 1px solid
+}
+.ipt_text2 {
+	BORDER-RIGHT: #1387a8 1px solid; BORDER-TOP: #1387a8 1px solid; BORDER-LEFT: #1387a8 1px solid; BORDER-BOTTOM: #1387a8 1px solid
+}
+.ipt_text_disabled {
+	BORDER-RIGHT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; FONT-SIZE: 14px; BORDER-LEFT: #aaa 1px solid; WIDTH: 224px; COLOR: #aaa; BORDER-BOTTOM: #aaa 1px solid
+}
+OL {
+	PADDING-LEFT: 25px; MARGIN-LEFT: 0px
+}
+OL LI {
+	LIST-STYLE-POSITION: outside; FONT-SIZE: 12px; LINE-HEIGHT: 22px; LIST-STYLE-TYPE: decimal
+}
+.explain OL LI {
+	LIST-STYLE-POSITION: outside; FONT-SIZE: 12px; LINE-HEIGHT: 22px; LIST-STYLE-TYPE: decimal
+}
+INPUT checkbox {
+	VERTICAL-ALIGN: middle
+}
+INPUT radio {
+	VERTICAL-ALIGN: middle
+}
+BODY {
+	BACKGROUND: #fff; FONT: 12px/1.5em Helvetica,Corbel,Verdana,Arial,sans-serif,"宋体",SimSun,"新宋体",NSimSun; COLOR: #333; TEXT-ALIGN: center
+}
+#header {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/header_bg.png) no-repeat; MARGIN: 0px auto; WIDTH: 910px; HEIGHT: 110px; TEXT-ALIGN: left
+}
+.header_link {
+	WIDTH: 910px; HEIGHT: 70px
+}
+.logo {
+	FLOAT: left; WIDTH: 300px
+}
+.login {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 600px; PADDING-TOP: 4px; FONT-FAMILY: "宋体"; TEXT-ALIGN: right
+}
+.login SPAN {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 1px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 1px
+}
+.login A {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 12px; FLOAT: right; PADDING-BOTTOM: 1px; MARGIN: 0px 2px; PADDING-TOP: 1px
+}
+.menu {
+	MARGIN-TOP: 2px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 910px; POSITION: relative
+}
+.menu UL {
+	PADDING-LEFT: 60px
+}
+.menu UL LI {
+	FLOAT: left; TEXT-ALIGN: center
+}
+.menu A {
+	DISPLAY: block; WIDTH: 100px; LINE-HEIGHT: 32px; HEIGHT: 35px; TEXT-DECORATION: none
+}
+.menu A:link {
+	COLOR: #fff
+}
+.menu A:visited {
+	COLOR: #fff
+}
+.menu A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.menu A:active {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.menu .current A:link {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -118px -74px; COLOR: #333; LINE-HEIGHT: 35px
+}
+.menu .current A:visited {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -118px -74px; COLOR: #333; LINE-HEIGHT: 35px
+}
+.menu .current A:hover {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -118px -74px; COLOR: #333; LINE-HEIGHT: 35px; TEXT-DECORATION: none
+}
+.menu .current A:active {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -118px -74px; COLOR: #333; LINE-HEIGHT: 35px; TEXT-DECORATION: none
+}
+#submenu {
+	CLEAR: both; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) #fff no-repeat 0px 25px; MARGIN: 0px auto; WIDTH: 910px; HEIGHT: 30px
+}
+#submenu UL LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-TOP: 0px; HEIGHT: 20px
+}
+A.submenu_on:link {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.submenu_on:visited {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.submenu_on:hover {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.submenu_on:active {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+.submenu_manage_mb {
+	PADDING-LEFT: 155px
+}
+.submenu_manage_safe {
+	PADDING-LEFT: 255px
+}
+.submenu_manage_ofen {
+	PADDING-LEFT: 355px
+}
+.submenu_manage_findpw {
+	PADDING-LEFT: 455px
+}
+#main {
+	MARGIN: 5px auto 0px; WIDTH: 910px; TEXT-ALIGN: left
+}
+.rl_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rl_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rm_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rm_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rr_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rr_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rs_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rs_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.r3_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rf_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rf_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rl_u {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -6px
+}
+.rl_d {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -10px
+}
+.rm_u {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -240px -75px
+}
+.rm_d {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -240px -78px
+}
+.rr_u {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -680px -20px
+}
+.rr_d {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -680px -24px
+}
+.r3_d {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) -340px -69px
+}
+.rs_u {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -20px
+}
+.rs_d {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -26px
+}
+.rf_u {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -240px -93px
+}
+.rf_d {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -240px -96px
+}
+.lineH {
+	CLEAR: both; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -15px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 670px; HEIGHT: 2px
+}
+.lineH_narrow {
+	CLEAR: both; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -285px -86px; FLOAT: left; MARGIN: 7px 0px; OVERFLOW: hidden; WIDTH: 370px; HEIGHT: 2px
+}
+.border_two {
+	BORDER-RIGHT: #aacbe4 1px solid; BORDER-LEFT: #aacbe4 1px solid
+}
+.li_tips {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -293px
+}
+.li_mobile {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -353px
+}
+.li_ling {
+	FONT-WEIGHT: normal; BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -414px
+}
+.li_suo {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -475px
+}
+.li_disc {
+	LIST-STYLE-POSITION: inside; LIST-STYLE-TYPE: disc
+}
+.li_squa {
+	LIST-STYLE-POSITION: inside; LIST-STYLE-TYPE: square
+}
+.li_square {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_square.png) no-repeat 3px 50%
+}
+.li_warn1 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -532px
+}
+.li_warn2 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -632px
+}
+.li_warn3 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -732px
+}
+.li_warn4 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -832px
+}
+.li_tanhao {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -938px
+}
+.li_right {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -122px
+}
+.li_right_gray {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -1030px
+}
+.li_wrong {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat -8px -254px
+}
+.li_ing {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/icon_loading.gif) no-repeat 5px 50%
+}
+.li_question {
+	PADDING-LEFT: 20px; BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat -10px -1368px
+}
+.textright {
+	PADDING-LEFT: 30px; TEXT-ALIGN: left
+}
+.point {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 35px; FONT-SIZE: 14px; PADDING-BOTTOM: 10px; MARGIN-LEFT: 40px; PADDING-TOP: 8px
+}
+.li_suoB {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 8px 5px
+}
+.li_bi {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 7px -44px
+}
+.li_tool {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 7px -95px
+}
+.li_toolB {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 7px -145px
+}
+.li_fride {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 8px -294px
+}
+.li_back {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 8px -337px
+}
+.li_dun {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 8px -195px
+}
+.li_book {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 9px -246px
+}
+.ico_find {
+	PADDING-LEFT: 43px
+}
+.icon_pw {
+	PADDING-LEFT: 43px
+}
+.icon_money {
+	PADDING-LEFT: 43px
+}
+.icon_laji {
+	PADDING-LEFT: 43px
+}
+.icon_frind {
+	PADDING-LEFT: 43px
+}
+.ico_game {
+	PADDING-LEFT: 43px
+}
+.ico_num {
+	PADDING-LEFT: 43px
+}
+.ico_find {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/icon_bg.png) no-repeat 2px 4px
+}
+.icon_pw {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/icon_bg.png) no-repeat 2px -197px
+}
+.icon_money {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/icon_bg.png) no-repeat 2px -397px
+}
+.icon_laji {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/icon_bg.png) no-repeat 2px -597px
+}
+.icon_frind {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/icon_bg.png) no-repeat 2px -797px
+}
+.ico_game {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/icon_bg.png) no-repeat 2px -997px
+}
+.ico_num {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/icon_bg.png) no-repeat 2px -1197px
+}
+.informat {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 10px; MARGIN: 0px auto; WIDTH: 563px; PADDING-TOP: 10px
+}
+#footer {
+	CLEAR: both; DISPLAY: block; PADDING-BOTTOM: 15px; MARGIN: 10px auto 0px; OVERFLOW: hidden; WIDTH: 910px; PADDING-TOP: 10px
+}
+.left {
+	FLOAT: left
+}
+.right {
+	FLOAT: right
+}
+.width_670 {
+	WIDTH: 670px
+}
+.width_230 {
+	WIDTH: 230px
+}
+#footer P {
+	FONT-SIZE: 12px; COLOR: #999; LINE-HEIGHT: 21px; TEXT-ALIGN: center
+}
+#footer A {
+	FONT-SIZE: 12px
+}
+#footer A:link {
+	COLOR: #999; TEXT-DECORATION: none
+}
+#footer A:visited {
+	COLOR: #999; TEXT-DECORATION: none
+}
+#footer A:hover {
+	COLOR: #f60; TEXT-DECORATION: underline
+}
+#footer A:active {
+	COLOR: #999
+}
+.p_t5 {
+	PADDING-TOP: 5px
+}
+.p_t10 {
+	PADDING-TOP: 10px
+}
+.p_t20 {
+	PADDING-TOP: 20px
+}
+.p_t30 {
+	PADDING-TOP: 30px
+}
+.p_t40 {
+	PADDING-TOP: 40px
+}
+.p_t50 {
+	PADDING-TOP: 50px
+}
+.p_t60 {
+	PADDING-TOP: 60px
+}
+.p_b5 {
+	PADDING-BOTTOM: 5px
+}
+.p_b10 {
+	PADDING-BOTTOM: 10px
+}
+.p_b20 {
+	PADDING-BOTTOM: 20px
+}
+.p_b30 {
+	PADDING-BOTTOM: 30px
+}
+.p_b40 {
+	PADDING-BOTTOM: 40px
+}
+.p_b50 {
+	PADDING-BOTTOM: 50px
+}
+.p_b60 {
+	PADDING-BOTTOM: 60px
+}
+.p_l5 {
+	PADDING-LEFT: 5px
+}
+.p_l10 {
+	PADDING-LEFT: 10px
+}
+.p_l20 {
+	PADDING-LEFT: 20px
+}
+.p_l25 {
+	PADDING-LEFT: 25px
+}
+.p_l30 {
+	PADDING-LEFT: 30px
+}
+.p_l40 {
+	PADDING-LEFT: 40px
+}
+.p_l50 {
+	PADDING-LEFT: 50px
+}
+.p_l60 {
+	PADDING-LEFT: 60px
+}
+.p_l80 {
+	PADDING-LEFT: 80px
+}
+.p_l160 {
+	PADDING-LEFT: 160px
+}
+.p_l170 {
+	PADDING-LEFT: 170px
+}
+.m_l5 {
+	MARGIN-LEFT: 5px
+}
+.m_l10 {
+	MARGIN-LEFT: 10px
+}
+.blank3 {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 3px
+}
+.blank5 {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 3px
+}
+.blank8 {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 3px
+}
+.blank10 {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 3px
+}
+.blank15 {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 3px
+}
+.blank20 {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 3px
+}
+.blank30 {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 3px
+}
+.blank40 {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 3px
+}
+.blank50 {
+	CLEAR: both; FONT-SIZE: 0px; OVERFLOW: hidden; LINE-HEIGHT: 0; HEIGHT: 3px
+}
+.blank5 {
+	HEIGHT: 5px
+}
+.blank8 {
+	HEIGHT: 8px
+}
+.blank10 {
+	HEIGHT: 10px
+}
+.blank15 {
+	HEIGHT: 15px
+}
+.blank20 {
+	HEIGHT: 20px
+}
+.blank30 {
+	HEIGHT: 30px
+}
+.blank40 {
+	HEIGHT: 40px
+}
+.blank50 {
+	HEIGHT: 50px
+}
+.font_family {
+	FONT-FAMILY: "新宋体"
+}
+.text_align_l {
+	TEXT-ALIGN: left
+}
+.text_align_c {
+	TEXT-ALIGN: center
+}
+.text_align_r {
+	TEXT-ALIGN: right
+}
+.text_indent_25 {
+	TEXT-INDENT: 25px
+}
+.iframe {
+	OVERFLOW: hidden; WIDTH: 910px
+}
+#iframe_all {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 910px; POSITION: relative
+}
+.iframe_all {
+	DISPLAY: block; PADDING-LEFT: 160px; POSITION: relative; TEXT-ALIGN: left
+}
+.iframe_setupgame {
+	DISPLAY: block; PADDING-LEFT: 220px; POSITION: relative; TEXT-ALIGN: left
+}
+.iframe_setupgame P {
+	CLEAR: both; WIDTH: 100%; PADDING-TOP: 8px
+}
+.setupgame_list DL {
+	CLEAR: both; DISPLAY: block; PADDING-LEFT: 25px; MARGIN: 9px 0px; OVERFLOW: hidden; WIDTH: 630px; LINE-HEIGHT: 22px
+}
+.setupgame_list DL.dl_no {
+	MARGIN: 0px
+}
+.setupgame_list DT {
+	PADDING-RIGHT: 10px; FLOAT: left
+}
+.setupgame_list DT.dt_r {
+	PADDING-RIGHT: 2px
+}
+.setupgame_list DT#select_main_btn1 {
+	PADDING-RIGHT: 2px
+}
+.setupgame_list DT#select_main_btn2 {
+	PADDING-RIGHT: 2px
+}
+
+@media Unknown    
+{
+.setupgame_list DT INPUT {
+	MARGIN-TOP: 2px
+}
+.setupgame_list DT INPUT {
+	MARGIN-TOP: 3px
+}
+    }
+.setupgame_list DD {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 26px; FONT-SIZE: 14px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 90px; PADDING-TOP: 0px
+}
+.setupgame_list DD.quick_see {
+	BACKGROUND-POSITION: -8px -1187px; FONT-SIZE: 12px; WIDTH: auto; COLOR: #999
+}
+.setupgame_list DD.quick_see A {
+	COLOR: #999
+}
+.setupgame_list DD.col {
+	PADDING-LEFT: 10px; WIDTH: auto
+}
+.setupgame_list DD.col2 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 26px; PADDING-BOTTOM: 0px; WIDTH: auto; PADDING-TOP: 0px
+}
+.setupgame_list DD.col3 {
+	DISPLAY: inline-block; FONT-SIZE: 12px; WIDTH: 600px; COLOR: #999
+}
+.setupgame_list DD.col3 A {
+	MARGIN-LEFT: 8px
+}
+.setupgame_list DD.col4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 26px; PADDING-BOTTOM: 0px; WIDTH: auto; PADDING-TOP: 0px
+}
+.setupgame_list DD.col5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: auto; PADDING-TOP: 0px
+}
+.setupgame_list DD UL {
+	PADDING-LEFT: 25px; FLOAT: left; WIDTH: 550px
+}
+.setupgame_list DD UL.ul_none {
+	PADDING-LEFT: 0px
+}
+.setupgame_list DD UL LI {
+	FONT-SIZE: 12px; FLOAT: left; WIDTH: 79px; COLOR: #999
+}
+.setupgame_list DD UL LI.more {
+	WIDTH: 40px
+}
+.setupgame_list .but {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 17px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.setupgame_list .but INPUT {
+	MARGIN-RIGHT: 8px
+}
+.setupgame_but {
+	WIDTH: 100%; PADDING-TOP: 40px
+}
+.setupgame_but INPUT {
+	MARGIN-RIGHT: 8px
+}
+.content_title_tip {
+	PADDING-RIGHT: 0px; BORDER-TOP: #aacbe4 1px solid; DISPLAY: block; PADDING-LEFT: 135px; BACKGROUND: #fffee1; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-TOP: 9px; BORDER-BOTTOM: #aacbe4 1px solid; POSITION: relative; HEIGHT: 27px; TEXT-ALIGN: left
+}
+.content_title_tip .import {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LEFT: 110px; PADDING-BOTTOM: 0px; WIDTH: 18px; PADDING-TOP: 0px; TOP: 8px; HEIGHT: 18px
+}
+.all_tip {
+	BORDER-RIGHT: #fc9 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #fc9 1px solid; PADDING-LEFT: 25px; Z-INDEX: 9999; BACKGROUND: #ffffde; LEFT: 370px; PADDING-BOTTOM: 10px; BORDER-LEFT: #fc9 1px solid; WIDTH: auto! important; PADDING-TOP: 10px; BORDER-BOTTOM: #fc9 1px solid; POSITION: absolute; TOP: 250px; TEXT-ALIGN: left; min-width: 130px
+}
+.all_tip .import {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LEFT: 1px; PADDING-BOTTOM: 0px; WIDTH: 18px; PADDING-TOP: 0px; POSITION: absolute; TOP: 6px; HEIGHT: 18px
+}
+.all_tip .pointer {
+	BACKGROUND-POSITION: left top; LEFT: 85px; WIDTH: 13px; POSITION: absolute; TOP: -7px; HEIGHT: 7px
+}
+A.close {
+	BACKGROUND-POSITION: -50px top; RIGHT: 5px; WIDTH: 8px; POSITION: absolute; TOP: 5px; HEIGHT: 8px
+}
+.menu_faq {
+	RIGHT: 20px; POSITION: absolute; TOP: 0px
+}
+.menu_faq A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN-LEFT: 15px; WIDTH: auto; PADDING-TOP: 0px
+}
+.menu_faq .li_help {
+	MARGIN: 6px 5px 0px 0px
+}
+.menu_faq .li_lore {
+	MARGIN: 6px 5px 0px 0px
+}
+.game_egis {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 220px; PADDING-BOTTOM: 0px; COLOR: #000; PADDING-TOP: 25px
+}
+.game_egis P.h3_title {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.game_egis P {
+	LINE-HEIGHT: 18px
+}
+.game_egis P.set_but {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 30px
+}
+.show_pic_tabs {
+	FLOAT: left; PADDING-BOTTOM: 4px; WIDTH: 100%
+}
+.show_pic_tabs LI {
+	BORDER-RIGHT: #accce5 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #accce5 1px solid; PADDING-LEFT: 1px; FLOAT: left; PADDING-BOTTOM: 1px; BORDER-LEFT: #accce5 1px solid; WIDTH: 75px; CURSOR: pointer; MARGIN-RIGHT: 4px; PADDING-TOP: 1px; BORDER-BOTTOM: #accce5 1px solid; HEIGHT: 45px
+}
+.show_pic_tabs LI IMG {
+	VERTICAL-ALIGN: top; WIDTH: 75px; HEIGHT: 45px
+}
+.show_pic_tabs LI.show_pic {
+	BORDER-RIGHT: #2c81fe 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #2c81fe 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #2c81fe 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #2c81fe 1px solid
+}
+.show_pic_content IMG {
+	BORDER-RIGHT: #accce5 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #accce5 1px solid; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #accce5 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #accce5 1px solid
+}
+.step_title {
+	PADDING-LEFT: 25px; FONT-SIZE: 12px; MARGIN: 0px auto; WIDTH: 540px; FONT-FAMILY: "宋体"; POSITION: relative
+}
+.step_title .import {
+	LEFT: 0px; TOP: -3px
+}
+.ipt_text_none {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; BACKGROUND: #fff; BORDER-LEFT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid
+}
+#frameset_bg_border .frameset_bg_border {
+	BORDER-RIGHT: #b7c8d2 1px solid; BORDER-TOP: #b7c8d2 1px solid; BACKGROUND: #f1fbfd; BORDER-LEFT: #b7c8d2 1px solid; WIDTH: 620px; BORDER-BOTTOM: #b7c8d2 1px solid
+}
+#frameset_bg_border .frameset_bg_border BLOCKQUOTE {
+	FLOAT: left; WIDTH: 150px; MARGIN-RIGHT: 2px; TEXT-ALIGN: right
+}
+#frameset_bg_border .frameset_bg_border P {
+	MARGIN-LEFT: 152px
+}
+#frameset_bg_border .frameset_bg_border1 BLOCKQUOTE {
+	FLOAT: left; WIDTH: 150px; MARGIN-RIGHT: 2px; TEXT-ALIGN: right
+}
+#frameset_bg_border .frameset_bg_border1 P {
+	MARGIN-LEFT: 152px
+}
+.about_tool_1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 35px; PADDING-BOTTOM: 7px; PADDING-TOP: 5px
+}
+.about_word_egis {
+	PADDING-LEFT: 60px; LINE-HEIGHT: 20px; TEXT-ALIGN: left
+}
+.about_word_egis H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.about_word_egis P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 25px; PADDING-TOP: 0px
+}
+.about_word_pic {
+	LINE-HEIGHT: 20px
+}
+.about_word_pic P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.about_word_pic IMG {
+	BORDER-RIGHT: #accce5 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #accce5 1px solid; MARGIN-TOP: 5px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; VERTICAL-ALIGN: top; BORDER-LEFT: #accce5 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #accce5 1px solid; TEXT-ALIGN: left
+}
+.qdot_egis_text {
+	CLEAR: both; PADDING-LEFT: 217px; OVERFLOW: hidden; WIDTH: 580px; LINE-HEIGHT: 20px
+}
+.qdot_egis_text P {
+	COLOR: #999
+}
+.qdot_egis_text P.black {
+	COLOR: #000
+}
+.qdot_egis_text P INPUT {
+	MARGIN-RIGHT: 8px
+}
+.qdot_egis_text1 {
+	CLEAR: both; WIDTH: 580px; COLOR: #999
+}
+.qdot_egis_cont {
+	PADDING-LEFT: 55px; FLOAT: left; WIDTH: 600px
+}
+.qdot_egis_cont .consume_validate {
+	FLOAT: left; WIDTH: 150px
+}
+.qdot_egis_cont .consume_validate .consume_validate_list {
+	BORDER-RIGHT: #9cc 1px solid; BORDER-TOP: #9cc 1px solid; OVERFLOW-Y: scroll; FLOAT: left; OVERFLOW: hidden; BORDER-LEFT: #9cc 1px solid; WIDTH: 150px; BORDER-BOTTOM: #9cc 1px solid; HEIGHT: 164px
+}
+.qdot_egis_cont .consume_validate .consume_validate_list LI {
+	FLOAT: left; MARGIN: 1px 0px 0px; LINE-HEIGHT: 22px
+}
+.qdot_egis_cont .consume_validate .consume_validate_list LI I {
+	FLOAT: left; WIDTH: 20px; HEIGHT: 20px
+}
+.qdot_egis_cont .consume_validate .consume_validate_list LI A {
+	PADDING-LEFT: 5px; FLOAT: left; WIDTH: 128px; COLOR: #333; LINE-HEIGHT: 22px
+}
+.qdot_egis_cont .consume_validate .consume_validate_list LI A:hover {
+	BACKGROUND: #316ac5; COLOR: #fff; TEXT-DECORATION: none
+}
+.qdot_egis_cont .consume_validate .consume_validate_list LI A:active {
+	BACKGROUND: #316ac5; COLOR: #fff; TEXT-DECORATION: none
+}
+.qdot_egis_cont .consume_validate .consume_validate_list LI.on A {
+	BACKGROUND: #316ac5; COLOR: #fff; TEXT-DECORATION: none
+}
+.qdot_egis_cont .consume_unvalidate {
+	COLOR: #999
+}
+.qdot_egis_cont .consume_validate_button {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 25px; FLOAT: left
+}
+.li_y1 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y2 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y3 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y4 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y5 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y6 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y7 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y8 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y9 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y10 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y11 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y12 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y13 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y14 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y15 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y16 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y17 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y18 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y19 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y20 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y21 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y22 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y23 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y24 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y25 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y26 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y27 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y28 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y29 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y30 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y31 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y32 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y33 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y34 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y35 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y36 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n1 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n2 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n3 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n4 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n5 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n6 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n7 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n8 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n9 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n10 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n11 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n12 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n13 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n14 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n15 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n16 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n17 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n18 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n19 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n20 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n21 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n22 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n23 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n24 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n25 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n26 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n27 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n28 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n29 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n30 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n31 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n32 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n33 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n34 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n35 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_n36 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/list_setupgame.png) no-repeat
+}
+.li_y1 {
+	BACKGROUND-POSITION: -5px -348px
+}
+.li_n1 {
+	BACKGROUND-POSITION: -280px -348px
+}
+.li_y2 {
+	BACKGROUND-POSITION: -5px -198px
+}
+.li_n2 {
+	BACKGROUND-POSITION: -280px -198px
+}
+.li_y3 {
+	BACKGROUND-POSITION: -5px -48px
+}
+.li_n3 {
+	BACKGROUND-POSITION: -280px -48px
+}
+.li_y4 {
+	BACKGROUND-POSITION: -5px -398px
+}
+.li_n4 {
+	BACKGROUND-POSITION: -280px -398px
+}
+.li_y5 {
+	BACKGROUND-POSITION: -5px -298px
+}
+.li_n5 {
+	BACKGROUND-POSITION: -280px -298px
+}
+.li_y6 {
+	BACKGROUND-POSITION: -5px -248px
+}
+.li_n6 {
+	BACKGROUND-POSITION: -280px -248px
+}
+.li_y7 {
+	BACKGROUND-POSITION: -5px -498px
+}
+.li_n7 {
+	BACKGROUND-POSITION: -280px -498px
+}
+.li_y8 {
+	BACKGROUND-POSITION: -5px -548px
+}
+.li_n8 {
+	BACKGROUND-POSITION: -5px -548px
+}
+.li_y9 {
+	BACKGROUND-POSITION: -5px -598px
+}
+.li_n9 {
+	BACKGROUND-POSITION: -280px -598px
+}
+.li_y10 {
+	BACKGROUND-POSITION: -5px -648px
+}
+.li_n10 {
+	BACKGROUND-POSITION: -280px -648px
+}
+.li_y11 {
+	BACKGROUND-POSITION: -5px -697px
+}
+.li_n11 {
+	BACKGROUND-POSITION: -280px -697px
+}
+.li_y12 {
+	BACKGROUND-POSITION: -5px -748px
+}
+.li_n12 {
+	BACKGROUND-POSITION: -280px -748px
+}
+.li_y13 {
+	BACKGROUND-POSITION: -5px -800px
+}
+.li_n13 {
+	BACKGROUND-POSITION: -280px -800px
+}
+.li_y14 {
+	BACKGROUND-POSITION: -5px -97px
+}
+.li_n14 {
+	BACKGROUND-POSITION: -280px -97px
+}
+.li_y15 {
+	BACKGROUND-POSITION: -5px -848px
+}
+.li_n15 {
+	BACKGROUND-POSITION: -280px -848px
+}
+.li_y16 {
+	BACKGROUND-POSITION: -5px -899px
+}
+.li_n16 {
+	BACKGROUND-POSITION: -280px -899px
+}
+.li_y17 {
+	BACKGROUND-POSITION: -5px -949px
+}
+.li_n17 {
+	BACKGROUND-POSITION: -280px -949px
+}
+.li_y18 {
+	BACKGROUND-POSITION: -5px -1050px
+}
+.li_n18 {
+	BACKGROUND-POSITION: -280px -1050px
+}
+.li_y19 {
+	BACKGROUND-POSITION: -5px -998px
+}
+.li_n19 {
+	BACKGROUND-POSITION: -280px -998px
+}
+.li_y20 {
+	BACKGROUND-POSITION: -5px -1100px
+}
+.li_n20 {
+	BACKGROUND-POSITION: -280px -1100px
+}
+.li_y21 {
+	BACKGROUND-POSITION: -5px -1148px
+}
+.li_n21 {
+	BACKGROUND-POSITION: -280px -1148px
+}
+.li_y22 {
+	BACKGROUND-POSITION: -5px -1246px
+}
+.li_n22 {
+	BACKGROUND-POSITION: -280px -1246px
+}
+.li_y23 {
+	BACKGROUND-POSITION: -5px -1293px
+}
+.li_n23 {
+	BACKGROUND-POSITION: -280px -1293px
+}
+.li_y24 {
+	BACKGROUND-POSITION: -5px -1342px
+}
+.li_n24 {
+	BACKGROUND-POSITION: -280px -1342px
+}
+.li_y25 {
+	BACKGROUND-POSITION: -5px -1388px
+}
+.li_n25 {
+	BACKGROUND-POSITION: -280px -1388px
+}
+.li_y26 {
+	BACKGROUND-POSITION: -5px -1440px
+}
+.li_n26 {
+	BACKGROUND-POSITION: -280px -1440px
+}
+.li_y27 {
+	BACKGROUND-POSITION: -5px -1488px
+}
+.li_n27 {
+	BACKGROUND-POSITION: -280px -1488px
+}
+.li_y28 {
+	BACKGROUND-POSITION: -5px -1534px
+}
+.li_n28 {
+	BACKGROUND-POSITION: -280px -1534px
+}
+.li_y29 {
+	BACKGROUND-POSITION: -5px -1198px
+}
+.li_n29 {
+	BACKGROUND-POSITION: -280px -1198px
+}
+.li_y30 {
+	BACKGROUND-POSITION: -5px -1198px
+}
+.li_n30 {
+	BACKGROUND-POSITION: -280px -1198px
+}
+.li_y31 {
+	BACKGROUND-POSITION: -5px -1587px
+}
+.li_n31 {
+	BACKGROUND-POSITION: -280px -1587px
+}
+.li_y32 {
+	BACKGROUND-POSITION: -5px -1636px
+}
+.li_n32 {
+	BACKGROUND-POSITION: -280px -1636px
+}
+.li_y33 {
+	BACKGROUND-POSITION: -5px -1684px
+}
+.li_n33 {
+	BACKGROUND-POSITION: -280px -1684px
+}
+.li_y34 {
+	BACKGROUND-POSITION: -5px -1733px
+}
+.li_n34 {
+	BACKGROUND-POSITION: -280px -1733px
+}
+.li_y35 {
+	BACKGROUND-POSITION: -5px -1781px
+}
+.li_n35 {
+	BACKGROUND-POSITION: -280px -1781px
+}
+.li_y36 {
+	BACKGROUND-POSITION: -5px -1831px
+}
+.li_n36 {
+	BACKGROUND-POSITION: -280px -1831px
+}
+.pointer {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/share_icon.png) no-repeat
+}
+.close {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/share_icon.png) no-repeat
+}
+.plus {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/share_icon.png) no-repeat
+}
+.li_help {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/share_icon.png) no-repeat
+}
+.li_lore {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/share_icon.png) no-repeat
+}
+.ico_pw {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/share_icon.png) no-repeat
+}
+.ico_moeny {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/share_icon.png) no-repeat
+}
+.ico_laji {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/share_icon.png) no-repeat
+}
+.about_word_star_all {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/share_icon.png) no-repeat
+}
+.li_qqshow {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/share_icon.png) no-repeat
+}
+.plus {
+	BACKGROUND-POSITION: -80px top; FLOAT: left; MARGIN: 7px 5px 0px 0px; WIDTH: 14px; CURSOR: pointer; HEIGHT: 14px
+}
+.li_help {
+	BACKGROUND-POSITION: left -32px; FLOAT: left; WIDTH: 16px; HEIGHT: 16px
+}
+.li_lore {
+	BACKGROUND-POSITION: -80px -32px; FLOAT: left; WIDTH: 20px; HEIGHT: 20px
+}
+.ico_pw {
+	BACKGROUND-POSITION: left -93px
+}
+.ico_moeny {
+	BACKGROUND-POSITION: left -193px
+}
+.ico_laji {
+	BACKGROUND-POSITION: left -293px
+}
+.li_qqshow {
+	BACKGROUND-POSITION: -284px -30px
+}
+.floatdiv {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; LEFT: 182px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: move; PADDING-TOP: 0px; POSITION: absolute; TOP: 24px; TEXT-ALIGN: left
+}
+.rf_u {
+	BACKGROUND: url(../../htdocs/newreg/images/safe_flow.png) no-repeat -240px -93px
+}
+.rl_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rl_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rm_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rm_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rr_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rr_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rs_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rs_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.r3_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rf_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rf_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.floatdiv H3 {
+	PADDING-LEFT: 10px
+}
+.rf_d {
+	BACKGROUND: url(../../htdocs/newreg/images/safe_flow.png) no-repeat -240px -96px
+}
+.rl_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rl_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rm_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rm_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rr_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rr_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rs_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rs_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.r3_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rf_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rf_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.floatdiv H3 {
+	BORDER-RIGHT: #aacbe4 1px solid; PADDING-LEFT: 10px; BACKGROUND: url(../../htdocs/newreg/images/repeat_x.png) 0px -30px; BORDER-LEFT: #aacbe4 1px solid; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+.floatdiv H3 SPAN {
+	FLOAT: right; WIDTH: 20px; HEIGHT: 23px
+}
+.side_490 {
+	BORDER-RIGHT: #abcbe4 1px solid; PADDING-BOTTOM: 10px; BORDER-LEFT: #abcbe4 1px solid; WIDTH: 488px
+}
+.about_word_success {
+	BACKGROUND: url(../../htdocs/newreg/images/tips_success.png) no-repeat 12px 5px
+}
+.about_word {
+	PADDING-LEFT: 60px; LINE-HEIGHT: 23px; TEXT-ALIGN: left
+}
+.about_btn {
+	PADDING-LEFT: 60px; LINE-HEIGHT: 23px; TEXT-ALIGN: left
+}
+.about_btn {
+	PADDING-TOP: 30px
+}
+.about_word {
+	PADDING-LEFT: 60px; LINE-HEIGHT: 23px; TEXT-ALIGN: left
+}
+.about_btn {
+	PADDING-LEFT: 60px; LINE-HEIGHT: 23px; TEXT-ALIGN: left
+}
+.tipscont {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.tipscont P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 63px; PADDING-BOTTOM: 0px; PADDING-TOP: 8px
+}

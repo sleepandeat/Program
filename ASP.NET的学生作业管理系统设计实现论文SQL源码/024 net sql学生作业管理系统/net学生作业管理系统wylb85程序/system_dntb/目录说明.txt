@@ -1,0 +1,16 @@
+DotNetTextBox系统目录说明(请不要修改此里的任何结构)
+
+Lexers/ (CodeHighlighter插件需要用到的配置文件,可删除,但代码高亮功能将不能正常工作)
+
+OutliningIndicators/ (CodeHighlighter插件需要用到的图像文件,可删除,但代码高亮功能将不能正常工作)
+
+img/ (控件功能块用到的图像文件，不能删除)
+
+en-us/、en-uk/、en/、zh-cn/、zh-tw/ (控件需要用到的语言文件，不能删除)
+
+skin/ (控件皮肤文件，不能删除)
+
+menuconfig/ (控件用到的菜单配置文件，不能删除)
+
+uploadconfig/ (控件用到的上传配置文件，不能删除)
+

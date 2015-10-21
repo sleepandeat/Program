@@ -1,0 +1,240 @@
+// JavaScript Document
+function toggle(targetid){
+	var target=document.getElementById(targetid);
+	target.style.display ="block";
+}
+
+function untoggle(targetid){
+	var target=document.getElementById(targetid);
+	target.style.display ="none";
+}
+
+function senfe_code(id){
+	var rs = document.getElementsByName("contact");  
+	for(var i=1;i<rs.length+1;i++)
+		document.getElementById("senfe_"+i).style.display="none";
+	document.getElementById(id).style.display="block";
+}
+
+function disabledSubmit(id)
+{
+	var ctrl = document.getElementById(id);
+	if (ctrl != null)
+	{
+		ctrl.disabled = true;
+	}
+	return false;
+}
+
+function nchangeImg(id1, id2)
+{
+	var img = document.getElementById(id1);
+	img.src = "/cn/get_img/get_image?aid=2000401&" + Math.random();
+	var ctrl = document.getElementById(id2);
+	if (ctrl != null)
+	{
+		ctrl.focus();
+	}
+}
+
+function trimStr(stringToTrim)
+{
+	return stringToTrim.replace(/^\s+|\s+$/g,"");
+}
+
+function setCookie(name, value)
+{
+	var argv = setCookie.arguments;
+	var argc = setCookie.arguments.length;
+	var expires = (argc > 2) ? argv[2] : null;
+	if(expires!=null)
+	{
+		var LargeExpDate = new Date ();
+		LargeExpDate.setTime(LargeExpDate.getTime() + (expires*1000*3600*24));
+	} 
+	document.cookie = name + "=" + escape (value)+((expires == null) ? "" : ("; expires=" +LargeExpDate.toGMTString()));
+	//Set-Cookie: clientkey=; EXPIRES=Fri, 02-Jan-1970 00:00:00 GMT; PATH=/; DOMAIN=
+}
+function setCookieExpire(name, value)
+{
+	var argv = setCookieExpire.arguments;
+	var argc = setCookieExpire.arguments.length;
+	var expires = (argc > 2) ? argv[2] : null;
+	if(expires!=null)
+	{
+		var LargeExpDate = expires;
+	} 
+	document.cookie = name + "=" + escape (value)+((expires == null) ? "" : ("; expires=" +LargeExpDate.toGMTString()));
+	//Set-Cookie: clientkey=; EXPIRES=Fri, 02-Jan-1970 00:00:00 GMT; PATH=/; DOMAIN=
+}
+
+function deleteCookie(name)
+{
+	var expdate = new Date();
+	expdate.setTime(0);
+	setCookie(name, "", expdate);
+}
+
+
+function getCookie(Name)
+{ 
+	var search = Name + "=";
+    if(document.cookie.length > 0)
+	{ 
+		offset = document.cookie.indexOf(search)
+		if(offset != -1)
+        {
+			offset += search.length
+			end = document.cookie.indexOf(";", offset)
+			 if(end == -1) end = document.cookie.length
+             return unescape(document.cookie.substring(offset, end))
+        }
+        else 
+			return "";
+	}
+}
+
+function playcue(ctrl_id,cue_word,cue_css)
+{
+	var tagname = "#"+ctrl_id
+	$(tagname).blur(function()
+		{
+			if($(tagname).val()=="")
+			{
+				$(tagname).val(cue_word);
+				$(tagname).css(cue_css);
+			}
+		})
+	$(tagname).focus(function()
+			{
+				if($(tagname).val()==cue_word)
+				{
+					$(tagname).val("");
+				}
+				$(tagname).css({color:"black"});
+			})
+
+}
+function focusTail(id){
+	var esrc = document.getElementById(id);
+	if (null == esrc) return;
+	try{
+		var rtextRange =esrc.createTextRange();
+		rtextRange.moveStart('character',esrc.value.length);
+		rtextRange.collapse(true);
+		rtextRange.select();
+	}catch(e){esrc.focus()}
+}
+function closeFullDiv(id){
+	var mybg=document.getElementById(id);
+	if (mybg == null) return;
+	
+	mybg.style.display="none";
+	document.body.removeChild(mybg);
+}
+function showFullDiv(id){
+	closeFullDiv(id);
+	
+	var fullDiv = document.createElement('div');
+	fullDiv.setAttribute("id", id);
+	fullDiv.className = "full_div";
+	document.body.appendChild(fullDiv);
+}
+Function.prototype.inherit = function(baseClass) {
+	for (var p in baseClass.prototype) {
+		this.prototype[p] = baseClass.prototype[p];
+	}
+}
+
+var agIsHttp = false;
+var agPGVInit = false;
+function pgvInit() {
+	if (!agPGVInit) {
+		agPGVInit = true;
+		if ("https:" != window.location.protocol) {		
+			agIsHttp = true;
+			var script = document.createElement("SCRIPT");
+			script.language = "javascript";
+			script.src = "http://pingjs.qq.com/ping.js";
+			document.body.appendChild(script);
+			var pgvInter = window.setInterval(function() {
+					if(typeof(pgvMain) == 'function') {
+					if((window.location == "http://aq.qq.com/cn/services/abnormal/abnormal_index")||(window.location == "http://aq.qq.com/cn/index"))
+					{
+					    pgvMain("pathtrace", {pathStart: true, tagParamName: "ADTAG", useRefUrl: true, override: true, careSameDomainRef: false});
+					}
+					else
+					{
+					    pgvMain("pathtrace", {pathStart: false, tagParamName: "ADTAG", useRefUrl: true, override: true, careSameDomainRef: false});
+					}
+					window.clearInterval(pgvInter);
+					}
+				}, 100);
+		}
+
+	}
+}
+
+var agHotItemsCache = new Array();
+
+function __addHotListener(hotName, objId) {
+	if (typeof(hotName) == "string" && hotName.length > 0) {
+		if (typeof(objId) == "string" && objId.length > 0) {
+			$("#" + objId).click(function () { 
+				pgvSendClick({hottag:hotName}); 
+			});
+		}
+		else {
+			pgvSendClick({hottag:hotName});
+		}
+	}
+}
+
+function addHotListener(hotName, objId) {
+	if (agPGVInit) {		//document already
+		if (agIsHttp) {
+			for (var item in agHotItemsCache) {
+				__addHotListener(agHotItemsCache[item].hotName, agHotItemsCache[item].objId);
+			}
+			__addHotListener(hotName, objId);
+		}
+		agHotItemsCache = new Array();
+	}
+	else if (hotName) {
+		agHotItemsCache[agHotItemsCache.length] = {hotName:hotName, objId: (objId ? objId: "")};
+	}
+}
+
+function sendHotClick(hotName) {
+    if (agPGVInit) {
+        if (agIsHttp) {
+            pgvSendClick({hottag:hotName});
+        }       
+    }
+}
+
+//patin add st
+function xpingInit() {
+		if ("https:" != window.location.protocol) {		
+		    var rdm_num=Math.floor(Math.random()*1000);
+            if(rdm_num%10==5)//mod 5 only 10% load this js
+			{
+			    var script = document.createElement("SCRIPT");
+			    script.language = "javascript";
+			    script.src = "/htdocs/js/aq_xping.js";
+			    document.body.appendChild(script);
+			}
+		}
+}
+//patin add ed
+
+
+$(document).ready(function () {
+        xpingInit();
+		pgvInit();
+		addHotListener();		//use as a triggle
+		});
+
+my_version=unescape("version1.0.0");
+
+

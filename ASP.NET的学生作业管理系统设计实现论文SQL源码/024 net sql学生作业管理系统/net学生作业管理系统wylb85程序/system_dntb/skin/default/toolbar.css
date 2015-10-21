@@ -1,0 +1,10 @@
+﻿.editor_select {FONT: 9pt Verdana,Arial}
+.outcolor{border:1px double;border-color:#dddddd #dddddd #dddddd #dddddd;cursor:pointer;background:#efefef}
+.overcolor{border:1px double;border-color:#ffffff #999999 #999999 #ffffff;cursor:pointer;background:#dddddd}
+.clickcolor{border:1px double;border-color:#999999 #ffffff #ffffff #999999;cursor:pointer;background:#dddddd}
+.editor_switcher_highlight {
+ BACKGROUND:#EFEFEF; MARGIN-LEFT: 2px; VERTICAL-ALIGN:top; BORDER:#CCCCCC 1px solid;BORDER-TOP: none; TOP: 0px
+}
+.editor_switcher_nohighlight {
+ BACKGROUND: #FFFFFF; MARGIN-LEFT: 2px; VERTICAL-ALIGN: top;BORDER: #CCCCCC 1px solid; BORDER-TOP: none; TOP: 0px
+}

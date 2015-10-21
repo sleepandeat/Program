@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ASSModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+  <EntityContainer Name="ASSModelStoreContainer">
+    <EntitySet Name="Assignments" EntityType="ASSModel.Store.Assignments" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Classes" EntityType="ASSModel.Store.Classes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Courses" EntityType="ASSModel.Store.Courses" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SetCourses" EntityType="ASSModel.Store.SetCourses" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Students" EntityType="ASSModel.Store.Students" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="sysdiagrams" EntityType="ASSModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Teachers" EntityType="ASSModel.Store.Teachers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UpAssignments" EntityType="ASSModel.Store.UpAssignments" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Assignments">
+    <Key>
+      <PropertyRef Name="AssID" />
+    </Key>
+    <Property Name="AssID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AssName" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="AssDes" Type="nvarchar" MaxLength="500" />
+    <Property Name="SCID" Type="int" Nullable="false" />
+    <Property Name="Deadline" Type="datetime" Nullable="false" />
+    <Property Name="QuesFileName" Type="nvarchar" MaxLength="500" />
+    <Property Name="QuesFileUrl" Type="nvarchar" Nullable="false" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="Classes">
+    <Key>
+      <PropertyRef Name="ClassID" />
+    </Key>
+    <Property Name="ClassID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ClassName" Type="nchar" Nullable="false" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Courses">
+    <Key>
+      <PropertyRef Name="CourseID" />
+    </Key>
+    <Property Name="CourseID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CourseName" Type="nvarchar" Nullable="false" MaxLength="16" />
+    <Property Name="CourseDes" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="SetCourses">
+    <Key>
+      <PropertyRef Name="SCID" />
+    </Key>
+    <Property Name="SCID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="CourseID" Type="int" Nullable="false" />
+    <Property Name="TeaID" Type="int" Nullable="false" />
+    <Property Name="ClassID" Type="int" Nullable="false" />
+    <Property Name="Semester" Type="varchar" Nullable="false" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="StuID" />
+    </Key>
+    <Property Name="StuID" Type="int" Nullable="false" />
+    <Property Name="StuName" Type="nvarchar" Nullable="false" MaxLength="5" />
+    <Property Name="Pswd" Type="char" Nullable="false" MaxLength="50" />
+    <Property Name="ClassID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Teachers">
+    <Key>
+      <PropertyRef Name="TeaID" />
+    </Key>
+    <Property Name="TeaID" Type="int" Nullable="false" />
+    <Property Name="TeaName" Type="nvarchar" Nullable="false" MaxLength="5" />
+    <Property Name="Pswd" Type="char" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="UpAssignments">
+    <Key>
+      <PropertyRef Name="UpAssID" />
+    </Key>
+    <Property Name="UpAssID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="AssID" Type="int" Nullable="false" />
+    <Property Name="StuID" Type="int" Nullable="false" />
+    <Property Name="FileName" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="FileUrl" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Marks" Type="int" />
+    <Property Name="Result" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <Function Name="GETHOUSEWORKDONE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="StuID" Type="int" Mode="In" />
+    <Parameter Name="ClassID" Type="int" Mode="In" />
+    <Parameter Name="Semester" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GETHOUSEWORKTODO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="StuID" Type="int" Mode="In" />
+    <Parameter Name="ClassID" Type="int" Mode="In" />
+    <Parameter Name="Semester" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GETHOUSEWORKTODOOT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="StuID" Type="int" Mode="In" />
+    <Parameter Name="ClassID" Type="int" Mode="In" />
+    <Parameter Name="Semester" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GETSTUWHOUSEWORK" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClassID" Type="int" Mode="In" />
+    <Parameter Name="Semester" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GETSTUWOHOUSEWORK" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ClassID" Type="int" Mode="In" />
+    <Parameter Name="Semester" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="GETSTUWOHOUSEWORKOT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="TeaID" Type="int" Mode="In" />
+    <Parameter Name="Semester" Type="varchar" Mode="In" />
+  </Function>
+</Schema>

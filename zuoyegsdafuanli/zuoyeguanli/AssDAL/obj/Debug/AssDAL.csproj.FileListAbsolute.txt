@@ -1,0 +1,12 @@
+E:\projs\ASS_Solutions\AssDAL\bin\Debug\AssDAL.dll.config
+E:\projs\ASS_Solutions\AssDAL\bin\Debug\AssDAL.dll
+E:\projs\ASS_Solutions\AssDAL\bin\Debug\AssDAL.pdb
+E:\projs\ASS_Solutions\AssDAL\obj\Debug\ResolveAssemblyReference.cache
+E:\projs\ASS_Solutions\AssDAL\obj\Debug\AssDAL.dll
+E:\projs\ASS_Solutions\AssDAL\obj\Debug\AssDAL.pdb
+C:\Users\张旻昊\Desktop\zuoyegsdafuanli\zuoyeguanli\AssDAL\bin\Debug\AssDAL.dll.config
+C:\Users\张旻昊\Desktop\zuoyegsdafuanli\zuoyeguanli\AssDAL\bin\Debug\AssDAL.dll
+C:\Users\张旻昊\Desktop\zuoyegsdafuanli\zuoyeguanli\AssDAL\bin\Debug\AssDAL.pdb
+C:\Users\张旻昊\Desktop\zuoyegsdafuanli\zuoyeguanli\AssDAL\obj\Debug\AssDAL.csprojResolveAssemblyReference.cache
+C:\Users\张旻昊\Desktop\zuoyegsdafuanli\zuoyeguanli\AssDAL\obj\Debug\AssDAL.dll
+C:\Users\张旻昊\Desktop\zuoyegsdafuanli\zuoyeguanli\AssDAL\obj\Debug\AssDAL.pdb

@@ -1,0 +1,6 @@
+G:\Code library\C#\shuixianhua\shuixianhua\bin\Debug\shuixianhua.exe.config
+G:\Code library\C#\shuixianhua\shuixianhua\bin\Debug\shuixianhua.exe
+G:\Code library\C#\shuixianhua\shuixianhua\bin\Debug\shuixianhua.pdb
+G:\Code library\C#\shuixianhua\shuixianhua\obj\Debug\way1.csprojResolveAssemblyReference.cache
+G:\Code library\C#\shuixianhua\shuixianhua\obj\Debug\shuixianhua.exe
+G:\Code library\C#\shuixianhua\shuixianhua\obj\Debug\shuixianhua.pdb

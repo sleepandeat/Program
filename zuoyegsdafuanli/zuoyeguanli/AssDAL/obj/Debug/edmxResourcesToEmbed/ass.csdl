@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ASSModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+  <EntityContainer Name="ASSEntities">
+    <FunctionImport Name="GETHOUSEWORKDONE" EntitySet="UpAssignments" ReturnType="Collection(Self.UpAssignments)">
+      <Parameter Name="StuID" Type="Int32" Mode="In" />
+      <Parameter Name="ClassID" Type="Int32" Mode="In" />
+      <Parameter Name="Semester" Type="String" Mode="In" />
+    </FunctionImport>
+    <FunctionImport Name="GETHOUSEWORKTODO" EntitySet="Assignments" ReturnType="Collection(Self.Assignments)">
+      <Parameter Name="StuID" Type="Int32" Mode="In" />
+      <Parameter Name="ClassID" Type="Int32" Mode="In" />
+      <Parameter Name="Semester" Type="String" Mode="In" />
+    </FunctionImport>
+    <FunctionImport Name="GETHOUSEWORKTODOOT" EntitySet="Assignments" ReturnType="Collection(Self.Assignments)">
+      <Parameter Name="StuID" Type="Int32" Mode="In" />
+      <Parameter Name="ClassID" Type="Int32" Mode="In" />
+      <Parameter Name="Semester" Type="String" Mode="In" />
+    </FunctionImport>
+    <FunctionImport Name="GETSTUWHOUSEWORK" EntitySet="UpAssignments" ReturnType="Collection(Self.UpAssignments)">
+      <Parameter Name="ClassID" Type="Int32" Mode="In" />
+      <Parameter Name="Semester" Type="String" Mode="In" />
+    </FunctionImport>
+    <FunctionImport Name="GETSTUWOHOUSEWORK" EntitySet="Students" ReturnType="Collection(Self.Students)">
+      <Parameter Name="ClassID" Type="Int32" Mode="In" />
+      <Parameter Name="Semester" Type="String" Mode="In" />
+    </FunctionImport>
+    <FunctionImport Name="GETSTUWOHOUSEWORKOT" EntitySet="Students" ReturnType="Collection(Self.Students)">
+      <Parameter Name="TeaID" Type="Int32" Mode="In" />
+      <Parameter Name="Semester" Type="String" Mode="In" />
+    </FunctionImport>
+    <EntitySet Name="Assignments" EntityType="ASSModel.Assignments" />
+    <EntitySet Name="Classes" EntityType="ASSModel.Classes" />
+    <EntitySet Name="Courses" EntityType="ASSModel.Courses" />
+    <EntitySet Name="SetCourses" EntityType="ASSModel.SetCourses" />
+    <EntitySet Name="Students" EntityType="ASSModel.Students" />
+    <EntitySet Name="Teachers" EntityType="ASSModel.Teachers" />
+    <EntitySet Name="UpAssignments" EntityType="ASSModel.UpAssignments" />
+    <AssociationSet Name="FK_Assignments_SetCourses" Association="ASSModel.FK_Assignments_SetCourses">
+      <End Role="SetCourses" EntitySet="SetCourses" />
+      <End Role="Assignments" EntitySet="Assignments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UpAssignments_Assignments" Association="ASSModel.FK_UpAssignments_Assignments">
+      <End Role="Assignments" EntitySet="Assignments" />
+      <End Role="UpAssignments" EntitySet="UpAssignments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SetCourses_Classes" Association="ASSModel.FK_SetCourses_Classes">
+      <End Role="Classes" EntitySet="Classes" />
+      <End Role="SetCourses" EntitySet="SetCourses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Students_Classes" Association="ASSModel.FK_Students_Classes">
+      <End Role="Classes" EntitySet="Classes" />
+      <End Role="Students" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SetCourses_Courses" Association="ASSModel.FK_SetCourses_Courses">
+      <End Role="Courses" EntitySet="Courses" />
+      <End Role="SetCourses" EntitySet="SetCourses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SetCourses_Teachers" Association="ASSModel.FK_SetCourses_Teachers">
+      <End Role="Teachers" EntitySet="Teachers" />
+      <End Role="SetCourses" EntitySet="SetCourses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UpAssignments_Students" Association="ASSModel.FK_UpAssignments_Students">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="UpAssignments" EntitySet="UpAssignments" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Assignments">
+    <Key>
+      <PropertyRef Name="AssID" />
+    </Key>
+    <Property Name="AssID" Type="Int32" Nullable="false" />
+    <Property Name="AssName" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="true" />
+    <Property Name="Deadline" Type="DateTime" Nullable="false" />
+    <Property Name="QuesFileUrl" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="SetCourses" Relationship="ASSModel.FK_Assignments_SetCourses" FromRole="Assignments" ToRole="SetCourses" />
+    <NavigationProperty Name="UpAssignments" Relationship="ASSModel.FK_UpAssignments_Assignments" FromRole="Assignments" ToRole="UpAssignments" />
+    <Property Name="AssDes" Type="String" Nullable="true" />
+    <Property Name="QuesFileName" Type="String" Nullable="true" />
+  </EntityType>
+  <EntityType Name="Classes">
+    <Key>
+      <PropertyRef Name="ClassID" />
+    </Key>
+    <Property Name="ClassID" Type="Int32" Nullable="false" />
+    <Property Name="ClassName" Type="String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="SetCourses" Relationship="ASSModel.FK_SetCourses_Classes" FromRole="Classes" ToRole="SetCourses" />
+    <NavigationProperty Name="Students" Relationship="ASSModel.FK_Students_Classes" FromRole="Classes" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="Courses">
+    <Key>
+      <PropertyRef Name="CourseID" />
+    </Key>
+    <Property Name="CourseID" Type="Int32" Nullable="false" />
+    <Property Name="CourseName" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="SetCourses" Relationship="ASSModel.FK_SetCourses_Courses" FromRole="Courses" ToRole="SetCourses" />
+    <Property Name="CourseDes" Type="String" Nullable="true" />
+  </EntityType>
+  <EntityType Name="SetCourses">
+    <Key>
+      <PropertyRef Name="SCID" />
+    </Key>
+    <Property Name="SCID" Type="Int32" Nullable="false" />
+    <Property Name="Semester" Type="String" Nullable="false" MaxLength="10" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="Assignments" Relationship="ASSModel.FK_Assignments_SetCourses" FromRole="SetCourses" ToRole="Assignments" />
+    <NavigationProperty Name="Classes" Relationship="ASSModel.FK_SetCourses_Classes" FromRole="SetCourses" ToRole="Classes" />
+    <NavigationProperty Name="Courses" Relationship="ASSModel.FK_SetCourses_Courses" FromRole="SetCourses" ToRole="Courses" />
+    <NavigationProperty Name="Teachers" Relationship="ASSModel.FK_SetCourses_Teachers" FromRole="SetCourses" ToRole="Teachers" />
+  </EntityType>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="StuID" />
+    </Key>
+    <Property Name="StuID" Type="Int32" Nullable="false" />
+    <Property Name="StuName" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Pswd" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="Classes" Relationship="ASSModel.FK_Students_Classes" FromRole="Students" ToRole="Classes" />
+    <NavigationProperty Name="UpAssignments" Relationship="ASSModel.FK_UpAssignments_Students" FromRole="Students" ToRole="UpAssignments" />
+  </EntityType>
+  <EntityType Name="Teachers">
+    <Key>
+      <PropertyRef Name="TeaID" />
+    </Key>
+    <Property Name="TeaID" Type="Int32" Nullable="false" />
+    <Property Name="TeaName" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Pswd" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="true" />
+    <NavigationProperty Name="SetCourses" Relationship="ASSModel.FK_SetCourses_Teachers" FromRole="Teachers" ToRole="SetCourses" />
+  </EntityType>
+  <EntityType Name="UpAssignments">
+    <Key>
+      <PropertyRef Name="UpAssID" />
+    </Key>
+    <Property Name="UpAssID" Type="Int32" Nullable="false" />
+    <Property Name="FileName" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="FileUrl" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Assignments" Relationship="ASSModel.FK_UpAssignments_Assignments" FromRole="UpAssignments" ToRole="Assignments" />
+    <NavigationProperty Name="Students" Relationship="ASSModel.FK_UpAssignments_Students" FromRole="UpAssignments" ToRole="Students" />
+    <Property Name="Result" Type="String" Nullable="true" />
+    <Property Name="Marks" Type="Int32" Nullable="true" />
+  </EntityType>
+  <Association Name="FK_Assignments_SetCourses">
+    <End Role="SetCourses" Type="ASSModel.SetCourses" Multiplicity="1" />
+    <End Role="Assignments" Type="ASSModel.Assignments" Multiplicity="*" />
+  </Association>
+  <Association Name="FK_UpAssignments_Assignments">
+    <End Role="Assignments" Type="ASSModel.Assignments" Multiplicity="1" />
+    <End Role="UpAssignments" Type="ASSModel.UpAssignments" Multiplicity="*" />
+  </Association>
+  <Association Name="FK_SetCourses_Classes">
+    <End Role="Classes" Type="ASSModel.Classes" Multiplicity="1" />
+    <End Role="SetCourses" Type="ASSModel.SetCourses" Multiplicity="*" />
+  </Association>
+  <Association Name="FK_Students_Classes">
+    <End Role="Classes" Type="ASSModel.Classes" Multiplicity="1" />
+    <End Role="Students" Type="ASSModel.Students" Multiplicity="*" />
+  </Association>
+  <Association Name="FK_SetCourses_Courses">
+    <End Role="Courses" Type="ASSModel.Courses" Multiplicity="1" />
+    <End Role="SetCourses" Type="ASSModel.SetCourses" Multiplicity="*" />
+  </Association>
+  <Association Name="FK_SetCourses_Teachers">
+    <End Role="Teachers" Type="ASSModel.Teachers" Multiplicity="1" />
+    <End Role="SetCourses" Type="ASSModel.SetCourses" Multiplicity="*" />
+  </Association>
+  <Association Name="FK_UpAssignments_Students">
+    <End Role="Students" Type="ASSModel.Students" Multiplicity="1" />
+    <End Role="UpAssignments" Type="ASSModel.UpAssignments" Multiplicity="0..1" />
+  </Association>
+</Schema>

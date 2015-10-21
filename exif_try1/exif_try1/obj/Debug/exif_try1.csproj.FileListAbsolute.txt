@@ -1,0 +1,2 @@
+G:\Code library\C#\exif_try1\exif_try1\bin\Debug\exif_try1.exe.config
+G:\Code library\C#\exif_try1\exif_try1\obj\Debug\exif_try1.csprojResolveAssemblyReference.cache

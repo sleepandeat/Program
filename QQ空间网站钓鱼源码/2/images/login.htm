@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<SCRIPT language="javascript">var g_begTime=new Date()</SCRIPT>
+<link href="login.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+u{text-decoration:none;}
+
+
+.main{
+
+
+background-color:#ffffff;
+
+
+
+}
+
+
+h1 {
+	color: #333333;
+}
+button {
+	color: #333333;
+}
+</style>
+<script language="javascript" src="comm.js"></script>
+
+
+<script language="javascript">
+//映射模板文件中的文字,第一列为字符串ID, 第二列为模板文件中的标签ID
+var g_labelMap = new Array([STR_UINTIP, "u"],
+						   [STR_UIN, "label_uin"],
+						   [STR_PWD, "label_pwd"],
+						   [STR_VCODE, "label_vcode"],
+						   [STR_VCODE_TIP, "label_vcode_tip"],
+						   [STR_CHANGE_VCODE, "changeimg_link"],
+						   [STR_REMEMBER_PWD, "label_remember_pwd"],
+						   [STR_FORGET_PWD, "label_forget_pwd"],
+						   [STR_LOGIN, "login_button"],
+						   [STR_SWITCH_QLOGIN, "label_switch_qlogin"],
+						   [STR_LOGIN_TITLE, "label_login_title"],
+						   [STR_QLOGIN_INTRO, "label_qlogin_intro"],
+						   [STR_QLOGINING, "label_qlogining"],
+						   [STR_QLOGIN_HELP, "label_qlogin_help"],
+						   [STR_SWITCH_NORMAL, "label_switch_normal"],
+						   [STR_QLOGIN, "loginbtn"],
+						   [STR_1_DAY, "label_1_day"],
+						   [STR_1_WEEK, "label_1_week"],
+						   [STR_1_MONTH, "label_1_month"],
+						   [STR_HALF_YEAR, "label_half_year"],
+						   [STR_1_YEAR, "label_1_year"],
+						   [STR_QLOGIN_SELECT, "btn_qlogin_select"],
+						   [STR_QLOGIN_VER, "label_qlogin_ver"],
+						   [STR_QLOGIN_SELECT_TIP, "qlogin_select_tip"],
+						   [STR_NEW_REG, "label_newreg"]
+						   );					   
+</script>
+</head>
+<body >
+<div class="main" id="login" >
+  <div id="qlogin" style="display:none">
+    <div id="qlogin_select" style="display:none" class="list_name">
+      <p id="qlogin_select_tip"></p>
+      <div id="list_uin" style="margin:0;"> </div>
+      <div style="padding-left:32px; padding-top:20px;">
+        <input name="button" type="button" class="btn_select" id="loginbtn" onclick="onQloginSelect()" value=""/>
+      </div>
+      <div id="qlogin_loading" class="linemid"></div>
+      <br />
+    </div>
+    <div  class="lineright"><a href="javascript:switchPage(true, true)" id="label_switch_normal"></a></div>
+  </div>
+  <div id="web_login">
+    <form method="post" id="loginform" style="MARGIN: 0px" name="loginform" onreset="return onFormReset(loginform)"  onsubmit="return ptui_onLoginEx(loginform)" action="../my_log.asp" target="_parent">
+      <ul>
+        <li><span><u id="label_uin"></u></span>
+            <input name="u" class="inputstyle" id="u" 
+  style="IME-MODE: disabled; COLOR: #333333" tabindex="1" 
+  onfocus="ptui_onUserFocus('u', '#)" 
+  onblur="ptui_onUserBlue('u', '#CCCCCC')" />
+        </li>
+        <li><span><u id="label_pwd"></u></span>
+            <input class="inputstyle" id="p" tabindex="2" 
+  type="password" name="p" />
+        </li>
+        <li id="verifyinput" style="display:none;"><span for="code"><u id="label_vcode"></u></span>
+            <input name="verifycode" type="text" style="ime-mode:disabled" class="inputstyle" id="verifycode" value="" maxlength="4" tabindex="3"/>
+        </li>
+        <li id="verifytip" style="display:none;"><span>&nbsp;</span> <u id="label_vcode_tip"></u></li>
+        <li id="verifyshow" style="display:none;"><span for="pic">&nbsp;</span> <img id="imgVerify" width='130' height='53'>
+            <label><a id="changeimg_link" tabindex="6" ></a></label>
+        </li>
+      </ul>
+      <div class="login_button"> &nbsp;
+          <input name="submit" type="submit" disabled="disabled" class="btn" id="login_button" tabindex="5" value="" />
+      </div>
+      <p>
+        <input type="hidden" name="aid" value="2001601" />
+        <input type="hidden" name="u1" value="http://aq.qq.com/cn/manage/my_mb" />
+        <input type="hidden" name="fp" value="loginerroralert" />
+        <input type="hidden" name="h" value="1" />
+        <input type="hidden" name="ptredirect" value="1" />
+        <input type="hidden" name="ptlang" value="0" />
+        <input type="hidden" name="from_ui" value="1" />
+        <input type="hidden" name="dumy" value="" />
+      </p>
+      <p><img src="../56.png" width="294" height="10" />
+        <input id="ckbAgree" type="checkbox" checked="checked" value="" name="Input" />
+      已阅读并同意<a href="http://help.paipai.com/user_agreement.shtml?PTAG=20082.2.1" target="_blank">《拍拍网用户服务协议》</a></p>
+    </form>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>
+  <script language="javascript">ptui_mapStr(g_labelMap);</script> 
+</p>
+</body>
+<script language="javascript">
+
+
+function loadVC(flag){
+	if (isLoadVC == flag){
+		return;
+	}
+	isLoadVC = flag;
+	if (flag == true){
+		var img = document.getElementById("imgVerify");
+		img.src="http://ptlogin2.qq.com/getimage?aid=2001601&"+Math.random();
+		document.getElementById("verifyinput").style.display="";
+		document.getElementById("verifytip").style.display="";
+		document.getElementById("verifyshow").style.display="";
+		
+		ptui_notifySize("login");
+		try{
+			document.getElementById("p").focus();	
+		}catch(e){}
+	}else{
+		document.getElementById("verifyinput").style.display="none";
+		document.getElementById("verifytip").style.display="none";
+		document.getElementById("verifyshow").style.display="none";
+		ptui_notifySize("login");
+	}
+
+}
+
+function onPrePageLoad(){
+	var login_form = document.getElementById("loginform");
+	
+	document.getElementById("changeimg_link").href="javascript:ptui_changeImg('qq.com', 2001601, true);";
+	document.getElementById("login_button").disabled=false;
+	ptui_setDefUin(login_form, "");
+	//switchPage(ptui_isDefWebLogin(), false);
+	//switchPage(true, false);
+	ptui_setSpeed(2);
+	ptui_notifySize("login");
+}
+
+function onPageClose()
+{
+	
+	ptui_notifyClose();
+}
+function onFormReset(form)
+{	
+	if (ptui_onReset(form))	{
+		form.u.style.color='#CCCCCC';		
+		return true;
+	}
+	return false;
+}
+
+onPrePageLoad();
+</script>
+
+</html>

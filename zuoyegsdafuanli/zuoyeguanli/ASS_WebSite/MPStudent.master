@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPStudent.master.cs" Inherits="MPStudent" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MPStudent</title>
+    <style type="text/css">
+        .logomain
+        {
+            background-image: url('../images/red_main.png');
+        }
+        .logoright
+        {
+            background-image: url('../images/red_thin.png');
+        }
+        .left
+        {
+            border: 1px solid #F8B3D0;
+            background-color: #FFF5FA;
+            color: #FF0066;
+            padding: 20px 0px 0px 20px;
+            width: 174px;
+            
+        }
+        .right
+        {
+            color: #FF6666;
+            border: 1px solid #F8B3D0;
+            background-color: #FFF5FA;
+        }
+        .linkbutton
+        {
+            border: 1px dotted #F7846B;
+            background-color: #FFE6D6;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="top">
+        <div class="logomain">
+        </div>
+        <div class="logoright">
+        </div>
+    </div>
+    <div>
+        <div class="left" style="height:139px;">
+            <asp:LinkButton ID="lb_course" runat="server" CssClass="linkbutton" PostBackUrl="~/Students/ViewCoursesTeacherAndAssignment.aspx">查看课程</asp:LinkButton>
+            <br />
+            <br />
+            <asp:LinkButton ID="lb_handon" runat="server" CssClass="linkbutton" PostBackUrl="~/Students/HandOnHousework.aspx">提交作业</asp:LinkButton>
+            <br />
+            <br />
+            <asp:LinkButton ID="lb_myupa" runat="server" CssClass="linkbutton" PostBackUrl="~/Students/HandedHousework.aspx">我的作业</asp:LinkButton>
+        </div>
+        <div class="right">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

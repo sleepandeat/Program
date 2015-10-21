@@ -1,0 +1,47 @@
+
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<SCRIPT language=javascript type=text/javascript>
+function openDialog()
+{showModalDialog("about.htm","about","dialogWidth:230pt;dialogHeight:100pt;status:0");}
+
+function v(e)
+{e.bgColor = "#CEE7FF";e.style.borderColor = "#00557D";}
+function d(e)
+{e.bgColor = "";e.style.borderColor = "buttonface";}
+</SCRIPT>
+<SCRIPT language=javascript event=onselectstart for=document 
+type=text/javascript>
+return false;
+</SCRIPT>
+<SCRIPT language=javascript event=oncontextmenu for=document>
+return false;
+</SCRIPT>
+</HEAD>
+<BODY 
+style="BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; BORDER-LEFT: 0px solid; CURSOR: default; BORDER-BOTTOM: 0px solid; BACKGROUND-COLOR: menu" 
+leftMargin=2 topMargin=2>
+<TABLE width=235 height=18 
+border=0 align="center" cellPadding=0 cellSpacing=0 style="FONT-SIZE: 9pt">
+  <TBODY>
+    <TR align="center"> 
+      <TD onmouseover=v(this) 
+    style="BORDER-RIGHT: buttonface 1px solid; BORDER-TOP: buttonface 1px solid; BORDER-LEFT: buttonface 1px solid; BORDER-BOTTOM: buttonface 1px solid" 
+    onclick=history.go(-1) onmouseout=d(this) vAlign=bottom 
+    width="25%">后退(<U>B</U>)</TD>
+      <TD onmouseover=v(this) 
+    style="BORDER-RIGHT: buttonface 1px solid; BORDER-TOP: buttonface 1px solid; BORDER-LEFT: buttonface 1px solid; BORDER-BOTTOM: buttonface 1px solid" 
+    onclick=history.go(1) onmouseout=d(this) vAlign=bottom 
+    width="25%">前进(<U>F</U>)</TD>
+      <TD onmouseover=v(this) 
+    style="BORDER-RIGHT: buttonface 1px solid; BORDER-TOP: buttonface 1px solid; BORDER-LEFT: buttonface 1px solid; BORDER-BOTTOM: buttonface 1px solid" 
+    onclick="parent.go('main.htm')" onmouseout=d(this) vAlign=bottom width="25%">目录(<U>D</U>)</TD>
+      <TD onmouseover=v(this) 
+    style="BORDER-RIGHT: buttonface 1px solid; BORDER-TOP: buttonface 1px solid; BORDER-LEFT: buttonface 1px solid; BORDER-BOTTOM: buttonface 1px solid" onclick=openDialog(); onmouseout=d(this) vAlign=bottom width="25%">关于(<U>A</U>)</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</BODY>
+</HTML>

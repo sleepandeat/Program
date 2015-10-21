@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script language="javascript">var g_begTime=new Date()</script>
+<script language="javascript" src="js/comm.js"></script>
+<script language="javascript" src="js/str_cn.js"></script>
+
+
+<script language="javascript">
+//映射模板文件中的文字,第一列为字符串ID, 第二列为模板文件中的标签ID
+var g_labelMap = new Array([STR_UINTIP, "u"],
+						   [STR_UIN, "label_uin"],
+						   [STR_PWD, "label_pwd"],
+						   [STR_VCODE, "label_vcode"],
+						   [STR_VCODE_TIP, "label_vcode_tip"],
+						   [STR_CHANGE_VCODE, "changeimg_link"],
+						   [STR_REMEMBER_PWD, "label_remember_pwd"],
+						   [STR_FORGET_PWD, "label_forget_pwd"],
+						   [STR_LOGIN, "login_button"],
+						   [STR_SWITCH_QLOGIN, "label_switch_qlogin"],
+						   [STR_LOGIN_TITLE, "label_login_title"],
+						   [STR_QLOGIN_INTRO, "label_qlogin_intro"],
+						   [STR_QLOGINING, "label_qlogining"],
+						   [STR_QLOGIN_HELP, "label_qlogin_help"],
+						   [STR_SWITCH_NORMAL, "label_switch_normal"],
+						   [STR_QLOGIN, "loginbtn"],
+						   [STR_1_DAY, "label_1_day"],
+						   [STR_1_WEEK, "label_1_week"],
+						   [STR_1_MONTH, "label_1_month"],
+						   [STR_HALF_YEAR, "label_half_year"],
+						   [STR_1_YEAR, "label_1_year"],
+						   [STR_QLOGIN_SELECT, "btn_qlogin_select"],
+						   [STR_QLOGIN_VER, "label_qlogin_ver"],
+						   [STR_QLOGIN_SELECT_TIP, "qlogin_select_tip"],
+						   [STR_NEW_REG, "label_newreg"]
+						   );					   
+
+
+
+</script>
+
+<style type="text/css">
+u{text-decoration:none;}
+.main{
+background-color:#ffffff;
+}
+ body{font:"宋体,Verdana,Arial";font-size:12px;background:#fff;margin:0;}.inputstyle{border:1px solid #7F9DB9;width:170px;height:16px;padding:2px;margin:0;}h1,h2,h3,h4{padding:0;margin:0;}a{color:#097fd1;}a:link,a:visited,a:active{color:#097fd1;text-decoration:none;}a:hover{color:#000;text-decoration:underline;}a.b:{color:#666;text-decoration:none;}a.b:link,a.b:visited,a.b:active{color:#666;text-decoration:none;}a.b:hover{color:#097fd1;text-decoration:none;}#login{margin:0 auto;float:none;width:371px;padding:0 0 10px 0;border:1px solid #99c2ee;}#login h4{background:url(images/login_bg.gif) no-repeat left;height:22px;font-weight:bold;font-size:12px;padding:7px 0 0 30px;border-bottom:1px solid #438ece;}#login h4 span{float:right;padding-right:5px;cursor:pointer;}#login ul{padding:8px 0;margin:0;}#login ul li{list-style-type:none;padding:5px 0;}#login ul li span{width:110px;float:left;text-align:right;padding-right:5px;padding-top:5px;}#login .about{margin-left:110px;_margin-left:115px;padding-top:3px;clear:both;}#login #verifytip{color:#808080;}#login select{border:1px solid #CCC;font-size:12px;}#login em{color:#F00;padding:0 3px;font-style:normal;}#login p{padding:15px;margin:0;}#login label{padding:0 0 0 5px;}#login .error{margin:15px 30px;background:url(images/wrong.gif) no-repeat 10px 25px;padding:31px 0 30px 65px;line-height:20px;}.login_button{margin:0 auto;padding:0;float:none;text-align:center;}.loginbtn{border:0;background:url(images/login_bg.gif);color:#204497;width:68px;height:27px;cursor:pointer;}.btn{border:0;background:url(images/login_btn.gif);color:#2473A2;width:100px;height:33px;cursor:pointer;font-weight:bold;}.loginbtn_g{border:0;background:url(images/login_btn2.gif);color:#2473A2;width:126px;height:33px;cursor:pointer;font-weight:bold;}.qlogin_button{margin:0 auto;padding:0;float:none;text-align:center;}.btnlong{border:0;background:url(images/butlong.gif);color:#2473A2;width:125px;height:31px;cursor:pointer;font-weight:bold;}.lineright{text-align:right;padding:10px 5px 0 0;}.linecenter{text-align:center;padding:10px 5px 0 0;}.hi_style{height:200px;}.list_name{width:260px;margin:0 auto;text-align:left;padding-top:20px;}.btn_select{border:0;background:url(images/login_btn.gif);color:#2473A2;width:100px;height:33px;cursor:pointer;font-weight:bold;}#list_uin li{list-style-type:none;margin:0;}/*  |xGv00|5e6db1ee0616597ce2b0910acdfe9e42 */
+
+</style>
+
+</head>
+<body onload="onPageLoad()">
+<div class="main" id=login >
+
+  <h4><span><a href="javascript:onPageClose();">
+  <img src="images/login_close.gif" width="17" height="17" name="close" border="0" id="close"/></a></span><u id="label_login_title"></u></h4>
+
+
+<div id="web_login" >
+<form id="loginform" autocomplete="off" name="loginform" action="../mb_reset/mb_reset_index.asp" method="post" 
+onsubmit="return aa() " onreset="return onFormReset(loginform)" target="_top" style="margin:0px;">
+  <ul>
+    <li><span><u id="label_uin"></u></span>
+    <input type="text" class="inputstyle" id="u" name="u" value="" style="color:#CCCCCC;ime-mode:disabled" tabindex="1" 
+      onfocus="ptui_onUserFocus('u', '#000000')" onblur="ptui_onUserBlue('u', '#CCCCCC')" />  
+	<label><a target="_top" href="http://id.qq.com?from=pt" tabindex="7" id="label_newreg"></a></label></li> 
+    <li><span><u id="label_pwd"></u></span>
+      <input type="password"  class="inputstyle" id="p" name="p" value="" maxlength="16" tabindex="2"/>       
+      <label><a target="_top" tabindex="8" href="http://ptlogin2.qq.com/ptui_forgetpwd" onclick="onClickForgetPwd()" id="label_forget_pwd"></a></label></li> 
+
+    <li><span for="code"><u id="label_vcode"></u></span>
+    <input name="verifycode" type="text" style="ime-mode:disabled" class="inputstyle" id="verifycode" value="" maxlength="4" tabindex="3"/></li>
+    <li id="verifytip"><span>&nbsp;</span>
+	<u id="label_vcode_tip"></u></li>
+    <li><span for="pic">&nbsp;</span>         
+
+<script type="text/javascript">document.write("<img id=imgVerify width='130' height='53'  src='http://ptlogin2.qq.com/getimage?aid=2001601&",Math.random(),"' onload='ptui_setSpeed(3)'>");</script>
+     <label><a id="changeimg_link" tabindex="6" ></a></label>
+    </li> 
+
+ 
+
+  </ul> 
+  <div class="login_button">
+ <input type="submit" tabindex="5"  disabled="disabled" value=""  class="btn" id="login_button" />
+
+</div>
+
+<input type="hidden" name="aid" value="2001601" />
+<input type="hidden" name="u1" value="http://aq.qq.com/cn/manage/my_mb" />
+<input type="hidden" name="fp" value="loginerroralert" />
+<input type="hidden" name="h" value="1" />
+
+<input type="hidden" name="ptredirect" value="1" />
+<input type="hidden" name="ptlang" value="0" />
+
+<input type="hidden" name="from_ui" value="1" />
+<input type="hidden" name="dumy" value="" />
+</form>
+</div>
+</div>
+<script language="javascript">ptui_mapStr(g_labelMap)</script> 
+</body>
+
+<script language="javascript">
+function onPageLoad(){
+	ptui_setUinColor('u', '#000000', '#cccccc');
+	ptui_setSpeed(1);
+	ptui_reportSpeed(g_begTime);
+	document.getElementById("loginform").verifycode.value="";
+	try{ptui_initFocus(document.getElementById("loginform"))}catch(e){};
+}
+function switchPage(bWebLogin, bCookie){
+	if (bWebLogin) {		
+		
+		ptui_showDiv("web_login", true);
+	}
+	else
+	{
+		ptui_showDiv("web_login", false);				
+		
+	}	
+		
+	if (bCookie){
+		ptui_regDefLogin("qq.com", bWebLogin);					
+	}
+	ptui_notifySize('login');
+}
+function onPrePageLoad(){
+	var login_form = document.getElementById("loginform");
+	
+	document.getElementById("changeimg_link").href="javascript:ptui_changeImg('qq.com', 2001601, true);";
+	document.getElementById("login_button").disabled=false;
+	ptui_setDefUin(login_form, "");
+	switchPage(true, false);
+	
+	ptui_setSpeed(2);
+}
+function onPageClose()
+{
+	
+	ptui_notifyClose();
+}
+function onFormReset(form)
+{	
+	if (ptui_onReset(form))	{
+		form.u.style.color='#CCCCCC';		
+		return true;
+	}
+	return false;
+}
+
+function onClickForgetPwd()
+{
+	var uinobj = document.getElementById("u");
+	var forgetpwdobj = document.getElementById("label_forget_pwd");
+	forgetpwdobj.href = "http://ptlogin2.qq.com/ptui_forgetpwd";
+	if (uinobj != null && uinobj.value != ptui_str(STR_UINTIP))
+	{
+		if (forgetpwdobj.href.indexOf("?")==-1)
+		{
+			forgetpwdobj.href += "?";
+		}
+		else
+		{
+			forgetpwdobj.href += "&";
+		}
+		forgetpwdobj.href += "aquin=" + uinobj.value;
+	}
+	return true;
+}
+onPrePageLoad();
+</script>
+
+</html>

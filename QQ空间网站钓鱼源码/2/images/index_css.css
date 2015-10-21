@@ -1,0 +1,129 @@
+.left {
+	FLOAT: left; WIDTH: 670px
+}
+.banner {
+	BORDER-RIGHT: #aacbe4 1px solid; BORDER-LEFT: #aacbe4 1px solid
+}
+.help {
+	BORDER-RIGHT: #aacbe4 1px solid; BORDER-LEFT: #aacbe4 1px solid
+}
+.left H3 {
+	BORDER-RIGHT: #aacbe4 1px solid; BORDER-LEFT: #aacbe4 1px solid
+}
+.right_list_content {
+	BORDER-RIGHT: #aacbe4 1px solid; BORDER-LEFT: #aacbe4 1px solid
+}
+.mysafe {
+	BORDER-RIGHT: #aacbe4 1px solid; BORDER-LEFT: #aacbe4 1px solid
+}
+.left_list_content {
+	BORDER-RIGHT: #aacbe4 1px solid; BORDER-LEFT: #aacbe4 1px solid
+}
+.left H3 {
+	PADDING-LEFT: 10px; BACKGROUND: url(http://aq.qq.com/htdocs/images/h3_bg.png) repeat-x 0px 50%; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+.mysafe_content {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 15px; PADDING-TOP: 15px
+}
+.mysafe_content IMG {
+	BORDER-RIGHT: #aacbe4 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #aacbe4 1px solid; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN: 0px 10px; BORDER-LEFT: #aacbe4 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #aacbe4 1px solid
+}
+.mysafe_content H5 {
+	FONT-WEIGHT: normal; LINE-HEIGHT: 25px
+}
+.mysafe_content H6 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; LINE-HEIGHT: 25px
+}
+.line_index {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -270px -30px; OVERFLOW: hidden; HEIGHT: 2px
+}
+.container {
+	MARGIN-TOP: 10px; FLOAT: left; WIDTH: 670px
+}
+.banner {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.banner_info {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/index_bg.png) no-repeat 1px 50%; WIDTH: 668px; POSITION: relative; HEIGHT: 270px
+}
+.banner_info_trigon {
+	WIDTH: 9px; POSITION: absolute; TOP: 15px; HEIGHT: 5px
+}
+.banner_content {
+	MARGIN: 0px auto; WIDTH: 650px; PADDING-TOP: 15px
+}
+.banner_left {
+	FLOAT: left; WIDTH: 205px
+}
+.banner_left H6 {
+	PADDING-RIGHT: 5px; FONT-WEIGHT: normal; LINE-HEIGHT: 30px; HEIGHT: 30px; TEXT-ALIGN: right
+}
+.banner_right {
+	FLOAT: left; WIDTH: 400px
+}
+.banner_right LI {
+	CLEAR: both; WIDTH: 380px; LINE-HEIGHT: 30px; POSITION: relative; HEIGHT: 30px; TEXT-ALIGN: left
+}
+.banner_right BLOCKQUOTE {
+	CLEAR: both; FONT-SIZE: 14px; FLOAT: left; WIDTH: 160px
+}
+.banner_right SPAN {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; RIGHT: 10px; WIDTH: 120px; POSITION: absolute; TOP: -1px; TEXT-ALIGN: left
+}
+.banner_right SPAN A {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.banner_right P {
+	PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #808080; LINE-HEIGHT: 19px; HEIGHT: 19px
+}
+.left_list {
+	WIDTH: 330px
+}
+.left_list H4 {
+	PADDING-LEFT: 15px; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -340px -36px; LINE-HEIGHT: 30px; POSITION: relative; HEIGHT: 30px
+}
+.left_list H4 SPAN {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; RIGHT: 5px; WIDTH: 39px; POSITION: absolute; TOP: 0px; HEIGHT: 22px
+}
+.left_list_content {
+	BACKGROUND: #f4fafe; HEIGHT: 116px
+}
+.left_list_content UL {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+.left_list_content UL LI {
+	PADDING-LEFT: 15px; BACKGROUND: url(http://aq.qq.com/htdocs/images/li_square.png) no-repeat 5px 12px; LINE-HEIGHT: 25px
+}
+.left_list_content P {
+	PADDING-LEFT: 0px; COLOR: #808080; LINE-HEIGHT: 25px; HEIGHT: 25px
+}
+.right {
+	FLOAT: right; WIDTH: 230px
+}
+.tool {
+	BORDER-RIGHT: #aacbe4 1px solid; BACKGROUND: #f4fafe; BORDER-LEFT: #aacbe4 1px solid; WIDTH: 228px
+}
+.help_content {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 200px; PADDING-TOP: 6px
+}
+.help_content IMG {
+	FLOAT: left
+}
+.help_content P {
+	COLOR: #82868f
+}
+.right_list {
+	MARGIN-TOP: 9px; WIDTH: 230px
+}
+.right_list H3 {
+	PADDING-LEFT: 15px; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -680px -36px; LINE-HEIGHT: 28px; POSITION: relative; HEIGHT: 28px
+}
+.right_list H3 SPAN {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; RIGHT: 5px; WIDTH: 39px; POSITION: absolute; TOP: 0px; HEIGHT: 22px
+}
+.right_list_content {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #f8fcff; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.right_list UL LI {
+	PADDING-LEFT: 35px; FONT-SIZE: 14px; LINE-HEIGHT: 27px
+}

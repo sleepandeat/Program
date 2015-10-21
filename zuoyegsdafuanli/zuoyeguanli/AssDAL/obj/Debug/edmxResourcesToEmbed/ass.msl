@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="ASSModelStoreContainer" CdmEntityContainer="ASSEntities">
+    <EntitySetMapping Name="Assignments">
+      <EntityTypeMapping TypeName="IsTypeOf(ASSModel.Assignments)">
+        <MappingFragment StoreEntitySet="Assignments">
+          <ScalarProperty Name="QuesFileName" ColumnName="QuesFileName" />
+          <ScalarProperty Name="AssDes" ColumnName="AssDes" />
+          <ScalarProperty Name="AssID" ColumnName="AssID" />
+          <ScalarProperty Name="AssName" ColumnName="AssName" />
+          <ScalarProperty Name="Deadline" ColumnName="Deadline" />
+          <ScalarProperty Name="QuesFileUrl" ColumnName="QuesFileUrl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Classes">
+      <EntityTypeMapping TypeName="IsTypeOf(ASSModel.Classes)">
+        <MappingFragment StoreEntitySet="Classes">
+          <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+          <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Courses">
+      <EntityTypeMapping TypeName="IsTypeOf(ASSModel.Courses)">
+        <MappingFragment StoreEntitySet="Courses">
+          <ScalarProperty Name="CourseDes" ColumnName="CourseDes" />
+          <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+          <ScalarProperty Name="CourseName" ColumnName="CourseName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SetCourses">
+      <EntityTypeMapping TypeName="IsTypeOf(ASSModel.SetCourses)">
+        <MappingFragment StoreEntitySet="SetCourses">
+          <ScalarProperty Name="SCID" ColumnName="SCID" />
+          <ScalarProperty Name="Semester" ColumnName="Semester" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="IsTypeOf(ASSModel.Students)">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="StuID" ColumnName="StuID" />
+          <ScalarProperty Name="StuName" ColumnName="StuName" />
+          <ScalarProperty Name="Pswd" ColumnName="Pswd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teachers">
+      <EntityTypeMapping TypeName="IsTypeOf(ASSModel.Teachers)">
+        <MappingFragment StoreEntitySet="Teachers">
+          <ScalarProperty Name="TeaID" ColumnName="TeaID" />
+          <ScalarProperty Name="TeaName" ColumnName="TeaName" />
+          <ScalarProperty Name="Pswd" ColumnName="Pswd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UpAssignments">
+      <EntityTypeMapping TypeName="IsTypeOf(ASSModel.UpAssignments)">
+        <MappingFragment StoreEntitySet="UpAssignments">
+          <ScalarProperty Name="Marks" ColumnName="Marks" />
+          <ScalarProperty Name="Result" ColumnName="Result" />
+          <ScalarProperty Name="UpAssID" ColumnName="UpAssID" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="FileUrl" ColumnName="FileUrl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GETHOUSEWORKDONE" FunctionName="ASSModel.Store.GETHOUSEWORKDONE" />
+    <FunctionImportMapping FunctionImportName="GETHOUSEWORKTODO" FunctionName="ASSModel.Store.GETHOUSEWORKTODO" />
+    <FunctionImportMapping FunctionImportName="GETHOUSEWORKTODOOT" FunctionName="ASSModel.Store.GETHOUSEWORKTODOOT" />
+    <FunctionImportMapping FunctionImportName="GETSTUWHOUSEWORK" FunctionName="ASSModel.Store.GETSTUWHOUSEWORK" />
+    <FunctionImportMapping FunctionImportName="GETSTUWOHOUSEWORK" FunctionName="ASSModel.Store.GETSTUWOHOUSEWORK" />
+    <FunctionImportMapping FunctionImportName="GETSTUWOHOUSEWORKOT" FunctionName="ASSModel.Store.GETSTUWOHOUSEWORKOT" />
+    <AssociationSetMapping Name="FK_UpAssignments_Assignments" TypeName="ASSModel.FK_UpAssignments_Assignments" StoreEntitySet="UpAssignments">
+      <EndProperty Name="Assignments">
+        <ScalarProperty Name="AssID" ColumnName="AssID" />
+      </EndProperty>
+      <EndProperty Name="UpAssignments">
+        <ScalarProperty Name="UpAssID" ColumnName="UpAssID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_UpAssignments_Students" TypeName="ASSModel.FK_UpAssignments_Students" StoreEntitySet="UpAssignments">
+      <EndProperty Name="Students">
+        <ScalarProperty Name="StuID" ColumnName="StuID" />
+      </EndProperty>
+      <EndProperty Name="UpAssignments">
+        <ScalarProperty Name="UpAssID" ColumnName="UpAssID" />
+      </EndProperty>
+      <Condition ColumnName="StuID" IsNull="false" />
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_Students_Classes" TypeName="ASSModel.FK_Students_Classes" StoreEntitySet="Students">
+      <EndProperty Name="Students">
+        <ScalarProperty Name="StuID" ColumnName="StuID" />
+      </EndProperty>
+      <EndProperty Name="Classes">
+        <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_SetCourses_Courses" TypeName="ASSModel.FK_SetCourses_Courses" StoreEntitySet="SetCourses">
+      <EndProperty Name="SetCourses">
+        <ScalarProperty Name="SCID" ColumnName="SCID" />
+      </EndProperty>
+      <EndProperty Name="Courses">
+        <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_SetCourses_Classes" TypeName="ASSModel.FK_SetCourses_Classes" StoreEntitySet="SetCourses">
+      <EndProperty Name="SetCourses">
+        <ScalarProperty Name="SCID" ColumnName="SCID" />
+      </EndProperty>
+      <EndProperty Name="Classes">
+        <ScalarProperty Name="ClassID" ColumnName="ClassID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_SetCourses_Teachers" TypeName="ASSModel.FK_SetCourses_Teachers" StoreEntitySet="SetCourses">
+      <EndProperty Name="SetCourses">
+        <ScalarProperty Name="SCID" ColumnName="SCID" />
+      </EndProperty>
+      <EndProperty Name="Teachers">
+        <ScalarProperty Name="TeaID" ColumnName="TeaID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_Assignments_SetCourses" TypeName="ASSModel.FK_Assignments_SetCourses" StoreEntitySet="Assignments">
+      <EndProperty Name="Assignments">
+        <ScalarProperty Name="AssID" ColumnName="AssID" />
+      </EndProperty>
+      <EndProperty Name="SetCourses">
+        <ScalarProperty Name="SCID" ColumnName="SCID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

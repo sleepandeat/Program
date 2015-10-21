@@ -1,0 +1,79 @@
+﻿<%--
+默认的外观模板。以下外观仅作为示例提供。
+
+1. 命名的控件外观。SkinId 的定义应唯一，因为在同一主题中不允许一个控件类型有重复的 SkinId。
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. 默认外观。未定义 SkinId。在同一主题中每个控件类型只允许有一个默认的控件外观。
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+
+<%-- 以下部分定义了学生相关(red)的页面的GridView，DetailView等样式 --%>
+
+<asp:GridView runat="server" SkinId="gridviewSkinRed" BackColor="#FFF5FA" BorderColor="#FF8080" BorderStyle="solid" BorderWidth="1px" CellPadding="3" GridLines="None">
+    <HeaderStyle BackColor="#FF6666" Font-Bold="True" ForeColor="White" />    
+    <RowStyle BackColor="#FFE8BF" ForeColor="Black" />
+    <AlternatingRowStyle BackColor="#FFD8BF" />
+    <SelectedRowStyle BackColor="#FFBFBF" Font-Bold="True" ForeColor="Black" />
+    <FooterStyle BackColor="#FF6666" ForeColor="White" />
+    <PagerStyle BackColor="#FF6666" ForeColor="White" HorizontalAlign="Left" />
+</asp:GridView>
+
+<asp:DetailsView runat="server" SkinID="detailsviewSkinRed" CellPadding="4" ForeColor="Black" GridLines="None">
+    <HeaderStyle BackColor="#FFD8BF" ForeColor="White" Font-Bold="True" />
+    <FieldHeaderStyle BackColor="#FFD8BF" Font-Bold="True" />
+    <RowStyle BackColor="#FFE8BF" ForeColor="Black" />
+    <AlternatingRowStyle BackColor="#FFE8BF" ForeColor="Black" />
+    <EditRowStyle BackColor="#FFE8BF" />
+    <CommandRowStyle BackColor="#FFBFBF" Font-Bold="True" />
+    <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+    <PagerStyle BackColor="#FF6666" ForeColor="White" HorizontalAlign="Center" />
+</asp:DetailsView>
+
+<%-- 教师相关页面(yellow)的GridView，DetailView --%>
+
+<asp:GridView runat="server" SkinId="gridviewSkinYellow" BackColor="#FFFFBF" BorderColor="#FFCC00" BorderStyle="solid" BorderWidth="1px" CellPadding="3" GridLines="None">
+    <HeaderStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="White" />    
+    <RowStyle BackColor="#FFFBD6" ForeColor="Black" />
+    <AlternatingRowStyle BackColor="#FFFF99" />
+    <SelectedRowStyle BackColor="#FFF566" Font-Bold="True" ForeColor="Black" />
+    <FooterStyle BackColor="#FFCC66" ForeColor="White" />
+    <PagerStyle BackColor="#FFCC66" ForeColor="White" HorizontalAlign="Left" />
+</asp:GridView>
+
+<asp:DetailsView runat="server" SkinID="detailsviewSkinYellow" CellPadding="4" ForeColor="Black" GridLines="None">
+    <HeaderStyle BackColor="#FFFF99" ForeColor="White" Font-Bold="True" />
+    <FieldHeaderStyle BackColor="#FFFF99" Font-Bold="True" />
+    <RowStyle BackColor="#FFFBD6" ForeColor="Black" />
+    <AlternatingRowStyle BackColor="#FFFBD6" ForeColor="Black" />
+    <EditRowStyle BackColor="#FFFBD6" />
+    <CommandRowStyle BackColor="#FFF566" Font-Bold="True" />
+    <FooterStyle BackColor="#FFFBD6" Font-Bold="True" ForeColor="White" />
+    <PagerStyle BackColor="#FFCC66" ForeColor="White" HorizontalAlign="Center" />
+</asp:DetailsView>
+
+<%-- 管理员相关页面(Green) GridView，DetailView样式 --%>
+
+<asp:GridView runat="server" SkinId="gridviewSkinGreen" BackColor="#F0FBEB" BorderColor="#C2ECA7" BorderStyle="solid" BorderWidth="1px" CellPadding="3" GridLines="None">
+    <HeaderStyle BackColor="#00CC00" Font-Bold="True" ForeColor="White" />    
+    <RowStyle BackColor="#CCFFBF" ForeColor="Black" />
+    <AlternatingRowStyle BackColor="#AAFFAF" />
+    <SelectedRowStyle BackColor="#99FF80" Font-Bold="True" ForeColor="Black" />
+    <FooterStyle BackColor="#00CC00" ForeColor="White" />
+    <PagerStyle BackColor="#00CC00" ForeColor="White" HorizontalAlign="Left" />
+</asp:GridView>
+
+<asp:DetailsView runat="server" SkinID="detailsviewSkinGreen" CellPadding="4" ForeColor="Black" GridLines="None">
+    <HeaderStyle BackColor="#AAFFAF" ForeColor="White" Font-Bold="True" />
+    <FieldHeaderStyle BackColor="#AAFFAF" Font-Bold="True" />
+    <RowStyle BackColor="#CCFFBF" ForeColor="Black" />
+    <AlternatingRowStyle BackColor="#CCFFBF" ForeColor="Black" />
+    <EditRowStyle BackColor="#CCFFBF" />
+    <CommandRowStyle BackColor="#99FF80" Font-Bold="True" />
+    <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+    <PagerStyle BackColor="#00CC00" ForeColor="White" HorizontalAlign="Center" />
+</asp:DetailsView>

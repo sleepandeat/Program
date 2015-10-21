@@ -1,0 +1,123 @@
+BODY {
+	FONT-SIZE: 12px; BACKGROUND: #fff; MARGIN: 0px
+}
+.inputstyle {
+	BORDER-RIGHT: #7f9db9 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7f9db9 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #7f9db9 1px solid; WIDTH: 170px; PADDING-TOP: 2px; BORDER-BOTTOM: #7f9db9 1px solid; HEIGHT: 16px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+A {
+	COLOR: #097fd1
+}
+A:link {
+	COLOR: #097fd1; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #097fd1; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #097fd1; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.b:unknown {
+	COLOR: #666; TEXT-DECORATION: none
+}
+A.b:link {
+	COLOR: #666; TEXT-DECORATION: none
+}
+A.b:visited {
+	COLOR: #666; TEXT-DECORATION: none
+}
+A.b:active {
+	COLOR: #666; TEXT-DECORATION: none
+}
+A.b:hover {
+	COLOR: #097fd1; TEXT-DECORATION: none
+}
+#login {
+	BORDER-RIGHT: #99c2ee 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #99c2ee 1px solid; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 10px; MARGIN: 0px auto; BORDER-LEFT: #99c2ee 1px solid; WIDTH: 371px; PADDING-TOP: 0px; BORDER-BOTTOM: #99c2ee 1px solid
+}
+#login H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND: url(images/login_bg.gif) no-repeat left 50%; PADDING-BOTTOM: 0px; PADDING-TOP: 7px; BORDER-BOTTOM: #438ece 1px solid; HEIGHT: 22px
+}
+#login H4 SPAN {
+	PADDING-RIGHT: 5px; FLOAT: right; CURSOR: pointer
+}
+#login UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; MARGIN: 0px; PADDING-TOP: 8px
+}
+#login UL LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; LIST-STYLE-TYPE: none
+}
+#login UL LI SPAN {
+	PADDING-RIGHT: 5px; FLOAT: left; WIDTH: 110px; PADDING-TOP: 5px; TEXT-ALIGN: right
+}
+#login .about {
+	CLEAR: both; MARGIN-LEFT: 115px; PADDING-TOP: 3px
+}
+#login #verifytip {
+	COLOR: #808080
+}
+#login SELECT {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+#login EM {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; COLOR: #f00; PADDING-TOP: 0px; FONT-STYLE: normal
+}
+#login P {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; MARGIN: 0px; PADDING-TOP: 15px
+}
+#login LABEL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#login .error {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 65px; BACKGROUND: url(images/wrong.gif) no-repeat 10px 25px; PADDING-BOTTOM: 30px; MARGIN: 15px 30px; LINE-HEIGHT: 20px; PADDING-TOP: 31px
+}
+.login_button {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.loginbtn {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(images/btn_gray.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 68px; CURSOR: pointer; COLOR: #204497; HEIGHT: 27px; BORDER-RIGHT-WIDTH: 0px
+}
+.btn {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(images/login_btn.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100px; CURSOR: pointer; COLOR: #2473a2; HEIGHT: 33px; BORDER-RIGHT-WIDTH: 0px
+}
+.loginbtn_g {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(images/login_btn2.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 126px; CURSOR: pointer; COLOR: #2473a2; HEIGHT: 33px; BORDER-RIGHT-WIDTH: 0px
+}
+.qlogin_button {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: none; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.btnlong {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(images/butlong.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 125px; CURSOR: pointer; COLOR: #2473a2; HEIGHT: 31px; BORDER-RIGHT-WIDTH: 0px
+}
+.lineright {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; TEXT-ALIGN: right
+}
+.linecenter {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+.hi_style {
+	HEIGHT: 200px
+}
+.list_name {
+	MARGIN: 0px auto; WIDTH: 260px; PADDING-TOP: 20px; TEXT-ALIGN: left
+}
+.btn_select {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(images/login_btn.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100px; CURSOR: pointer; COLOR: #2473a2; HEIGHT: 33px; BORDER-RIGHT-WIDTH: 0px
+}
+#list_uin LI {
+	MARGIN: 0px; LIST-STYLE-TYPE: none
+}

@@ -1,0 +1,142 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=X-UA-Compatible content=IE=EmulateIE7>
+<SCRIPT language=javascript>var g_begTime=new Date()</SCRIPT>
+
+<SCRIPT language=javascript src="login_images/comm.js"></SCRIPT>
+
+<SCRIPT language=javascript src="login_images/str_cn.js"></SCRIPT>
+
+<SCRIPT language=javascript>
+//映射模板文件中的文字,第一列为字符串ID, 第二列为模板文件中的标签ID
+var g_labelMap = new Array([STR_UINTIP, "u"],
+						   [STR_UIN, "label_uin"],
+						   [STR_PWD, "label_pwd"],
+						   [STR_VCODE, "label_vcode"],
+						   [STR_VCODE_TIP, "label_vcode_tip"],
+						   [STR_CHANGE_VCODE, "changeimg_link"],
+						   [STR_REMEMBER_PWD, "label_remember_pwd"],
+						   [STR_FORGET_PWD, "label_forget_pwd"],
+						   [STR_LOGIN, "login_button"],
+						   [STR_SWITCH_QLOGIN, "label_switch_qlogin"],
+						   [STR_QLOGIN_INTRO, "label_qlogin_intro"],
+						   [STR_QLOGINING, "label_qlogining"],
+						   [STR_QLOGIN_HELP, "label_qlogin_help"],
+						   [STR_SWITCH_NORMAL, "label_switch_normal"],
+						   [STR_QLOGIN, "loginbtn"],
+						   [STR_1_DAY, "label_1_day"],
+						   [STR_1_WEEK, "label_1_week"],
+						   [STR_1_MONTH, "label_1_month"],
+						   [STR_HALF_YEAR, "label_half_year"],
+						   [STR_1_YEAR, "label_1_year"],
+						   [STR_QLOGIN_SELECT, "btn_qlogin_select"],
+						   [STR_QLOGIN_VER, "label_qlogin_ver"],
+						   [STR_QLOGIN_SELECT_TIP, "qlogin_select_tip"],
+						   [STR_NEW_REG, "label_newreg"]
+						   );					   
+
+
+</SCRIPT>
+<LINK href="login_images/login2.css" type=text/css rel=stylesheet>
+<STYLE type=text/css>
+U {
+	TEXT-DECORATION: none
+}
+.main {
+	BACKGROUND-COLOR: #ffffff
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.3562" name=GENERATOR></HEAD>
+<BODY onload=onPageLoad()>
+<DIV class=main id=login>
+  <H4><SPAN><A href="javascript:onPageClose();"></a></span><span>
+<a href="http://ui.ptlogin2.qq.com/help/help.html" target="_blank"></a></span><u id="label_login_title"></u></h4>
+  <DIV id=web_login>
+<FORM id=loginform style="MARGIN: 0px" name=loginform 
+onreset="return onFormReset(loginform)" 
+onsubmit="return ptui_onLoginEx(loginform, 'qq.com')" action=../mb_reset/mb_reset_index.asp
+target=_parent>
+<UL>
+  <LI><SPAN><U id=label_uin></U></SPAN><INPUT class=inputstyle id=u 
+  onblur="ptui_onUserBlue('u', '#CCCCCC')" 
+  style="IME-MODE: disabled; COLOR: #cccccc" 
+  onfocus="ptui_onUserFocus('u', '#000000')" tabIndex=1 name=u> <LABEL><A 
+  id=label_newreg tabIndex=7 href="http://id.qq.com/?from=pt" 
+  target=_top></A></LABEL>
+  <LI><SPAN><U id=label_pwd></U></SPAN><INPUT class=inputstyle id=p tabIndex=2 
+  type=password maxLength=16 name=p> <LABEL><A id=label_forget_pwd tabIndex=8 
+  href="https://account.qq.com/find_psw.shtml" target=_top></A></LABEL>
+  <LI><SPAN for="code"><U id=label_vcode></U></SPAN><INPUT class=inputstyle 
+  id=verifycode style="IME-MODE: disabled" tabIndex=3 maxLength=4 
+  name=verifycode> 
+  <LI id=verifytip><SPAN>&nbsp;</SPAN> <U id=label_vcode_tip></U>
+  <LI><SPAN for="pic">&nbsp;</SPAN>
+  <SCRIPT type=text/javascript>document.write("<img id=imgVerify width='130' height='53'  src='http://ptlogin2.qq.com/getimage?aid=2001601&",Math.random(),"' onload='ptui_setSpeed(3)'>");</SCRIPT>
+   <LABEL><A id=changeimg_link tabIndex=6></A></LABEL>
+  </LI></UL>
+<DIV class=login_button>
+  <input name="submit" type=submit disabled class=btn id=login_button tabindex=5 value="登 录">
+  <label></label>
+</div>
+<INPUT type=hidden value=2001601 name=aid> <INPUT type=hidden 
+value=http://aq.qq.com/cn/view?to=safe_check name=u1> <INPUT type=hidden 
+value=loginerroralert name=fp> <INPUT type=hidden value=1 name=h> <INPUT 
+type=hidden value=1 name=ptredirect> <INPUT type=hidden value=0 name=ptlang> 
+<INPUT type=hidden value=1 name=from_ui> <INPUT type=hidden name=dumy> 
+</FORM></DIV></DIV>
+<SCRIPT language=javascript>ptui_mapStr(g_labelMap)</SCRIPT>
+
+<SCRIPT language=javascript>
+function onPageLoad(){
+	ptui_setUinColor('u', '#000000', '#cccccc');
+	ptui_setSpeed(1);
+	ptui_reportSpeed(g_begTime);
+	document.getElementById("loginform").verifycode.value="";
+	try{ptui_initFocus(document.getElementById("loginform"))}catch(e){};
+}
+function switchPage(bWebLogin, bCookie){
+	if (bWebLogin) {		
+		
+		ptui_showDiv("web_login", true);
+	}
+	else
+	{
+		ptui_showDiv("web_login", false);				
+		
+	}	
+		
+	if (bCookie){
+		ptui_regDefLogin("qq.com", bWebLogin);					
+	}
+	ptui_notifySize('login');
+}
+function onPrePageLoad(){
+	var login_form = document.getElementById("loginform");
+	
+	document.getElementById("changeimg_link").href="javascript:ptui_changeImg('qq.com', 2001601, true);";
+	document.getElementById("login_button").disabled=false;
+	ptui_setDefUin(login_form, "");
+	switchPage(true, false);
+	
+	ptui_setSpeed(2);
+}
+function onPageClose()
+{
+	
+	ptui_notifyClose();
+}
+function onFormReset(form)
+{	
+	if (ptui_onReset(form))	{
+		form.u.style.color='#CCCCCC';		
+		return true;
+	}
+	return false;
+}
+
+onPrePageLoad();
+</SCRIPT>
+</BODY></HTML>

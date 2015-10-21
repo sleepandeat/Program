@@ -1,0 +1,1 @@
+E:\Code library\C#\exif_reader\exif_reader\bin\Debug\exif_reader.exe.config

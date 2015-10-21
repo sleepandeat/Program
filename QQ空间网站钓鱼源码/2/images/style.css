@@ -1,0 +1,543 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+PRE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TEXTAREA {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BLOCKQUOTE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TH {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+IFRAME {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	BORDER-COLLAPSE: collapse; border-spacing: 0
+}
+FIELDSET {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+ADDRESS {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+CAPTION {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+CITE {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+DFN {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+EM {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+TH {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+VAR {
+	FONT-WEIGHT: normal; FONT-STYLE: normal
+}
+OL {
+	LIST-STYLE-TYPE: none
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+CAPTION {
+	TEXT-ALIGN: left
+}
+TH {
+	TEXT-ALIGN: left
+}
+H1 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+H2 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+H3 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+H4 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+H5 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+H6 {
+	FONT-SIZE: 14px; COLOR: #333
+}
+Q:unknown {
+	content: ''
+}
+Q:unknown {
+	content: ''
+}
+abbr {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+ACRONYM {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+BODY {
+	HEIGHT: 100%
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.clearfix {
+	DISPLAY: inline-block; ZOOM: 100%
+}
+.clear {
+	CLEAR: both
+}
+A:link {
+	COLOR: #266392; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #266392; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.red:link {
+	COLOR: #d40000; TEXT-DECORATION: underline
+}
+A.red:visited {
+	COLOR: #d40000; TEXT-DECORATION: underline
+}
+A.red:active {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.red:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.underline:link {
+	COLOR: #266392; TEXT-DECORATION: underline
+}
+A.underline:visited {
+	COLOR: #266392; TEXT-DECORATION: underline
+}
+A.underline:active {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.underline:hover {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+A.green:link {
+	FONT-WEIGHT: bold; COLOR: #090
+}
+A.green:visited {
+	FONT-WEIGHT: bold; COLOR: #090
+}
+A.green:hover {
+	FONT-WEIGHT: bold; COLOR: #090
+}
+A.green:active {
+	FONT-WEIGHT: bold; COLOR: #090
+}
+A.black:link {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.black:visited {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.black:hover {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.black:active {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+.key_blue {
+	COLOR: #00f
+}
+.key_red {
+	COLOR: #d40000
+}
+.key_green {
+	COLOR: #090
+}
+.key_gray {
+	COLOR: #808080
+}
+.font_12 {
+	FONT-SIZE: 12px
+}
+.font_14 {
+	FONT-SIZE: 14px
+}
+.font_weight {
+	FONT-WEIGHT: bold
+}
+.radio_1 {
+	MARGIN-TOP: 0px; margin_top: 8px
+}
+INPUT {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 2px; COLOR: #333; PADDING-TOP: 2px
+}
+.btn_green14 {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_bg.png) -560px -10px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 110px; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 37px; HEIGHT: 37px; BORDER-RIGHT-WIDTH: 0px
+}
+.btn_blue14_l {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -192px -32px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 115px; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 30px; HEIGHT: 30px; BORDER-RIGHT-WIDTH: 0px
+}
+.btn_blue14_gray {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -192px -32px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 115px; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 30px; HEIGHT: 30px; BORDER-RIGHT-WIDTH: 0px
+}
+.btn_blue14_gray {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -75px; COLOR: #999
+}
+.btn_4 {
+	WIDTH: 70px
+}
+.longblue_btn {
+	BORDER-TOP-WIDTH: 0px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; BACKGROUND: url(../images/blue_btn.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 205px; CURSOR: pointer; COLOR: #266392; HEIGHT: 38px; TEXT-ALIGN: center; BORDER-RIGHT-WIDTH: 0px
+}
+.ipt_text {
+	BORDER-RIGHT: #1387a8 1px solid; BORDER-TOP: #1387a8 1px solid; FONT-SIZE: 14px; BORDER-LEFT: #1387a8 1px solid; WIDTH: 224px; BORDER-BOTTOM: #1387a8 1px solid
+}
+.ipt_select {
+	FONT-SIZE: 14px; WIDTH: 229px; LINE-HEIGHT: 28px
+}
+.ipt_text_card {
+	WIDTH: 70px
+}
+.ipt_text_token {
+	FONT-SIZE: 14px; WIDTH: 57px
+}
+.ipt_select {
+	BORDER-RIGHT: #1387a8 1px solid; BORDER-TOP: #1387a8 1px solid; BORDER-LEFT: #1387a8 1px solid; BORDER-BOTTOM: #1387a8 1px solid
+}
+.ipt_text_card {
+	BORDER-RIGHT: #1387a8 1px solid; BORDER-TOP: #1387a8 1px solid; BORDER-LEFT: #1387a8 1px solid; BORDER-BOTTOM: #1387a8 1px solid
+}
+.ipt_text_token {
+	BORDER-RIGHT: #1387a8 1px solid; BORDER-TOP: #1387a8 1px solid; BORDER-LEFT: #1387a8 1px solid; BORDER-BOTTOM: #1387a8 1px solid
+}
+.ipt_text_disabled {
+	BORDER-RIGHT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; FONT-SIZE: 14px; BORDER-LEFT: #aaa 1px solid; WIDTH: 224px; COLOR: #aaa; BORDER-BOTTOM: #aaa 1px solid
+}
+OL {
+	PADDING-LEFT: 25px; MARGIN-LEFT: 0px
+}
+OL LI {
+	LIST-STYLE-POSITION: outside; FONT-SIZE: 12px; LINE-HEIGHT: 22px; LIST-STYLE-TYPE: decimal
+}
+.explain OL LI {
+	LIST-STYLE-POSITION: outside; FONT-SIZE: 12px; LINE-HEIGHT: 22px; LIST-STYLE-TYPE: decimal
+}
+INPUT checkbox {
+	VERTICAL-ALIGN: middle
+}
+INPUT radio {
+	VERTICAL-ALIGN: middle
+}
+BODY {
+	BACKGROUND: #fff; FONT: 12px/1.5 Helvetica,Corbel,Verdana,Arial,sans-serif,"??",SimSun",???",NSimSun; COLOR: #333; TEXT-ALIGN: center
+}
+#header {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/header_bg.png) no-repeat; MARGIN: 0px auto; WIDTH: 910px; HEIGHT: 110px; TEXT-ALIGN: left
+}
+.header_link {
+	WIDTH: 910px; HEIGHT: 70px
+}
+.logo {
+	FLOAT: left; WIDTH: 300px
+}
+.login {
+	FLOAT: right; WIDTH: 500px; PADDING-TOP: 4px; FONT-FAMILY: "??"; TEXT-ALIGN: right
+}
+.login SPAN {
+	PADDING-RIGHT: 1px; DISPLAY: block; PADDING-LEFT: 1px; FLOAT: right; PADDING-BOTTOM: 0px; PADDING-TOP: 1px
+}
+.login A {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 12px; FLOAT: right; PADDING-BOTTOM: 1px; MARGIN: 0px 2px; PADDING-TOP: 1px
+}
+.menu {
+	MARGIN-TOP: 2px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 910px; POSITION: relative
+}
+.menu UL {
+	PADDING-LEFT: 60px
+}
+.menu UL LI {
+	FLOAT: left; TEXT-ALIGN: center
+}
+.menu A {
+	DISPLAY: block; WIDTH: 100px; LINE-HEIGHT: 32px; HEIGHT: 35px; TEXT-DECORATION: none
+}
+.menu A:link {
+	COLOR: #fff
+}
+.menu A:visited {
+	COLOR: #fff
+}
+.menu A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.menu A:active {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+.menu .current A:link {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -118px -74px; COLOR: #333; LINE-HEIGHT: 35px
+}
+.menu .current A:visited {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -118px -74px; COLOR: #333; LINE-HEIGHT: 35px
+}
+.menu .current A:hover {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -118px -74px; COLOR: #333; LINE-HEIGHT: 35px; TEXT-DECORATION: none
+}
+.menu .current A:active {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -118px -74px; COLOR: #333; LINE-HEIGHT: 35px; TEXT-DECORATION: none
+}
+.menu_faq {
+	RIGHT: 20px; POSITION: absolute; TOP: 1px
+}
+.menu_faq A {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; WIDTH: 55px; TEXT-INDENT: 20px; HEIGHT: 25px; TEXT-ALIGN: right
+}
+.menu_faq A:link {
+	COLOR: #fff
+}
+.menu_faq A:visited {
+	COLOR: #fff
+}
+.menu_faq A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #fff; TEXT-DECORATION: underline
+}
+.menu_faq A:active {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #fff; TEXT-DECORATION: underline
+}
+#submenu {
+	CLEAR: both; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) #fff no-repeat 0px 25px; MARGIN: 0px auto; WIDTH: 910px; HEIGHT: 30px
+}
+#submenu UL LI {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-TOP: 0px; HEIGHT: 20px
+}
+A.submenu_on:link {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.submenu_on:visited {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.submenu_on:hover {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+A.submenu_on:active {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+.submenu_manage_mb {
+	PADDING-LEFT: 170px
+}
+.submenu_manage_safe {
+	PADDING-LEFT: 270px
+}
+.submenu_manage_ofen {
+	PADDING-LEFT: 365px
+}
+#main {
+	MARGIN: 5px auto 0px; WIDTH: 910px; TEXT-ALIGN: left
+}
+.rl_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rl_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rm_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rm_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rr_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rr_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rs_u {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rs_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.r3_d {
+	OVERFLOW: hidden; HEIGHT: 2px
+}
+.rl_u {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -6px
+}
+.rl_d {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -10px
+}
+.rm_u {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -240px -75px
+}
+.rm_d {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -240px -78px
+}
+.rr_u {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -680px -20px
+}
+.rr_d {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -680px -24px
+}
+.r3_d {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) -340px -69px
+}
+.rs_u {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -20px
+}
+.rs_d {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -26px
+}
+.lineH {
+	CLEAR: both; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat 0px -15px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 670px; HEIGHT: 2px
+}
+.lineH_narrow {
+	CLEAR: both; BACKGROUND: url(http://aq.qq.com/htdocs/images/safe_flow.png) no-repeat -285px -86px; FLOAT: left; MARGIN: 7px 0px; OVERFLOW: hidden; WIDTH: 370px; HEIGHT: 2px
+}
+.border_two {
+	BORDER-RIGHT: #aacbe4 1px solid; BORDER-LEFT: #aacbe4 1px solid
+}
+.li_tips {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -293px
+}
+.li_mobile {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -353px
+}
+.li_ling {
+	FONT-WEIGHT: normal; BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -414px
+}
+.li_suo {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -475px
+}
+.li_disc {
+	LIST-STYLE-POSITION: inside; LIST-STYLE-TYPE: disc
+}
+.li_squa {
+	LIST-STYLE-POSITION: inside; LIST-STYLE-TYPE: square
+}
+.li_square {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_square.png) no-repeat 3px 50%
+}
+.li_warn1 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -532px
+}
+.li_warn2 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -632px
+}
+.li_warn3 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -732px
+}
+.li_warn4 {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -832px
+}
+.li_right {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -122px
+}
+.li_right_gray {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/tips.png) no-repeat 1px -1030px
+}
+.li_suoB {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 8px 5px
+}
+.li_bi {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 7px -44px
+}
+.li_tool {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 7px -95px
+}
+.li_toolB {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 7px -145px
+}
+.li_dun {
+	BACKGROUND: url(http://aq.qq.com/htdocs/images/li_icon.png) no-repeat 7px -195px
+}
+#footer {
+	DISPLAY: block; PADDING-BOTTOM: 15px; MARGIN: 10px auto 0px; WIDTH: 910px; PADDING-TOP: 10px
+}
+#footer P {
+	FONT-SIZE: 12px; COLOR: #999; LINE-HEIGHT: 21px; TEXT-ALIGN: center
+}
+#footer A {
+	FONT-SIZE: 12px
+}
+#footer A:link {
+	COLOR: #999; TEXT-DECORATION: none
+}
+#footer A:visited {
+	COLOR: #999; TEXT-DECORATION: none
+}
+#footer A:hover {
+	COLOR: #f60; TEXT-DECORATION: underline
+}
+#footer A:active {
+	COLOR: #999
+}

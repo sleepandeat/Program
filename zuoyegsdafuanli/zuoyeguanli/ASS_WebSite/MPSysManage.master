@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MPSysManage.master.cs"
+    Inherits="MPSysManage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .logomain
+        {
+            background-image: url('../images/blue_main.png');
+        }
+        .logoright
+        {
+            background-image: url('../images/blue_thin.png');
+        }
+        .left
+        {
+            margin-top: 1px;
+        }
+        .right
+        {
+            border: 1px solid #B5C7DE;
+            background-color: #EFF3FB;
+            font-family: 华文细黑;
+            color: #0066FF;
+            font-size: 16px;
+        }
+        .leftdivcommon
+        {
+            border: 1px solid #B5C7DE;
+            background-color: #EFF3FB;
+            font-size: 13px;
+            width: 196px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="top">
+            <div class="logomain">
+            </div>
+            <div class="logoright">
+            </div>
+        </div>
+        <div>
+            <div class="left">
+                <asp:ContentPlaceHolder ID="LeftContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="right">
+                <asp:ContentPlaceHolder ID="RightContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

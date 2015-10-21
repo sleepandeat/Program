@@ -1,0 +1,5 @@
+G:\Code library\C#\shuixianhua\way2\bin\Debug\way2.exe.config
+G:\Code library\C#\shuixianhua\way2\bin\Debug\way2.exe
+G:\Code library\C#\shuixianhua\way2\bin\Debug\way2.pdb
+G:\Code library\C#\shuixianhua\way2\obj\Debug\way2.exe
+G:\Code library\C#\shuixianhua\way2\obj\Debug\way2.pdb
