@@ -1,0 +1,103 @@
+﻿生成启动时间为 2015/3/1 20:13:14。
+     1>项目“G:\Code library\VS 2015\C++\五子棋胜负手\五子棋胜负手\五子棋胜负手.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS preview\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\五子棋胜负手.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         F:\VS preview\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\五子棋胜负手.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "五子棋胜负手.cpp"
+         五子棋胜负手.cpp
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(12): error C2061: 语法错误: 标识符“string”
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(15): error C2065: “c”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(15): error C2228: “.length”的左边必须有类/结构/联合
+         g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(15): note: 类型是“unknown-type”
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(19): error C2065: “c”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(29): error C2065: “c”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(39): error C2065: “c”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(49): error C2065: “c”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(60): error C2061: 语法错误: 标识符“string”
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(63): error C2065: “c”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(63): error C2228: “.length”的左边必须有类/结构/联合
+         g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(63): note: 类型是“unknown-type”
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(67): error C2065: “c”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(73): error C2065: “setC”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(82): error C2065: “c”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(88): error C2065: “setC”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(97): error C2065: “c”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(103): error C2065: “setC”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(112): error C2065: “c”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(118): error C2065: “setC”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(129): error C2065: “string”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(129): error C2146: 语法错误: 缺少“;”(在标识符“cmpBlackStr”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(129): error C2065: “cmpBlackStr”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(129): error C2059: 语法错误:“]”
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(129): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(129): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(130): error C2065: “string”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(130): error C2146: 语法错误: 缺少“;”(在标识符“cmpWhiteStr”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(130): error C2065: “cmpWhiteStr”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(130): error C2059: 语法错误:“]”
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(130): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(130): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(137): error C2065: “cmpWhiteStr”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(142): error C2065: “cmpBlackStr”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(154): error C2065: “string”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(154): error C2146: 语法错误: 缺少“;”(在标识符“notPossibleBlack”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(154): error C2065: “notPossibleBlack”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(155): error C2065: “string”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(155): error C2146: 语法错误: 缺少“;”(在标识符“notPossibleWhite”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(155): error C2065: “notPossibleWhite”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(156): error C2065: “string”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(156): error C2146: 语法错误: 缺少“;”(在标识符“PossibleBlack”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(156): error C2065: “PossibleBlack”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(156): error C2059: 语法错误:“]”
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(156): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(156): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(157): error C2065: “string”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(157): error C2146: 语法错误: 缺少“;”(在标识符“SetBlack”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(157): error C2065: “SetBlack”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(157): error C2059: 语法错误:“]”
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(157): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(157): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(158): error C2065: “string”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(158): error C2146: 语法错误: 缺少“;”(在标识符“PossibleWhite”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(158): error C2065: “PossibleWhite”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(158): error C2059: 语法错误:“]”
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(158): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(158): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(159): error C2065: “string”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(159): error C2146: 语法错误: 缺少“;”(在标识符“SetWhite”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(159): error C2065: “SetWhite”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(159): error C2059: 语法错误:“]”
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(159): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(159): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(168): error C2065: “notPossibleWhite”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(173): error C2065: “notPossibleBlack”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(186): error C2065: “PossibleWhite”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(186): error C2065: “SetWhite”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(196): error C2065: “PossibleBlack”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(196): error C2065: “SetBlack”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(212): error C2065: “cout”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(213): error C2065: “cout”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(214): error C2065: “cout”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(214): error C2065: “endl”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(220): error C2065: “cin”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(236): error C2065: “cout”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(236): error C2065: “endl”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(243): error C2065: “cout”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(243): error C2065: “endl”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(248): error C2065: “cout”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(248): error C2065: “endl”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(252): error C2065: “cout”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(252): error C2065: “endl”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(259): warning C4456: “i”的声明隐藏了上一个本地声明
+         g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(222): note: 参见“i”的声明
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(261): warning C4456: “j”的声明隐藏了上一个本地声明
+         g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(222): note: 参见“j”的声明
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(280): error C2065: “cout”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(280): error C2065: “endl”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(281): error C2065: “cout”: 未声明的标识符
+     1>g:\code library\vs 2015\c++\五子棋胜负手\五子棋胜负手\五子棋胜负手.cpp(281): error C2065: “endl”: 未声明的标识符
+     1>已完成生成项目“G:\Code library\VS 2015\C++\五子棋胜负手\五子棋胜负手\五子棋胜负手.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.39

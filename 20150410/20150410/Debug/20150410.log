@@ -1,0 +1,17 @@
+﻿生成启动时间为 2015/4/10 22:53:03。
+     1>项目“G:\Code library\VS 2015\C++\20150410\20150410\20150410.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\20150410.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\20150410.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt 20150410.cpp
+         20150410.cpp
+     1>g:\code library\vs 2015\c++\20150410\20150410\20150410.cpp(14): warning C4627: “#include <stdlib.h>”:  在查找预编译头使用时跳过
+         g:\code library\vs 2015\c++\20150410\20150410\20150410.cpp(14): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>g:\code library\vs 2015\c++\20150410\20150410\20150410.cpp(15): warning C4627: “#include <string.h>”:  在查找预编译头使用时跳过
+         g:\code library\vs 2015\c++\20150410\20150410\20150410.cpp(15): note: 将指令添加到“stdafx.h”或重新生成预编译头
+     1>g:\code library\vs 2015\c++\20150410\20150410\20150410.cpp(139): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+     1>已完成生成项目“G:\Code library\VS 2015\C++\20150410\20150410\20150410.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.77
