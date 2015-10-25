@@ -1,0 +1,47 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Jackson.SignPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:it="clr-namespace:ImageTools.Controls;assembly=ImageTools.Controls"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True" shell:SystemTray.Opacity="0" 
+    Loaded="PhoneApplicationPage_Loaded">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <StackPanel>
+            <Button Name="GoSignButton" Content="开始签到" Width="200" VerticalAlignment="Top" Tap="GoSignButton_Tap" />
+        </StackPanel>
+        <ListBox Name="TiebaList" Margin="10,60,0,90">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="30" TextWrapping="Wrap" Text="{Binding num}"/>
+                        <TextBlock Width="100" TextWrapping="Wrap" Text="{Binding name}"/>
+                        <TextBlock Width="10" Text="|"/>
+                        <TextBlock Width="70" TextWrapping="Wrap" Text="{Binding grade}"/>
+                        <TextBlock Width="10" Text="|"/>
+                        <TextBlock Width="110" TextWrapping="Wrap" Text="{Binding value}"/>
+                        <TextBlock Width="10" Text="|"/>
+                        <TextBlock Width="120" TextWrapping="Wrap" Text="{Binding updateInfo}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Name="VerifyCodeStack" VerticalAlignment="Center" Visibility="Collapsed">
+            <it:AnimatedImage x:Name="VerifyCodeImage" Height="80" Width="200" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <TextBlock Text="请输入上图中的验证码" HorizontalAlignment="Center"/>
+            <TextBox Name="VerifyCode" Width="200" />
+            <Button Name="VerifyCodeConfirmButtom" Content="确认" Width="150" Tap="VerifyCodeConfirmButtom_Tap" />
+        </StackPanel>
+    </Grid>
+
+</phone:PhoneApplicationPage>

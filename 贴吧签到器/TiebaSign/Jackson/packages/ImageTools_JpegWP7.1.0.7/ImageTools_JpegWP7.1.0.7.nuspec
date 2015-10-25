@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ImageTools_JpegWP7</id>
+    <version>1.0.7</version>
+    <title>ImageTools_JpegWP7</title>
+    <authors>http://imagetools.codeplex.com/</authors>
+    <owners>http://imagetools.codeplex.com/</owners>
+    <licenseUrl>http://imagetools.codeplex.com/</licenseUrl>
+    <projectUrl>http://imagetools.codeplex.com/</projectUrl>
+    <iconUrl>http://i3.codeplex.com/Images/v19068/RuntimeBinary.gif</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ImageTools version 0.3 + support Jpeg decoder for WinPhone 7.0+</description>
+    <releaseNotes>Support Jpeg</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <language />
+    <tags>ImageTools Image Tools</tags>
+  </metadata>
+</package>

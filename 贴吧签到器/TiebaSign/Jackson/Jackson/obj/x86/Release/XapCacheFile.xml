@@ -1,0 +1,30 @@
+﻿<xapCache source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\Bin\x86\Release\Jackson_Release_x86.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014/8/31 17:23:35">
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\obj\x86\Release\Jackson.dll" archivePath="Jackson.dll" lastWriteTime="2014/8/31 17:23:34" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="2013/11/2 22:48:55" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="2013/10/28 20:37:07" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="2013/10/28 20:45:17" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="2013/10/28 20:45:17" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="2013/10/28 20:37:07" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="2013/10/28 20:37:07" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\Bin\x86\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014/8/31 17:19:35" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\Bin\x86\Release\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="2013/11/2 22:41:39" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\Bin\x86\Release\Background.png" archivePath="Background.png" lastWriteTime="2013/11/2 22:41:39" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\Coding4Fun.Toolkit.Audio.2.0.7\lib\wp71\Coding4Fun.Toolkit.Audio.dll" archivePath="Coding4Fun.Toolkit.Audio.dll" lastWriteTime="2013/10/28 20:45:07" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\Coding4Fun.Toolkit.Controls.2.0.7\lib\wp71\Coding4Fun.Toolkit.Controls.dll" archivePath="Coding4Fun.Toolkit.Controls.dll" lastWriteTime="2013/10/28 20:45:07" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\Coding4Fun.Toolkit.Net.2.0.7\lib\wp71\Coding4Fun.Toolkit.Net.dll" archivePath="Coding4Fun.Toolkit.Net.dll" lastWriteTime="2013/10/28 20:45:17" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\Coding4Fun.Toolkit.Storage.2.0.7\lib\wp71\Coding4Fun.Toolkit.Storage.dll" archivePath="Coding4Fun.Toolkit.Storage.dll" lastWriteTime="2013/10/28 20:45:17" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\ImageTools_JpegWP7.1.0.7\lib\sl3-wp\ICSharpCode.SharpZLib.Phone.dll" archivePath="ICSharpCode.SharpZLib.Phone.dll" lastWriteTime="2013/11/8 17:59:05" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\ImageTools_JpegWP7.1.0.7\lib\sl3-wp\ImageTools.Controls.dll" archivePath="ImageTools.Controls.dll" lastWriteTime="2013/11/8 17:59:05" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\ImageTools_JpegWP7.1.0.7\lib\sl3-wp\ImageTools.dll" archivePath="ImageTools.dll" lastWriteTime="2013/11/8 17:59:05" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\ImageTools_JpegWP7.1.0.7\lib\sl3-wp\ImageTools.Filtering.dll" archivePath="ImageTools.Filtering.dll" lastWriteTime="2013/11/8 17:59:05" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\ImageTools_JpegWP7.1.0.7\lib\sl3-wp\ImageTools.IO.Bmp.dll" archivePath="ImageTools.IO.Bmp.dll" lastWriteTime="2013/11/8 17:59:05" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\ImageTools_JpegWP7.1.0.7\lib\sl3-wp\ImageTools.IO.Gif.dll" archivePath="ImageTools.IO.Gif.dll" lastWriteTime="2013/11/8 17:59:05" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\ImageTools_JpegWP7.1.0.7\lib\sl3-wp\ImageTools.IO.Jpeg.dll" archivePath="ImageTools.IO.Jpeg.dll" lastWriteTime="2013/11/8 17:59:05" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\ImageTools_JpegWP7.1.0.7\lib\sl3-wp\ImageTools.IO.Png.dll" archivePath="ImageTools.IO.Png.dll" lastWriteTime="2013/11/8 17:59:05" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\ImageTools_JpegWP7.1.0.7\lib\sl3-wp\ImageTools.Utils.dll" archivePath="ImageTools.Utils.dll" lastWriteTime="2013/11/8 17:59:05" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\WPtoolkit.4.2013.08.16\lib\sl4-windowsphone71\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="2013/10/28 20:37:06" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\ImageTools_JpegWP7.1.0.7\lib\sl3-wp\PhoneCodeContractsAssemblies.dll" archivePath="PhoneCodeContractsAssemblies.dll" lastWriteTime="2013/11/8 17:59:05" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\packages\ImageTools_JpegWP7.1.0.7\lib\sl3-wp\SharpZipLib.WindowsPhone7.dll" archivePath="SharpZipLib.WindowsPhone7.dll" lastWriteTime="2013/11/8 17:59:05" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.0\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="2013/6/5 7:38:00" />
+  <file source="G:\仓库\APP\贴吧签到器\TiebaSign\Jackson\Jackson\Bin\x86\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014/8/31 17:19:35" />
+</xapCache>
