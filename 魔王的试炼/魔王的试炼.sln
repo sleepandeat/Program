@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "魔王的试炼", "魔王的试炼\魔王的试炼.csproj", "{FEAC452C-19D2-43E5-984C-EFE628955134}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEAC452C-19D2-43E5-984C-EFE628955134}.Debug|x86.ActiveCfg = Debug|x86
+		{FEAC452C-19D2-43E5-984C-EFE628955134}.Debug|x86.Build.0 = Debug|x86
+		{FEAC452C-19D2-43E5-984C-EFE628955134}.Release|x86.ActiveCfg = Release|x86
+		{FEAC452C-19D2-43E5-984C-EFE628955134}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

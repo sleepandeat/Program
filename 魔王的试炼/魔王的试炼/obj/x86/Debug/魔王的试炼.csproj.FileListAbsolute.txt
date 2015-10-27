@@ -1,0 +1,46 @@
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.exe
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.pdb
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.FrmMain.resources
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.Properties.Resources.resources
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.exe
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.pdb
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.FrmEdit.resources
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.exe.manifest
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.application
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.exe.manifest
+C:\Users\Administrator\Desktop\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.application
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.exe
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.pdb
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.csprojResolveAssemblyReference.cache
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.FrmEdit.resources
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.FrmMain.resources
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.csproj.GenerateResource.Cache
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.exe.manifest
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.application
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.exe
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.pdb
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.Properties.Resources.resources
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.exe.manifest
+F:\伟大航路\网者之路\Fairy Tail领域\程序设计作品\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.application
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.exe
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.pdb
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.exe.manifest
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.application
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.exe
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\bin\Debug\魔王的试炼.pdb
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.csprojResolveAssemblyReference.cache
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.FrmEdit.resources
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.FrmMain.resources
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.Properties.Resources.resources
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.csproj.GenerateResource.Cache
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.exe.manifest
+F:\伟大航路\网者之路\Fairy Tail领域\游戏设计作品\魔塔\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.application
+C:\Users\张旻昊\Downloads\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.exe
+C:\Users\张旻昊\Downloads\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.pdb
+C:\Users\张旻昊\Downloads\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.csprojResolveAssemblyReference.cache
+C:\Users\张旻昊\Downloads\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.FrmEdit.resources
+C:\Users\张旻昊\Downloads\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.FrmMain.resources
+C:\Users\张旻昊\Downloads\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.Properties.Resources.resources
+C:\Users\张旻昊\Downloads\魔王的试炼\魔王的试炼\obj\x86\Debug\魔王的试炼.csproj.GenerateResource.Cache
