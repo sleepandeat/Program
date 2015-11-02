@@ -1,0 +1,7 @@
+".\obj\STARTUP.obj",
+".\obj\18b20.obj",
+".\obj\1602.obj",
+".\obj\delay.obj",
+".\obj\main.obj" 
+TO ".\obj\温度传感器" 
+PRINT(".\obj\温度传感器.m51")
