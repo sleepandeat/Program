@@ -1,0 +1,4 @@
+".\obj\STARTUP.obj",
+".\obj\点亮第一个发光二极管.obj" 
+TO ".\obj\发光二极管" 
+PRINT(".\obj\发光二极管.m51")
