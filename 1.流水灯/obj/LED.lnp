@@ -1,0 +1,4 @@
+".\obj\STARTUP.obj",
+".\obj\Á÷Ë®µÆ.obj" 
+TO ".\obj\LED" 
+PRINT(".\obj\LED.m51") RAMSIZE(256) 

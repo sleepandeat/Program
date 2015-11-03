@@ -1,0 +1,15 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\Rantg工作文件\文档整理\51单片机开发板\C语言例程\1.流水灯\流水灯.uvproj
+Project File Date:  03/17/2012
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling 流水灯.c...
+src\流水灯.c(24): warning C206: 'Delay': missing function-prototype
+src\流水灯.c(24): error C267: 'Delay': requires ANSI-style prototype
+Target not created

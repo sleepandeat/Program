@@ -1,0 +1,78 @@
+C51 COMPILER V9.05   ______                                                                05/10/2012 10:18:13 PAGE 1   
+
+
+C51 COMPILER V9.05, COMPILATION OF MODULE ______
+OBJECT MODULE PLACED IN .\obj\流水灯.obj
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE src\流水灯.c BROWSE DEBUG OBJECTEXTEND PRINT(.\obj\流水灯.lst) OBJECT(.\obj
+                    -\流水灯.obj)
+
+line level    source
+
+   1          /*-----------------------------------------------
+   2            文件：流水灯.c
+   3            公司：南京爱思电子有限公司
+   4            编写：rantg   
+   5            日期：2012.3
+   6            内容：P2口控制的8位LED流水显示
+   7          ------------------------------------------------*/
+   8          
+   9          #include<reg52.h>     
+  10          
+  11          void DelayMs(unsigned int t);
+  12          
+  13          /*------------------------------------------------
+  14                              主函数
+  15          ------------------------------------------------*/
+  16          void main(void)
+  17          {
+  18   1              unsigned char i;                
+  19   1              while(1)
+  20   1              {
+  21   2                      P2=0xFE;                   //第1个LED亮
+  22   2                      for(i=0;i<8;i++)
+  23   2                      {
+  24   3                              Delay(1000);
+*** WARNING C206 IN LINE 24 OF src\流水灯.c: 'Delay': missing function-prototype
+*** ERROR C267 IN LINE 24 OF src\流水灯.c: 'Delay': requires ANSI-style prototype
+  25   3                              P2 <<=1;
+  26   3                      }
+  27   2              
+  28   2                      P2=0x7F;                   //第8个LED亮
+  29   2                      for(i=0;i<8;i++)
+  30   2                      {
+  31   3                              Delay(1000);
+  32   3                              P2 >>=1;
+  33   3                      }
+  34   2              
+  35   2                      P2=0xFE;                  //第1个LED亮
+  36   2                      for(i=0;i<8;i++)
+  37   2                      {
+  38   3                              Delay(1000);
+  39   3                              P2 <<=1;
+  40   3                              P2 |=0x01;
+  41   3                      }
+  42   2              
+  43   2                      P2=0x7F;                  //第8个LED亮
+  44   2                      for(i=0;i<8;i++)
+  45   2                      {
+  46   3                              Delay(1000);
+  47   3                              P2 >>=1;
+  48   3                              P2 |=0x80;
+  49   3                      }
+  50   2              }
+  51   1      }
+  52          
+C51 COMPILER V9.05   ______                                                                05/10/2012 10:18:13 PAGE 2   
+
+  53          
+  54          /*------------------------------------------------
+  55                                           延时函数
+  56          ------------------------------------------------*/
+  57          void DelayMs(unsigned int t)
+  58          {
+  59   1              unsigned char i;
+  60   1              for(;t > 0;t--)
+  61   1                      for(i = 110;i > 0;i--);
+  62   1      }
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  1 ERROR(S)
