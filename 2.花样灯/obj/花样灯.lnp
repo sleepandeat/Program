@@ -1,0 +1,4 @@
+".\obj\STARTUP.obj",
+".\obj\花样灯.obj" 
+TO ".\obj\花样灯" 
+PRINT(".\obj\花样灯.m51")
