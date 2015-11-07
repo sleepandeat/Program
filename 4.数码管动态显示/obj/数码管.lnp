@@ -1,0 +1,4 @@
+".\obj\STARTUP.obj",
+".\obj\数码管.obj" 
+TO ".\obj\数码管" 
+PRINT(".\obj\数码管.m51")
