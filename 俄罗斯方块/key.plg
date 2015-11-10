@@ -1,0 +1,134 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: key - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\min\AppData\Local\Temp\RSP288D.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/key.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\C语言\俄罗斯方块\key.c"
+]
+Creating command line "cl.exe @C:\Users\min\AppData\Local\Temp\RSP288D.tmp" 
+Creating temporary file "C:\Users\min\AppData\Local\Temp\RSP288E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/key.pdb" /debug /machine:I386 /out:"Debug/key.exe" /pdbtype:sept 
+".\Debug\key.obj"
+]
+Creating command line "link.exe @C:\Users\min\AppData\Local\Temp\RSP288E.tmp"
+<h3>Output Window</h3>
+Compiling...
+key.c
+c:\软件\vc98\include\at89x52.h(14) : error C2061: syntax error : identifier 'P0'
+c:\软件\vc98\include\at89x52.h(14) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(14) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(15) : error C2061: syntax error : identifier 'SP'
+c:\软件\vc98\include\at89x52.h(15) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(15) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(16) : error C2061: syntax error : identifier 'DPL'
+c:\软件\vc98\include\at89x52.h(16) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(16) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(17) : error C2061: syntax error : identifier 'DPH'
+c:\软件\vc98\include\at89x52.h(17) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(17) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(18) : error C2061: syntax error : identifier 'PCON'
+c:\软件\vc98\include\at89x52.h(18) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(18) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(19) : error C2061: syntax error : identifier 'TCON'
+c:\软件\vc98\include\at89x52.h(19) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(19) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(20) : error C2061: syntax error : identifier 'TMOD'
+c:\软件\vc98\include\at89x52.h(20) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(20) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(21) : error C2061: syntax error : identifier 'TL0'
+c:\软件\vc98\include\at89x52.h(21) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(21) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(22) : error C2061: syntax error : identifier 'TL1'
+c:\软件\vc98\include\at89x52.h(22) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(22) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(23) : error C2061: syntax error : identifier 'TH0'
+c:\软件\vc98\include\at89x52.h(23) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(23) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(24) : error C2061: syntax error : identifier 'TH1'
+c:\软件\vc98\include\at89x52.h(24) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(24) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(25) : error C2061: syntax error : identifier 'P1'
+c:\软件\vc98\include\at89x52.h(25) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(25) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(26) : error C2061: syntax error : identifier 'SCON'
+c:\软件\vc98\include\at89x52.h(26) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(26) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(27) : error C2061: syntax error : identifier 'SBUF'
+c:\软件\vc98\include\at89x52.h(27) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(27) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(28) : error C2061: syntax error : identifier 'P2'
+c:\软件\vc98\include\at89x52.h(28) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(28) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(29) : error C2061: syntax error : identifier 'IE'
+c:\软件\vc98\include\at89x52.h(29) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(29) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(30) : error C2061: syntax error : identifier 'P3'
+c:\软件\vc98\include\at89x52.h(30) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(30) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(31) : error C2061: syntax error : identifier 'IP'
+c:\软件\vc98\include\at89x52.h(31) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(31) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(32) : error C2061: syntax error : identifier 'T2CON'
+c:\软件\vc98\include\at89x52.h(32) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(32) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(33) : error C2061: syntax error : identifier 'T2MOD'
+c:\软件\vc98\include\at89x52.h(33) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(33) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(34) : error C2061: syntax error : identifier 'RCAP2L'
+c:\软件\vc98\include\at89x52.h(34) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(34) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(35) : error C2061: syntax error : identifier 'RCAP2H'
+c:\软件\vc98\include\at89x52.h(35) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(35) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(36) : error C2061: syntax error : identifier 'TL2'
+c:\软件\vc98\include\at89x52.h(36) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(36) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(37) : error C2061: syntax error : identifier 'TH2'
+c:\软件\vc98\include\at89x52.h(37) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(37) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(38) : error C2061: syntax error : identifier 'PSW'
+c:\软件\vc98\include\at89x52.h(38) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(38) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(39) : error C2061: syntax error : identifier 'ACC'
+c:\软件\vc98\include\at89x52.h(39) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(39) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(40) : error C2061: syntax error : identifier 'B'
+c:\软件\vc98\include\at89x52.h(40) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(40) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(45) : error C2061: syntax error : identifier 'P0_0'
+c:\软件\vc98\include\at89x52.h(45) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(45) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(46) : error C2061: syntax error : identifier 'P0_1'
+c:\软件\vc98\include\at89x52.h(46) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(46) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(47) : error C2061: syntax error : identifier 'P0_2'
+c:\软件\vc98\include\at89x52.h(47) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(47) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(48) : error C2061: syntax error : identifier 'P0_3'
+c:\软件\vc98\include\at89x52.h(48) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(48) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(49) : error C2061: syntax error : identifier 'P0_4'
+c:\软件\vc98\include\at89x52.h(49) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(49) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(50) : error C2061: syntax error : identifier 'P0_5'
+c:\软件\vc98\include\at89x52.h(50) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(50) : error C2513: '/*global*/ ' : no variable declared before '='
+c:\软件\vc98\include\at89x52.h(51) : error C2061: syntax error : identifier 'P0_6'
+c:\软件\vc98\include\at89x52.h(51) : error C2059: syntax error : ';'
+c:\软件\vc98\include\at89x52.h(51) : fatal error C1003: error count exceeds 100; stopping compilation
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+key.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

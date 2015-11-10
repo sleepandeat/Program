@@ -1,0 +1,185 @@
+C51 COMPILER V7.01  SCH51                                                                  04/27/2007 22:08:22 PAGE 1   
+
+
+C51 COMPILER V7.01, COMPILATION OF MODULE SCH51
+OBJECT MODULE PLACED IN SCH51.OBJ
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE SCH51.c COMPACT BROWSE DEBUG OBJECTEXTEND
+
+stmt level    source
+
+   1          #include  "typedef.h"
+   2          #include  <AT89X52.h>
+   3          #define   SCH_MAX_TASKS    5
+   4          
+   5          typedef data struct     //定义任务结构
+   6          {
+   7             void (code * pTask)(void);    
+   8             uint  Delay;         
+   9             uint  Period;        
+  10             uchar RunMe;                           
+  11          }sTask;
+  12          
+  13          sTask SCH_tasks_G[SCH_MAX_TASKS];         //定义任务数据结构
+  14          
+  15          
+  16          //-----------------------任务开始－－－－－－－－－－－－－－－－－－－－－
+  17          void SCH_Start(void) 
+  18          {
+  19   1           EA = 1;
+  20   1      }
+  21          
+  22          //-----------------------系统进入空闲模式，等待下一次刷新－－－－－－－－－
+  23          void SCH_Go_To_Sleep()
+  24          {
+  25   1         PCON |= 0x01;   
+  26   1         
+  27   1      }
+  28          //------------------------任务添加－－－－－－－－－－－－－－－－－－－－－
+  29           
+  30          uchar SCH_Add_Task(void (code * pFunction)(),const uint DELAY,const uint PERIOD)    
+  31          {
+  32   1         uchar Index = 0;
+  33   1         
+  34   1         while ((SCH_tasks_G[Index].pTask != 0) && (Index < SCH_MAX_TASKS))
+  35   1         {
+  36   2            Index++;                           //查找空的任务指针
+  37   2         } 
+  38   1         
+  39   1           
+  40   1         if (Index == SCH_MAX_TASKS)
+  41   1          {
+  42   2             return 0;  
+  43   2          }
+  44   1            
+  45   1         
+  46   1         SCH_tasks_G[Index].pTask  = pFunction;
+  47   1         SCH_tasks_G[Index].Delay  = DELAY;            
+  48   1         SCH_tasks_G[Index].Period = PERIOD;
+  49   1      
+  50   1         SCH_tasks_G[Index].RunMe  = 0;
+  51   1      
+  52   1         return Index; 
+  53   1      }
+  54          
+  55          
+C51 COMPILER V7.01  SCH51                                                                  04/27/2007 22:08:22 PAGE 2   
+
+  56          //-----------------------任务删除－－－－－－－－－－－－－－－－－－－－－－－
+  57          
+  58          bit SCH_Delete_Task(const uchar TASK_INDEX) 
+  59          {
+  60   1         
+  61   1         if (SCH_tasks_G[TASK_INDEX].pTask == 0)
+  62   1         {
+  63   2              return 0;
+  64   2          }
+  65   1            
+  66   1         SCH_tasks_G[TASK_INDEX].pTask   = 0x0000;
+  67   1         SCH_tasks_G[TASK_INDEX].Delay   = 0;
+  68   1         SCH_tasks_G[TASK_INDEX].Period  = 0;
+  69   1         SCH_tasks_G[TASK_INDEX].RunMe   = 0;
+  70   1      
+  71   1         return 0;
+  72   1      }
+  73          
+  74          //------------------------------任务调度－－－－－－－－－－－－－－－－－－－－－
+  75          
+  76          void SCH_Dispatch_Tasks(void) 
+  77          {
+  78   1               
+  79   1         uchar Index;
+  80   1      
+  81   1         
+  82   1         for (Index = 0; Index < SCH_MAX_TASKS; Index++)
+  83   1         {
+  84   2            if (SCH_tasks_G[Index].RunMe > 0) 
+  85   2             {
+  86   3                 (*SCH_tasks_G[Index].pTask)(); 
+  87   3                  SCH_tasks_G[Index].RunMe -= 1;   
+  88   3      
+  89   3              
+  90   3              
+  91   3               if (SCH_tasks_G[Index].Period == 0)   //删除只运行一次的任务
+  92   3                  {
+  93   4                      SCH_Delete_Task(Index);
+  94   4                  }
+  95   3              }
+  96   2         }
+  97   1           
+  98   1         SCH_Go_To_Sleep();    //单片机进入空闲模式      
+  99   1      }
+ 100          
+ 101          
+ 102          //－－－－－－－－－－－－－－－－－任务中断刷新－－－－－－－－－－－－－－－－－－
+ 103          
+ 104          void SCH_Update(void) interrupt 5 
+ 105          {
+ 106   1      
+ 107   1         uchar Index;
+ 108   1      
+ 109   1         TF2 = 0; 
+ 110   1      
+ 111   1         
+ 112   1         for (Index = 0; Index < SCH_MAX_TASKS; Index++)
+ 113   1         {
+ 114   2           
+ 115   2            if (SCH_tasks_G[Index].pTask)
+ 116   2               {
+ 117   3               if (SCH_tasks_G[Index].Delay == 0)
+C51 COMPILER V7.01  SCH51                                                                  04/27/2007 22:08:22 PAGE 3   
+
+ 118   3                  {
+ 119   4                 
+ 120   4                      SCH_tasks_G[Index].RunMe += 1;  
+ 121   4      
+ 122   4                      if (SCH_tasks_G[Index].Period)
+ 123   4                      {
+ 124   5                         SCH_tasks_G[Index].Delay = SCH_tasks_G[Index].Period;
+ 125   5                       }
+ 126   4                  }
+ 127   3               else
+ 128   3                {
+ 129   4                  
+ 130   4                              SCH_tasks_G[Index].Delay -= 1;
+ 131   4                 }
+ 132   3               }         
+ 133   2          }
+ 134   1      }   
+ 135          
+ 136          
+ 137          //－－－－－－－－－－－－－－－－系统初始化－－－－－－－－－－－－－－－－－－－
+ 138          void SCH_Init_T2(void) 
+ 139          {
+ 140   1          uchar i;
+ 141   1      
+ 142   1          for (i = 0; i < SCH_MAX_TASKS; i++) 
+ 143   1          {
+ 144   2            SCH_Delete_Task(i);
+ 145   2          }
+ 146   1      
+ 147   1           T2CON = 0x04;  
+ 148   1           T2MOD = 0x00;  
+ 149   1      
+ 150   1           TH2    = 0xFC; 
+ 151   1           RCAP2H = 0xFC; 
+ 152   1           TL2    = 0x18; 
+ 153   1           RCAP2L = 0x18;  
+ 154   1         
+ 155   1           ET2   = 1;  
+ 156   1           TR2   = 1;  
+ 157   1      }
+ 158          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    429    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----       3
+   DATA SIZE        =     35    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

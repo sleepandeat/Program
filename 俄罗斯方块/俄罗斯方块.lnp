@@ -1,0 +1,10 @@
+"fangkuai.obj",
+"SCH51.obj",
+"t6963c.obj",
+"key.obj",
+"main.obj" 
+TO "¶íÂÞË¹·½¿é" 
+RAMSIZE(256) 
+OVERLAY (main ~ (Fangkuai_down),main ~ (KEY_Update),main~(Fangkuai_Control),sch_dispatch_tasks ! (Fangkuai_down), sch_dispatch_tasks ! (KEY_Update), sch_dispatch_tasks ! (Fangkuai_Control))
+
+XDATA( 0X0000-0X07FF )
