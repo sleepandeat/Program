@@ -1,0 +1,4 @@
+".\obj\STARTUP.obj",
+".\obj\ทไร๙ฦ๗.obj" 
+TO ".\obj\ทไร๙ฦ๗" 
+PRINT(".\obj\ทไร๙ฦ๗.m51") RAMSIZE(256) 
