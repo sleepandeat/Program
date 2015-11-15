@@ -1,0 +1,4 @@
+".\obj\STARTUP.obj",
+".\obj\¼ÌµçÆ÷.obj" 
+TO ".\obj\¼ÌµçÆ÷" 
+PRINT(".\obj\¼ÌµçÆ÷.m51") RAMSIZE(256) 
