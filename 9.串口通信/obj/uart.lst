@@ -1,0 +1,106 @@
+C51 COMPILER V9.05   UART                                                                  05/15/2012 09:35:11 PAGE 1   
+
+
+C51 COMPILER V9.05, COMPILATION OF MODULE UART
+OBJECT MODULE PLACED IN .\obj\uart.obj
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE src\uart.c BROWSE DEBUG OBJECTEXTEND PRINT(.\obj\uart.lst) OBJECT(.\obj\uar
+                    -t.obj)
+
+line level    source
+
+   1          /*-----------------------------------------------------
+   2          文件：串口通信
+   3          公司：南京爱思电子
+   4          编写：rantg
+   5          日期：2012.3
+   6          内容：打开串口调试程序，将波特率设置为9600，无奇偶校验
+   7                晶振11.0592MHz，发送和接收使用的格式相同，在发送
+   8                    区输入任意信，然后在发送区发送任意信息，接收区返
+   9                    回同样信息，表明串口收发无误
+  10          -------------------------------------------------------*/
+  11          
+  12          #include<reg52.h>                        
+  13          
+  14          void SendStr(unsigned char *s);
+  15          
+  16          /*------------------------------------------------
+  17                              串口初始化
+  18          ------------------------------------------------*/
+  19          void InitUART  (void)
+  20          {
+  21   1              SCON = 0x50;                    // SCON: 模式 1, 8-bit UART, 使能接收  
+  22   1              TMOD |= 0x20;               // TMOD: timer 1, mode 2, 8-bit 重装
+  23   1              TH1 = 0xFD;               // TH1:  重装值 9600 波特率 晶振 11.0592MHz  
+  24   1              TR1 = 1;                  // TR1:  timer 1 打开                         
+  25   1              EA = 1;                  //打开总中断
+  26   1      }   
+  27                             
+  28          /*------------------------------------------------
+  29                              主函数
+  30          ------------------------------------------------*/
+  31          void main (void)
+  32          {
+  33   1              InitUART();
+  34   1              SendStr("51单片机开发板串口测试程序\r\n\t南京爱思电子\r\n");
+  35   1              ES = 1;                 
+  36   1              while (1)                       
+  37   1          {
+  38   2          }
+  39   1      }
+  40          
+  41          /*------------------------------------------------
+  42                              发送一个字节
+  43          ------------------------------------------------*/
+  44          void SendByte(unsigned char dat)
+  45          {
+  46   1              SBUF = dat;
+  47   1              while(!TI);
+  48   1                      TI = 0;
+  49   1      }
+  50          
+  51          /*------------------------------------------------
+  52                              发送一个字符串
+  53          ------------------------------------------------*/
+  54          void SendStr(unsigned char *s)
+C51 COMPILER V9.05   UART                                                                  05/15/2012 09:35:11 PAGE 2   
+
+  55          {
+  56   1              while(*s != '\0')       
+  57   1              {
+  58   2                      SendByte(*s);
+  59   2                      s++;
+  60   2              }
+  61   1      }
+  62          
+  63          /*------------------------------------------------
+  64                               串口中断程序
+  65          ------------------------------------------------*/
+  66          void UART_SER (void) interrupt 4 //串行中断服务程序
+  67          {
+  68   1              unsigned char Temp;          //定义临时变量 
+  69   1              
+  70   1              if(RI)                        //判断是接收中断产生
+  71   1              {
+  72   2                      RI = 0;                      //标志位清零
+  73   2                      Temp = SBUF;                 //读入缓冲区的值
+  74   2                      P2 = Temp;                   //把值输出到P2口，用于观察
+  75   2                      SBUF = Temp;                 //把接收到的值再发回电脑端
+  76   2              }
+  77   1              if(TI)                        //如果是发送标志位，清零
+  78   1                      TI = 0;
+  79   1      } 
+  80          
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     85    ----
+   CONSTANT SIZE    =     44    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
